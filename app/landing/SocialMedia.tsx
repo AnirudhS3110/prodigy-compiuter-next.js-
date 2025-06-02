@@ -1,14 +1,9 @@
 "use client";
 
-import React, { useEffect, useRef, useState, useCallback, useMemo } from 'react';
+import React, { useEffect, useRef, useCallback, useMemo } from 'react';
 
 const SocialMedia = () => {
   const containerRef = useRef<HTMLDivElement>(null);
-  const [postElements, setPostElements] = useState<Array<{
-    postContainer: HTMLDivElement;
-    loadingPlaceholder: HTMLDivElement;
-    embedContainer: HTMLDivElement;
-  }>>([]);
 
   // Use useMemo to prevent the array from changing on every render
   const instagramPosts = useMemo(() => [
@@ -87,7 +82,11 @@ const SocialMedia = () => {
   }, [instagramPosts]);
 
   // Function to process embeds with retry capability - wrapped in useCallback
-  const processEmbeds = useCallback((elements: typeof postElements, attemptCount = 0) => {
+  const processEmbeds = useCallback((elements: Array<{
+    postContainer: HTMLDivElement;
+    loadingPlaceholder: HTMLDivElement;
+    embedContainer: HTMLDivElement;
+  }>, attemptCount = 0) => {
     if (window.instgrm?.Embeds?.process) {
       console.log('Processing Instagram embeds');
       window.instgrm.Embeds.process();
@@ -155,8 +154,7 @@ const SocialMedia = () => {
 
     // Initialize the feed
     const elements = initializeInstagramFeed();
-    setPostElements(elements);
-
+    
     // Try to process embeds immediately
     const immediateSuccess = processEmbeds(elements);
 

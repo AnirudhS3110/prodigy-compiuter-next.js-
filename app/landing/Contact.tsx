@@ -41,7 +41,7 @@ const Contact = () => {
       <div className="container mx-auto max-w-[1280px] px-6">
         <div className="text-center max-w-[700px] mx-auto relative z-[1]">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-3">Get in Touch with Us</h2>
-          <p className="text-white/80 mb-5">Have questions about our products? Leave your contact details and we'll get back to you promptly.</p>
+          <p className="text-white/80 mb-5">Have questions about our products? Leave your contact details and we&apos;ll get back to you promptly.</p>
           
           <form 
             className="relative max-w-[550px] mx-auto bg-white/10 rounded-full p-1.5 flex"
