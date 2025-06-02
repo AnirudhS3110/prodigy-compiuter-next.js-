@@ -1,0 +1,1745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PFGV72XJ');</script>
+    <!-- End Google Tag Manager -->
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prodigy Computers - Product Details</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            /* Primary palette - Based on the logo */
+            --primary: #4a90e2; /* Medium blue from logo */
+            --primary-dark: #3a7bc9;
+            --primary-light: #6ba5ea;
+            --accent: #FF9500; /* Contrasting orange */
+            --accent-light: #FFB340;
+            
+            /* Secondary palette - Based on PRODIGY text */
+            --secondary: #152a43; /* Navy blue from PRODIGY text */
+            --secondary-light: #1e3b5d;
+            
+            /* Neutral palette */
+            --dark: #152a43; /* Same as secondary for consistency */
+            --dark-gray: #2d3e53;
+            --medium-gray: #5c6b7c;
+            --light-gray: #c0c9d6;
+            --light: #f2f6fa; /* Light blue tint for backgrounds */
+            --white: #FFFFFF;
+            
+            /* Gradients */
+            --gradient-primary: linear-gradient(120deg, #4a90e2, #6ba5ea);
+            --gradient-dark: linear-gradient(120deg, var(--dark), var(--dark-gray));
+            --gradient-accent: linear-gradient(120deg, var(--accent), var(--accent-light));
+            --gradient-blue: linear-gradient(120deg, #4a90e2, #2d7bd3); /* Logo-inspired */
+            --gradient-hero: linear-gradient(135deg, #6424ff, #0e45e8, #0a98db);
+            --gradient-stripe: linear-gradient(300deg, #00d4ff, #7638fa, #ff0dbf);
+            
+            /* Shadows */
+            --shadow-sm: 0 2px 8px rgba(21, 42, 67, 0.08);
+            --shadow-md: 0 4px 16px rgba(21, 42, 67, 0.12);
+            --shadow-lg: 0 8px 30px rgba(21, 42, 67, 0.18);
+            --shadow-primary: 0 8px 30px rgba(74, 144, 226, 0.25);
+            --shadow-accent: 0 8px 30px rgba(255, 149, 0, 0.25);
+            
+            /* Border radius */
+            --radius-sm: 6px;
+            --radius-md: 12px;
+            --radius-lg: 24px;
+            --radius-xl: 32px;
+            --radius-full: 9999px;
+            
+            /* Spacing */
+            --space-1: 4px;
+            --space-2: 8px;
+            --space-3: 16px;
+            --space-4: 24px;
+            --space-5: 32px;
+            --space-6: 48px;
+            --space-7: 64px;
+            --space-8: 96px;
+            --space-9: 128px;
+            
+            /* Typography */
+            --font-heading: 'Outfit', sans-serif;
+            --font-body: 'Poppins', sans-serif;
+            
+            /* Transitions */
+            --transition-fast: 150ms ease;
+            --transition-medium: 300ms ease;
+            --transition-slow: 500ms ease;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: var(--font-body);
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 var(--space-4);
+        }
+        
+        section {
+            padding: var(--space-6) 0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        /* Typography */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-heading);
+            font-weight: 700;
+            line-height: 1.2;
+            color: var(--dark);
+        }
+        
+        h1 {
+            font-size: clamp(2.2rem, 5vw, 3rem);
+            font-weight: 800;
+            margin-bottom: var(--space-4);
+            letter-spacing: -0.02em;
+        }
+        
+        h2 {
+            font-size: clamp(1.8rem, 4vw, 2.5rem);
+            margin-bottom: var(--space-4);
+            letter-spacing: -0.01em;
+        }
+        
+        h3 {
+            font-size: clamp(1.4rem, 3vw, 1.8rem);
+            margin-bottom: var(--space-3);
+        }
+        
+        h4 {
+            font-size: clamp(1.1rem, 2vw, 1.4rem);
+            margin-bottom: var(--space-2);
+        }
+        
+        p {
+            margin-bottom: var(--space-4);
+            font-size: 1.05rem;
+            color: var(--medium-gray);
+        }
+        
+        a {
+            color: inherit;
+            text-decoration: none;
+            transition: color var(--transition-fast);
+        }
+        
+        /* Buttons */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: var(--space-3) var(--space-5);
+            border-radius: var(--radius-full);
+            font-family: var(--font-heading);
+            font-weight: 600;
+            font-size: 1rem;
+            transition: all var(--transition-medium);
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            border: none;
+            outline: none;
+            text-align: center;
+            white-space: nowrap;
+            z-index: 1;
+        }
+        
+        .btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.1);
+            transition: left var(--transition-medium);
+            z-index: -1;
+        }
+        
+        .btn:hover::before {
+            left: 100%;
+        }
+        
+        .btn-primary {
+            background: var(--gradient-primary);
+            color: var(--white);
+            box-shadow: var(--shadow-primary);
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(74, 144, 226, 0.3);
+        }
+        
+        .btn-secondary {
+            background: transparent;
+            color: var(--primary);
+            border: 2px solid var(--primary);
+        }
+        
+        .btn-secondary:hover {
+            background-color: rgba(74, 144, 226, 0.05);
+            transform: translateY(-2px);
+        }
+        
+        .btn-accent {
+            background: var(--gradient-accent);
+            color: var(--white);
+            box-shadow: var(--shadow-accent);
+        }
+        
+        .btn-accent:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(255, 149, 0, 0.3);
+        }
+        
+        .btn-large {
+            padding: var(--space-4) var(--space-6);
+            font-size: 1.1rem;
+        }
+        
+        .btn-small {
+            padding: var(--space-2) var(--space-4);
+            font-size: 0.9rem;
+        }
+        
+        .btn-icon {
+            margin-left: var(--space-2);
+            transition: transform var(--transition-medium);
+        }
+        
+        .btn:hover .btn-icon {
+            transform: translateX(4px);
+        }
+        
+        .btn-whatsapp {
+            background-color: #25D366;
+            color: var(--white);
+            display: flex;
+            align-items: center;
+            gap: var(--space-2);
+        }
+        
+        .btn-whatsapp:hover {
+            background-color: #20bd5a;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(37, 211, 102, 0.3);
+        }
+        
+        /* Announcement Banner */
+        .announcement-banner {
+            background: var(--gradient-stripe);
+            background-size: 300% 300%;
+            animation: gradient-animation 8s ease infinite;
+            color: var(--white);
+            padding: var(--space-1) 0;
+            position: relative;
+            width: 100%;
+            z-index: 1001;
+            overflow: hidden;
+        }
+        
+        @keyframes gradient-animation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        
+        .ticker-container {
+            white-space: nowrap;
+            overflow: hidden;
+            width: 100%;
+            height: 32px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .ticker {
+            display: inline-block;
+            animation: ticker 20s linear infinite;
+            padding-right: var(--space-6);
+        }
+        
+        .ticker-item {
+            display: inline-flex;
+            align-items: center;
+            margin-right: var(--space-6);
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+        
+        .ticker-item i {
+            margin-right: var(--space-2);
+        }
+        
+        @keyframes ticker {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+        
+        /* Header & Navigation */
+        header {
+            position: sticky;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            transition: all var(--transition-medium);
+            padding: var(--space-3) 0;
+            background-color: transparent;
+        }
+        
+        header.scrolled {
+            background-color: rgba(242, 246, 250, 0.95);
+            backdrop-filter: blur(10px);
+            box-shadow: var(--shadow-sm);
+            padding: var(--space-2) 0;
+        }
+        
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 80px;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+        
+        .logo img {
+            height: 50px;
+            width: auto;
+            transition: all var(--transition-medium);
+        }
+        
+        .nav-center {
+            display: flex;
+            align-items: center;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: var(--space-5);
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        
+        .nav-link {
+            font-family: var(--font-heading);
+            font-weight: 500;
+            font-size: 1rem;
+            position: relative;
+            padding: var(--space-2) 0;
+            color: var(--dark);
+            transition: color var(--transition-fast);
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--gradient-primary);
+            transition: width var(--transition-medium);
+        }
+        
+        .nav-link:hover, 
+        .nav-link.active {
+            color: var(--primary);
+        }
+        
+        .nav-link:hover::after,
+        .nav-link.active::after {
+            width: 100%;
+        }
+        
+        .nav-right {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+        }
+        
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--dark);
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: var(--space-2);
+        }
+        
+        /* Product Page Specific Styles */
+        .section-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--gradient-stripe);
+            background-size: 200% 200%;
+            animation: gradient-animation 15s ease infinite;
+            opacity: 0.03;
+            z-index: -1;
+        }
+        
+        .section-light {
+            background-color: var(--white);
+        }
+        
+        .section-dark {
+            background-color: var(--light);
+        }
+        
+        .section-header {
+            text-align: center;
+            margin-bottom: var(--space-6);
+            position: relative;
+        }
+        
+        .section-subtitle {
+            font-family: var(--font-heading);
+            font-weight: 500;
+            font-size: 1rem;
+            color: var(--primary);
+            margin-bottom: var(--space-2);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: block;
+        }
+        
+        .section-title {
+            position: relative;
+            display: inline-block;
+            margin-bottom: var(--space-3);
+            background: var(--gradient-hero);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 70px;
+            height: 3px;
+            background: var(--gradient-primary);
+            border-radius: var(--radius-full);
+        }
+        
+        .section-description {
+            max-width: 700px;
+            margin: 0 auto;
+            color: var(--medium-gray);
+        }
+        
+        /* Product Gallery */
+        .product-intro {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--space-6);
+            align-items: flex-start;
+            margin-bottom: var(--space-6);
+        }
+        
+        .product-gallery {
+            flex: 1 1 500px;
+            position: relative;
+        }
+        
+        .product-gallery-main {
+            position: relative;
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+            margin-bottom: var(--space-4);
+            background-color: var(--white);
+        }
+        
+        .product-gallery-main img {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: contain;
+            transition: transform var(--transition-medium);
+        }
+        
+        .product-gallery-main:hover img {
+            transform: scale(1.05);
+        }
+        
+        .product-gallery-thumbs {
+            display: flex;
+            gap: var(--space-3);
+            flex-wrap: wrap;
+        }
+        
+        .product-gallery-thumb {
+            width: 80px;
+            height: 80px;
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            cursor: pointer;
+            border: 2px solid transparent;
+            transition: all var(--transition-medium);
+            box-shadow: var(--shadow-sm);
+        }
+        
+        .product-gallery-thumb img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform var(--transition-fast);
+        }
+        
+        .product-gallery-thumb:hover {
+            border-color: var(--primary-light);
+            transform: translateY(-3px);
+        }
+        
+        .product-gallery-thumb:hover img {
+            transform: scale(1.1);
+        }
+        
+        .product-gallery-thumb.active {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+        }
+        
+        /* Product Details */
+        .product-details {
+            flex: 1 1 500px;
+        }
+        
+        .product-title {
+            background: var(--gradient-hero);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            margin-bottom: var(--space-3);
+        }
+        
+        .product-price {
+            font-family: var(--font-heading);
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: var(--space-4);
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+        }
+        
+        .product-price-old {
+            text-decoration: line-through;
+            color: var(--medium-gray);
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
+        
+        .product-price-discount {
+            background: var(--gradient-accent);
+            color: var(--white);
+            padding: var(--space-1) var(--space-2);
+            border-radius: var(--radius-sm);
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+        
+        .product-description {
+            margin-bottom: var(--space-4);
+        }
+        
+        .product-cta {
+            display: flex;
+            gap: var(--space-3);
+            margin-bottom: var(--space-5);
+        }
+        
+        .product-cta .btn {
+            flex: 1;
+        }
+        
+        .warranty-card {
+            background: var(--light);
+            border-radius: var(--radius-lg);
+            padding: var(--space-4);
+            margin-top: var(--space-4);
+            position: relative;
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+        }
+        
+        .warranty-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 5px;
+            height: 100%;
+            background: var(--gradient-primary);
+        }
+        
+        .warranty-title {
+            display: flex;
+            align-items: center;
+            gap: var(--space-2);
+            margin-bottom: var(--space-2);
+            color: var(--dark);
+        }
+        
+        .warranty-title i {
+            color: var(--primary);
+        }
+        
+        .warranty-text {
+            color: var(--medium-gray);
+            margin-bottom: 0;
+        }
+        
+        /* Overview Section */
+        .overview-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--space-6);
+            align-items: center;
+        }
+        
+        .overview-text {
+            flex: 1 1 500px;
+        }
+        
+        .overview-heading {
+            color: var(--dark);
+            margin-bottom: var(--space-3);
+            font-size: 1.7rem;
+        }
+        
+        .overview-para {
+            color: var(--medium-gray);
+            margin-bottom: var(--space-4);
+        }
+        
+        .overview-image {
+            flex: 1 1 400px;
+            position: relative;
+        }
+        
+        .overview-image-wrapper {
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+            position: relative;
+        }
+        
+        .overview-image-wrapper::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(74, 144, 226, 0.2), transparent);
+            z-index: 2;
+        }
+        
+        .overview-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform var(--transition-medium);
+        }
+        
+        .overview-image:hover img {
+            transform: scale(1.05);
+        }
+        
+        /* Tech Specs Table */
+        .specs-table {
+            width: 100%;
+            border-collapse: collapse;
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+        }
+        
+        .specs-table th,
+        .specs-table td {
+            padding: var(--space-3) var(--space-4);
+            text-align: left;
+            border-bottom: 1px solid var(--light);
+        }
+        
+        .specs-table th {
+            background-color: var(--light);
+            font-weight: 600;
+            width: 30%;
+            color: var(--dark);
+        }
+        
+        .specs-table td {
+            background-color: var(--white);
+            color: var(--medium-gray);
+        }
+        
+        .specs-table tr:last-child th,
+        .specs-table tr:last-child td {
+            border-bottom: none;
+        }
+        
+        /* What's In The Box */
+        .box-contents {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--space-4);
+            justify-content: center;
+        }
+        
+        .box-item {
+            background-color: var(--white);
+            border-radius: var(--radius-lg);
+            padding: var(--space-4);
+            min-width: 200px;
+            flex: 1 1 calc(25% - var(--space-4));
+            box-shadow: var(--shadow-sm);
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            transition: all var(--transition-medium);
+        }
+        
+        .box-item:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .box-item-icon {
+            width: 50px;
+            height: 50px;
+            background: var(--light);
+            border-radius: var(--radius-md);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary);
+            font-size: 1.3rem;
+            flex-shrink: 0;
+            transition: all var(--transition-medium);
+        }
+        
+        .box-item:hover .box-item-icon {
+            background: var(--gradient-primary);
+            color: var(--white);
+            transform: rotateY(180deg);
+        }
+        
+        .box-item-text {
+            font-weight: 500;
+            color: var(--dark);
+        }
+        
+        /* Compare Products */
+        .compare-table-wrapper {
+            overflow-x: auto;
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .compare-table {
+            width: 100%;
+            min-width: 600px;
+            border-collapse: collapse;
+            background-color: var(--white);
+        }
+        
+        .compare-table th,
+        .compare-table td {
+            padding: var(--space-3) var(--space-4);
+            text-align: center;
+            border-bottom: 1px solid var(--light);
+        }
+        
+        .compare-table thead th {
+            background: var(--gradient-primary);
+            color: var(--white);
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+        
+        .compare-table thead th:first-child {
+            text-align: left;
+            background: var(--secondary);
+        }
+        
+        .compare-table tbody th {
+            text-align: left;
+            background-color: var(--light);
+            font-weight: 600;
+            color: var(--dark);
+        }
+        
+        .compare-table .model-name {
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+        
+        .compare-table .feature-value {
+            color: var(--medium-gray);
+        }
+        
+        .compare-table .highlight {
+            color: var(--primary);
+            font-weight: 700;
+            position: relative;
+        }
+        
+        .compare-table tr:last-child th,
+        .compare-table tr:last-child td {
+            border-bottom: none;
+        }
+        
+        /* Reviews Section */
+        .reviews-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--space-4);
+        }
+        
+        .review-card {
+            background-color: var(--white);
+            border-radius: var(--radius-lg);
+            padding: var(--space-4);
+            flex: 1 1 300px;
+            box-shadow: var(--shadow-sm);
+            transition: all var(--transition-medium);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .review-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: var(--gradient-primary);
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform var(--transition-medium);
+            z-index: 1;
+        }
+        
+        .review-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .review-card:hover::before {
+            transform: scaleX(1);
+        }
+        
+        .review-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: var(--space-3);
+        }
+        
+        .review-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: var(--gradient-primary);
+            color: var(--white);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            margin-right: var(--space-3);
+            flex-shrink: 0;
+        }
+        
+        .review-meta {
+            flex: 1;
+        }
+        
+        .review-name {
+            font-weight: 600;
+            margin-bottom: 2px;
+            color: var(--dark);
+        }
+        
+        .review-title {
+            font-size: 0.85rem;
+            color: var(--medium-gray);
+        }
+        
+        .review-rating {
+            margin-bottom: var(--space-3);
+            color: var(--accent);
+            font-size: 0.9rem;
+        }
+        
+        .review-text {
+            color: var(--medium-gray);
+            font-style: italic;
+            position: relative;
+        }
+        
+        .review-text::before {
+            content: '"';
+            position: absolute;
+            top: -35px;
+            right: 0;
+            font-size: 100px;
+            color: var(--light-gray);
+            font-family: Georgia, serif;
+            line-height: 1;
+            opacity: 0.3;
+            z-index: 0;
+        }
+        
+        /* Related Products */
+        .related-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: var(--space-4);
+        }
+        
+        .related-card {
+            background-color: var(--white);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+            transition: all var(--transition-medium);
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .related-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 5px;
+            height: 0;
+            background: var(--gradient-primary);
+            transition: height var(--transition-medium);
+            z-index: 1;
+        }
+        
+        .related-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .related-card:hover::before {
+            height: 100%;
+        }
+        
+        .related-image {
+            position: relative;
+            padding-top: 75%; /* 4:3 Aspect ratio */
+            overflow: hidden;
+            background-color: var(--light);
+        }
+        
+        .related-image img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            padding: var(--space-3);
+            transition: transform var(--transition-medium);
+        }
+        
+        .related-card:hover .related-image img {
+            transform: scale(1.1);
+        }
+        
+        .related-info {
+            padding: var(--space-3) var(--space-4);
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+        
+        .related-title {
+            font-weight: 600;
+            margin-bottom: var(--space-2);
+            color: var(--dark);
+            min-height: 2.4em;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        
+        .related-price {
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 1.2rem;
+            margin-top: auto;
+        }
+        
+        /* Floating Contact Buttons */
+        .floating-contact {
+            position: fixed;
+            right: var(--space-4);
+            bottom: 50%;
+            transform: translateY(50%);
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-2);
+            z-index: 98;
+        }
+        
+        .floating-contact-btn {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-size: 1.2rem;
+            box-shadow: var(--shadow-md);
+            transition: all var(--transition-medium);
+            position: relative;
+        }
+        
+        .floating-contact-btn::before {
+            content: attr(data-tooltip);
+            position: absolute;
+            right: 60px;
+            background-color: var(--dark);
+            color: var(--white);
+            padding: var(--space-2) var(--space-3);
+            border-radius: var(--radius-sm);
+            font-size: 0.8rem;
+            white-space: nowrap;
+            opacity: 0;
+            visibility: hidden;
+            transition: all var(--transition-medium);
+            pointer-events: none;
+        }
+        
+        .floating-contact-btn::after {
+            content: '';
+            position: absolute;
+            right: -5px;
+            top: 50%;
+            transform: translateY(-50%);
+            border-width: 5px;
+            border-style: solid;
+            border-color: transparent transparent transparent var(--dark);
+            opacity: 0;
+            visibility: hidden;
+            transition: all var(--transition-medium);
+            pointer-events: none;
+        }
+        
+        .floating-contact-btn:hover::before,
+        .floating-contact-btn:hover::after {
+            opacity: 1;
+            visibility: visible;
+            right: 65px;
+        }
+        
+        .floating-contact-btn:hover {
+            transform: translateX(-5px);
+        }
+        
+        .btn-whatsapp {
+            background-color: #25D366;
+        }
+        
+        .btn-whatsapp:hover {
+            box-shadow: 0 10px 20px rgba(37, 211, 102, 0.3);
+        }
+        
+        .btn-call {
+            background-color: var(--primary);
+        }
+        
+        .btn-call:hover {
+            box-shadow: var(--shadow-primary);
+        }
+        
+        /* Mirror call icon */
+        .fa-phone-alt {
+            transform: scaleX(-1);
+        }
+        
+        /* Responsive Styles */
+        @media (max-width: 1200px) {
+            .floating-contact {
+                bottom: var(--space-4);
+                right: var(--space-4);
+                transform: none;
+                flex-direction: row;
+            }
+        }
+        
+        @media (max-width: 992px) {
+            .product-intro {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .product-gallery,
+            .product-details {
+                max-width: 600px;
+                width: 100%;
+            }
+            
+            .overview-content {
+                flex-direction: column;
+            }
+            
+            .overview-text,
+            .overview-image {
+                max-width: 600px;
+                width: 100%;
+            }
+            
+            .box-item {
+                flex: 1 1 calc(50% - var(--space-4));
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .navbar {
+                position: relative;
+            }
+            
+            .nav-center {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background-color: var(--white);
+                padding: var(--space-3) var(--space-4);
+                box-shadow: var(--shadow-md);
+                transform: translateY(-10px);
+                opacity: 0;
+                visibility: hidden;
+                transition: all var(--transition-medium);
+                border-radius: 0 0 var(--radius-md) var(--radius-md);
+                z-index: 10;
+            }
+            
+            .nav-center.active {
+                transform: translateY(0);
+                opacity: 1;
+                visibility: visible;
+            }
+            
+            .nav-links {
+                flex-direction: column;
+                gap: var(--space-3);
+                width: 100%;
+            }
+            
+            .nav-link {
+                display: block;
+                padding: var(--space-2);
+            }
+            
+            .mobile-menu-btn {
+                display: block;
+                order: 3;
+            }
+            
+            .section {
+                padding: var(--space-5) 0;
+            }
+            
+            .product-cta {
+                flex-direction: column;
+            }
+            
+            .floating-contact-btn::before,
+            .floating-contact-btn::after {
+                display: none;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .box-item {
+                flex: 1 1 100%;
+            }
+            
+            .review-card {
+                flex: 1 1 100%;
+            }
+            
+            .footer-content {
+                grid-template-columns: 1fr;
+            }
+            
+            .footer-bottom {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                gap: var(--space-3);
+            }
+            
+            .floating-contact {
+                bottom: var(--space-4);
+                right: 50%;
+                transform: translateX(50%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PFGV72XJ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    <!-- Announcement Banner (at the very top) -->
+    <section class="announcement-banner">
+        <div class="ticker-container">
+            <div class="ticker">
+                <div class="ticker-item"><i class="fas fa-tags"></i> FLASH SALE: 20% OFF ALL GAMING LAPTOPS</div>
+                <div class="ticker-item"><i class="fas fa-percent"></i> USE CODE "PRODIGY10" FOR EXTRA 10% DISCOUNT</div>
+                <div class="ticker-item"><i class="fas fa-truck"></i> FREE SHIPPING ON ALL ORDERS ABOVE ₹50,000</div>
+                <div class="ticker-item"><i class="fas fa-coins"></i> STUDENT DISCOUNT: ADDITIONAL 5% OFF WITH VALID ID</div>
+                <div class="ticker-item"><i class="fas fa-calendar-alt"></i> DIWALI MEGA SALE STARTS NEXT WEEK</div>
+                <div class="ticker-item"><i class="fas fa-gift"></i> FREE GAMING ACCESSORIES WITH SELECTED MODELS</div>
+            </div>
+            <!-- Clone for continuous scrolling -->
+            <div class="ticker" aria-hidden="true">
+                <div class="ticker-item"><i class="fas fa-tags"></i> FLASH SALE: 20% OFF ALL GAMING LAPTOPS</div>
+                <div class="ticker-item"><i class="fas fa-percent"></i> USE CODE "PRODIGY10" FOR EXTRA 10% DISCOUNT</div>
+                <div class="ticker-item"><i class="fas fa-truck"></i> FREE SHIPPING ON ALL ORDERS ABOVE ₹50,000</div>
+                <div class="ticker-item"><i class="fas fa-coins"></i> STUDENT DISCOUNT: ADDITIONAL 5% OFF WITH VALID ID</div>
+                <div class="ticker-item"><i class="fas fa-calendar-alt"></i> DIWALI MEGA SALE STARTS NEXT WEEK</div>
+                <div class="ticker-item"><i class="fas fa-gift"></i> FREE GAMING ACCESSORIES WITH SELECTED MODELS</div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <img src="/assets/logo1.png" alt="Prodigy Computers & Laptops Logo">
+                </a>
+                
+                <div class="nav-center">
+                    <ul class="nav-links">
+                        <li><a href="index.html#home" class="nav-link">Home</a></li>
+                        <li><a href="index.html#features" class="nav-link">Features</a></li>
+                        <li><a href="index.html#products" class="nav-link active">Products</a></li>
+                        <li><a href="index.html#offer" class="nav-link">Special Offer</a></li>
+                        <li><a href="index.html#testimonials" class="nav-link">Reviews</a></li>
+                        <li><a href="index.html#faq" class="nav-link">FAQ</a></li>
+                        <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="nav-right">
+                    <a href="https://wa.me/919985346363" class="btn btn-whatsapp btn-small">
+                        <i class="fab fa-whatsapp"></i> WhatsApp Us
+                    </a>
+                    <button class="mobile-menu-btn" id="mobile-menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Product Intro Section -->
+        <section class="section section-light product-intro-section">
+            <div class="section-background"></div>
+            <div class="container">
+                <div class="product-intro">
+                    <div class="product-gallery">
+                        <div class="product-gallery-main">
+                            <img id="mainImage" src="/assets/prod1.webp" alt="Prodigy Vanguard X7">
+                        </div>
+                        <div class="product-gallery-thumbs">
+                            <div class="product-gallery-thumb active" onclick="setMainImage(this)">
+                                <img src="/assets/prod1.webp" alt="Prodigy Vanguard X7 - Front View">
+                            </div>
+                            <div class="product-gallery-thumb" onclick="setMainImage(this)">
+                                <img src="/assets/prod2.webp" alt="Prodigy Vanguard X7 - Side View">
+                            </div>
+                            <div class="product-gallery-thumb" onclick="setMainImage(this)">
+                                <img src="/assets/prod3.webp" alt="Prodigy Vanguard X7 - Rear View">
+                            </div>
+                            <div class="product-gallery-thumb" onclick="setMainImage(this)">
+                                <img src="/assets/flagship.webp" alt="Prodigy Vanguard X7 - Keyboard View">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-details">
+                        <h1 class="product-title">Prodigy Vanguard X7</h1>
+                        <div class="product-price">
+                            <span>₹89,999</span>
+                            <span class="product-price-old">₹99,999</span>
+                            <span class="product-price-discount">-10%</span>
+                        </div>
+                        <p class="product-description">
+                            Experience next-level computing with the Prodigy Vanguard X7. Designed for performance, style, and reliability, this laptop is your gateway to immersive gameplay and creative work, with cutting-edge technology that exceeds expectations.
+                        </p>
+                        
+                        <div class="product-cta">
+                            <a href="#" class="btn btn-primary btn-large">
+                                Buy Now
+                                <i class="fas fa-arrow-right btn-icon"></i>
+                            </a>
+                            <a href="https://wa.me/919985346363?text=I'm%20interested%20in%20Prodigy%20Vanguard%20X7" class="btn btn-whatsapp btn-large">
+                                <i class="fab fa-whatsapp"></i> Enquire on WhatsApp
+                            </a>
+                        </div>
+                        
+                        <div style="margin-top: 15px;">
+                            <a href="index.html" class="btn btn-secondary">
+                                <i class="fas fa-arrow-left" style="margin-right: 8px;"></i> Back to Homepage
+                            </a>
+                        </div>
+                        
+                        <div class="warranty-card">
+                            <h4 class="warranty-title">
+                                <i class="fas fa-shield-alt"></i> Warranty & Support
+                            </h4>
+                            <p class="warranty-text">3-year comprehensive warranty with 24/7 technical support. Extended warranty and accidental damage protection available.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Overview Section -->
+        <section class="section section-dark overview-section">
+            <div class="section-background"></div>
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Product Overview</span>
+                    <h2 class="section-title">Dive Deeper: Prodigy Vanguard X7</h2>
+                    <p class="section-description">Uncover the power and precision engineered into every aspect of this computing marvel.</p>
+                </div>
+                
+                <div class="overview-content">
+                    <div class="overview-text">
+                        <h3 class="overview-heading">Engineered for Excellence</h3>
+                        <p class="overview-para">The Prodigy Vanguard X7 isn't just a laptop; it's your command center. With its sleek, futuristic design and robust construction, it's built to withstand the rigors of intense computing sessions while looking incredible on your desk. The advanced cooling system ensures peak performance without thermal throttling, so you can push your limits.</p>
+                        
+                        <h3 class="overview-heading">Visuals That Amaze</h3>
+                        <p class="overview-para">Immerse yourself in breathtaking visuals on the vibrant 15.6" FHD display, boasting a 165Hz refresh rate for ultra-smooth motion. Whether you're exploring vast open worlds or engaging in fast-paced combat, every detail comes to life with stunning clarity and color accuracy.</p>
+                    </div>
+                    
+                    <div class="overview-image">
+                        <div class="overview-image-wrapper">
+                            <img src="/assets/flagship.webp" alt="Prodigy Vanguard X7 Lifestyle Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Tech Specs Section -->
+        <section class="section section-light tech-specs-section">
+            <div class="section-background"></div>
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Technical Details</span>
+                    <h2 class="section-title">Technical Specifications</h2>
+                    <p class="section-description">All the nitty-gritty details that make the Prodigy Vanguard X7 a powerhouse.</p>
+                </div>
+                
+                <table class="specs-table">
+                    <tr>
+                        <th>Processor</th>
+                        <td>Intel Core i7 13th Gen Processor</td>
+                    </tr>
+                    <tr>
+                        <th>Graphics</th>
+                        <td>NVIDIA GeForce RTX 4060 with 8GB GDDR6 VRAM</td>
+                    </tr>
+                    <tr>
+                        <th>Memory (RAM)</th>
+                        <td>16GB DDR5 4800MHz (Upgradeable to 64GB)</td>
+                    </tr>
+                    <tr>
+                        <th>Storage</th>
+                        <td>1TB NVMe PCIe Gen4 SSD (Additional M.2 slot available)</td>
+                    </tr>
+                    <tr>
+                        <th>Display</th>
+                        <td>15.6-inch Full HD (1920x1080) IPS, 165Hz, 3ms, 100% sRGB</td>
+                    </tr>
+                    <tr>
+                        <th>Keyboard</th>
+                        <td>Per-Key RGB Backlit Chiclet Keyboard</td>
+                    </tr>
+                    <tr>
+                        <th>Audio</th>
+                        <td>Stereo Speakers with Nahimic Audio, Hi-Res Audio Certified</td>
+                    </tr>
+                    <tr>
+                        <th>Connectivity</th>
+                        <td>Wi-Fi 6E (802.11ax), Bluetooth 5.2</td>
+                    </tr>
+                    <tr>
+                        <th>Ports</th>
+                        <td>1x Thunderbolt 4, 3x USB 3.2 Gen 2 Type-A, 1x HDMI 2.1, 1x RJ45 Ethernet, 1x Audio Combo Jack</td>
+                    </tr>
+                    <tr>
+                        <th>Battery</th>
+                        <td>90Whr Battery with Fast Charging Support</td>
+                    </tr>
+                    <tr>
+                        <th>Operating System</th>
+                        <td>Windows 11 Home</td>
+                    </tr>
+                    <tr>
+                        <th>Dimensions (WxDxH)</th>
+                        <td>35.4 x 25.1 x 2.24 ~ 2.49 cm</td>
+                    </tr>
+                    <tr>
+                        <th>Weight</th>
+                        <td>Approx. 2.3 kg</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        
+        <!-- What's In The Box Section -->
+        <section class="section section-dark whats-in-box-section">
+            <div class="section-background"></div>
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Package Contents</span>
+                    <h2 class="section-title">What's Included</h2>
+                    <p class="section-description">Everything you need to get started on your Prodigy journey.</p>
+                </div>
+                
+                <div class="box-contents">
+                    <div class="box-item">
+                        <div class="box-item-icon">
+                            <i class="fas fa-laptop"></i>
+                        </div>
+                        <div class="box-item-text">Prodigy Vanguard X7</div>
+                    </div>
+                    
+                    <div class="box-item">
+                        <div class="box-item-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <div class="box-item-text">240W Power Adapter</div>
+                    </div>
+                    
+                    <div class="box-item">
+                        <div class="box-item-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div class="box-item-text">Quick Start Guide</div>
+                    </div>
+                    
+                    <div class="box-item">
+                        <div class="box-item-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <div class="box-item-text">Warranty Card</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Compare Products Section -->
+        <section class="section section-light compare-section">
+            <div class="section-background"></div>
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Model Comparison</span>
+                    <h2 class="section-title">Choose Your Power</h2>
+                    <p class="section-description">Find the Prodigy configuration that's right for you.</p>
+                </div>
+                
+                <div class="compare-table-wrapper">
+                    <table class="compare-table">
+                        <thead>
+                            <tr>
+                                <th>Feature</th>
+                                <th class="model-name">Prodigy Vanguard X7<br><span style="font-size:0.8em; font-weight:normal;">(This Model)</span></th>
+                                <th class="model-name">Prodigy Vanguard Pro<br><span style="font-size:0.8em; font-weight:normal;">(Higher Spec)</span></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Graphics</th>
+                                <td class="feature-value highlight">NVIDIA RTX 4060</td>
+                                <td class="feature-value">NVIDIA RTX 4070</td>
+                            </tr>
+                            <tr>
+                                <th>RAM</th>
+                                <td class="feature-value highlight">16GB DDR5</td>
+                                <td class="feature-value">32GB DDR5</td>
+                            </tr>
+                            <tr>
+                                <th>Storage</th>
+                                <td class="feature-value highlight">1TB NVMe SSD</td>
+                                <td class="feature-value">2TB NVMe SSD</td>
+                            </tr>
+                            <tr>
+                                <th>Display Refresh Rate</th>
+                                <td class="feature-value highlight">165Hz</td>
+                                <td class="feature-value">240Hz QHD</td>
+                            </tr>
+                            <tr>
+                                <th>Price</th>
+                                <td class="feature-value highlight">₹89,999</td>
+                                <td class="feature-value">₹1,29,999</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Reviews Section -->
+        <section class="section section-dark reviews-section">
+            <div class="section-background"></div>
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Testimonials</span>
+                    <h2 class="section-title">Real Feedback, Real Users</h2>
+                    <p class="section-description">See what our customers are saying about their Prodigy experience.</p>
+                </div>
+                
+                <div class="reviews-list">
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-avatar">JD</div>
+                            <div class="review-meta">
+                                <div class="review-name">John Doe</div>
+                                <div class="review-title">Professional Gamer</div>
+                            </div>
+                        </div>
+                        <div class="review-rating">★★★★★</div>
+                        <div class="review-text">
+                            "Absolutely love the performance and build quality. Handles all my games at ultra settings! The 165Hz screen is a game changer for competitive play."
+                        </div>
+                    </div>
+                    
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-avatar">AS</div>
+                            <div class="review-meta">
+                                <div class="review-name">Alice Smith</div>
+                                <div class="review-title">Content Creator</div>
+                            </div>
+                        </div>
+                        <div class="review-rating">★★★★★</div>
+                        <div class="review-text">
+                            "The display is stunning and the laptop is super fast for video editing. Rendering times have been cut in half compared to my previous system. Highly recommend!"
+                        </div>
+                    </div>
+                    
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-avatar">MK</div>
+                            <div class="review-meta">
+                                <div class="review-name">Mike K.</div>
+                                <div class="review-title">Student & Casual Gamer</div>
+                            </div>
+                        </div>
+                        <div class="review-rating">★★★★☆</div>
+                        <div class="review-text">
+                            "Great value for the price. Runs all my coursework software smoothly and I can game on it too. Battery life is decent for a gaming laptop."
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Related Products Section -->
+        <section class="section section-light related-products">
+            <div class="section-background"></div>
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">More Options</span>
+                    <h2 class="section-title">You Might Also Like</h2>
+                    <p class="section-description">Explore other Prodigy machines that redefine performance.</p>
+                </div>
+                
+                <div class="related-grid">
+                    <div class="related-card">
+                        <div class="related-image">
+                            <img src="/assets/prod2.webp" alt="Prodigy Stealth Pro">
+                        </div>
+                        <div class="related-info">
+                            <div class="related-title">Prodigy Stealth Pro</div>
+                            <div class="related-price">₹84,999</div>
+                        </div>
+                    </div>
+                    
+                    <div class="related-card">
+                        <div class="related-image">
+                            <img src="/assets/prod3.webp" alt="Prodigy Titan X9000">
+                        </div>
+                        <div class="related-info">
+                            <div class="related-title">Prodigy Titan X9000</div>
+                            <div class="related-price">₹79,999</div>
+                        </div>
+                    </div>
+                    
+                    <div class="related-card">
+                        <div class="related-image">
+                            <img src="/assets/flagship.webp" alt="PRODIGY PRO X9000">
+                        </div>
+                        <div class="related-info">
+                            <div class="related-title">PRODIGY PRO X9000</div>
+                            <div class="related-price">₹1,99,999</div>
+                        </div>
+                    </div>
+                    
+                    <div class="related-card">
+                        <div class="related-image">
+                            <img src="/assets/prod1.webp" alt="Prodigy Nova X3">
+                        </div>
+                        <div class="related-info">
+                            <div class="related-title">Prodigy Nova X3</div>
+                            <div class="related-price">₹69,999</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Floating Contact Buttons -->
+    <div class="floating-contact">
+        <a href="https://wa.me/919985346363" class="floating-contact-btn btn-whatsapp" data-tooltip="Chat with us on WhatsApp" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="tel:+919985346363" class="floating-contact-btn btn-call" data-tooltip="Call us now">
+            <i class="fas fa-phone-alt"></i>
+        </a>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile Menu Toggle
+            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+            const navCenter = document.querySelector('.nav-center');
+            const navLinks = document.querySelectorAll('.nav-link');
+            
+            mobileMenuBtn.addEventListener('click', function() {
+                navCenter.classList.toggle('active');
+                const isOpen = navCenter.classList.contains('active');
+                mobileMenuBtn.innerHTML = isOpen ? '<i class="fas fa-times"></i>' : '<i class="fas fa-bars"></i>';
+            });
+            
+            // Close mobile menu when clicking a link
+            navLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    navCenter.classList.remove('active');
+                    mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+                });
+            });
+            
+            // Sticky Header
+            const header = document.getElementById('header');
+            
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 50) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+                
+            });
+            
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    
+                    if (targetElement) {
+                        e.preventDefault();
+                        const headerHeight = header.offsetHeight;
+                        const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY - headerHeight;
+                        
+                        window.scrollTo({
+                            top: targetPosition,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+        
+        // Product Gallery
+        function setMainImage(thumb) {
+            const thumbImg = thumb.querySelector('img');
+            const mainImage = document.getElementById('mainImage');
+            
+            if (thumbImg && mainImage) {
+                mainImage.src = thumbImg.src;
+                mainImage.alt = thumbImg.alt;
+                
+                // Update active class
+                document.querySelectorAll('.product-gallery-thumb').forEach(item => {
+                    item.classList.remove('active');
+                });
+                thumb.classList.add('active');
+            }
+        }
+    </script>
+</body>
+</html>

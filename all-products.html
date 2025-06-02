@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PFGV72XJ');</script>
+    <!-- End Google Tag Manager -->
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - Prodigy Computers & Laptops</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#4a90e2',
+              'primary-dark': '#3a7bc9',
+              'primary-light': '#6ba5ea',
+              accent: '#FF9500',
+              'accent-light': '#FFB340',
+              secondary: '#152a43',
+              'secondary-light': '#1e3b5d',
+              dark: '#152a43',
+              'dark-gray': '#2d3e53',
+              'medium-gray': '#5c6b7c',
+              'light-gray': '#c0c9d6',
+              light: '#f2f6fa',
+            },
+            fontFamily: {
+              heading: ['Montserrat', 'sans-serif'],
+              body: ['Montserrat', 'Work Sans', 'sans-serif'],
+              logo: ['Montserrat', 'sans-serif'],
+            },
+            boxShadow: {
+              'sm-custom': '0 2px 8px rgba(21, 42, 67, 0.08)',
+              'md-custom': '0 4px 16px rgba(21, 42, 67, 0.12)',
+              'lg-custom': '0 8px 30px rgba(21, 42, 67, 0.18)',
+              'primary-custom': '0 8px 30px rgba(74, 144, 226, 0.25)',
+              'accent-custom': '0 8px 30px rgba(255, 149, 0, 0.25)',
+            },
+            backgroundImage: {
+              'gradient-primary': 'linear-gradient(120deg, #4a90e2, #6ba5ea)',
+              'gradient-dark': 'linear-gradient(120deg, #152a43, #2d3e53)',
+              'gradient-blue': 'linear-gradient(120deg, #4a90e2, #2d7bd3)',
+            }
+          }
+        }
+      }
+    </script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Montserrat', sans-serif;
+            letter-spacing: -0.02em;
+        }
+        
+        h2 {
+            font-weight: 800;
+        }
+        
+        .font-logo {
+            letter-spacing: -0.03em;
+        }
+        
+        .btn-text {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            letter-spacing: 0.01em;
+        }
+        
+        .section-tag {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+        
+        .nav-link {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            letter-spacing: 0.01em;
+        }
+        
+        /* Mobile navigation styles */
+        @media (max-width: 768px) {
+            .nav-center {
+                position: fixed;
+                top: 0;
+                right: -100%;
+                width: 80%;
+                max-width: 300px;
+                height: 100vh;
+                background-color: #152a43;
+                box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+                padding: 80px 20px 20px;
+                transition: right 0.3s ease-in-out;
+                z-index: 999;
+                overflow-y: auto;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .nav-center.active {
+                right: 0;
+            }
+            
+            .nav-center ul {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0;
+                width: 100%;
+            }
+            
+            .nav-center ul li {
+                width: 100%;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            }
+            
+            .nav-center ul li a {
+                display: block;
+                padding: 15px 0;
+                font-size: 18px;
+                font-weight: 600;
+                color: #ffffff;
+            }
+            
+            .nav-link.active, .nav-link:hover {
+                color: #4a90e2 !important;
+            }
+            
+            .mobile-menu-btn {
+                display: flex !important;
+                position: relative;
+                z-index: 1001;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                align-items: center;
+                justify-content: center;
+                background-color: rgba(255, 255, 255, 0.9);
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            }
+            
+            .mobile-menu-overlay {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.5);
+                opacity: 0;
+                visibility: hidden;
+                transition: all 0.3s ease-in-out;
+                z-index: 998;
+                backdrop-filter: blur(3px);
+            }
+            
+            .mobile-menu-overlay.active {
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+        
+        /* Mobile menu button - hidden by default */
+        .mobile-menu-btn {
+            display: none;
+            position: relative;
+            z-index: 1001;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Only show mobile menu button on small screens */
+        @media (max-width: 768px) {
+            .mobile-menu-btn {
+                display: flex !important;
+            }
+        }
+    </style>
+</head>
+<body class="font-body bg-light text-dark overflow-x-hidden">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PFGV72XJ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    <!-- Header -->
+    <header id="header" class="sticky top-0 left-0 w-full z-[1000] transition-all duration-300 py-3 bg-white shadow-sm">
+        <div class="container mx-auto max-w-[1280px] px-6">
+            <nav class="flex items-center justify-between h-[65px]">
+                <a href="index.html" class="flex items-center relative z-[1001]">
+                    <img src="/assets/logo-nobg.png" alt="Prodigy Computers & Laptops Logo" class="h-[60px] w-auto transition-all duration-300">
+                    <span class="ml-3 font-logo font-extrabold text-xl tracking-tight hidden sm:block">PRODIGY<span class="text-primary font-black">COMPUTERS</span></span>
+                </a>
+                
+                <!-- Mobile Menu Overlay -->
+                <div class="mobile-menu-overlay" id="mobile-menu-overlay"></div>
+                
+                <!-- Navigation Center -->
+                <div class="nav-center">
+                    <ul class="flex gap-5 m-0 p-0 list-none">
+                        <li><a href="index.html" class="nav-link text-base relative py-2 text-dark hover:text-primary transition-colors duration-150 uppercase tracking-wide">Home</a></li>
+                        <li><a href="all-products.html" class="nav-link text-base relative py-2 text-primary transition-colors duration-150 uppercase tracking-wide active">Products</a></li>
+                        <li><a href="index.html#faq" class="nav-link text-base relative py-2 text-dark hover:text-primary transition-colors duration-150 uppercase tracking-wide">FAQ</a></li>
+                        <li><a href="index.html#contact" class="nav-link text-base relative py-2 text-dark hover:text-primary transition-colors duration-150 uppercase tracking-wide">Contact</a></li>
+                        <!-- Mobile-only WhatsApp link -->
+                        <li class="hidden md:hidden mt-4 pt-4 border-t border-gray-100">
+                            <a href="https://wa.me/919985346363" class="inline-flex items-center justify-center bg-[#25D366] text-white rounded-full px-4 py-3 w-full text-base font-semibold">
+                                <i class="fab fa-whatsapp mr-2"></i> WhatsApp Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="flex items-center gap-2 md:gap-3">
+                    <a href="https://wa.me/919985346363" class="hidden md:inline-flex items-center bg-[#25D366] text-white rounded-full px-4 py-2 text-sm font-semibold hover:bg-[#20bd5a] hover:-translate-y-0.5 transition-all duration-300 shadow-md hover:shadow-[0_10px_25px_rgba(37,211,102,0.3)]">
+                        <i class="fab fa-whatsapp mr-2"></i> WhatsApp Us
+                    </a>
+                    <button class="mobile-menu-btn bg-transparent border-0 text-dark text-2xl cursor-pointer p-2" id="mobile-menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Page Banner -->
+    <section class="bg-[#162035] text-white py-16">
+        <div class="container mx-auto max-w-[1280px] px-6">
+            <div class="text-center">
+                <div class="text-primary section-tag text-sm mb-3">OUR COLLECTION</div>
+                <h1 class="text-4xl md:text-5xl font-heading font-black mb-4 text-white tracking-tight">ALL <span class="text-[#4e88ca]">PRODUCTS</span></h1>
+                <p class="text-white/70 max-w-2xl mx-auto">Browse our complete collection of high-performance computers and laptops designed for professionals, gamers, and businesses.</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Products Section -->
+    <section class="py-16 bg-light">
+        <div class="container mx-auto max-w-[1280px] px-6">
+            <!-- Filter Options -->
+            <div class="mb-8">
+                <div class="flex flex-wrap gap-3 justify-center md:justify-start">
+                    <button class="filter-btn bg-gradient-primary text-white border border-primary rounded-full px-4 py-2 text-sm cursor-pointer transition-all duration-150 font-medium shadow-sm" data-category="all">All Products</button>
+                    <button class="filter-btn bg-white text-medium-gray border border-light-gray rounded-full px-4 py-2 text-sm cursor-pointer transition-all duration-150 font-medium hover:bg-light hover:text-primary hover:border-primary-light" data-category="apple">Apple</button>
+                    <button class="filter-btn bg-white text-medium-gray border border-light-gray rounded-full px-4 py-2 text-sm cursor-pointer transition-all duration-150 font-medium hover:bg-light hover:text-primary hover:border-primary-light" data-category="asus">Asus</button>
+                    <button class="filter-btn bg-white text-medium-gray border border-light-gray rounded-full px-4 py-2 text-sm cursor-pointer transition-all duration-150 font-medium hover:bg-light hover:text-primary hover:border-primary-light" data-category="acer">Acer</button>
+                    <button class="filter-btn bg-white text-medium-gray border border-light-gray rounded-full px-4 py-2 text-sm cursor-pointer transition-all duration-150 font-medium hover:bg-light hover:text-primary hover:border-primary-light" data-category="printers">Printers</button>
+                </div>
+            </div>
+            
+            <!-- Products Grid -->
+            <div id="products-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Products will be loaded here dynamically -->
+            </div>
+            
+            <!-- No Results Message (hidden by default) -->
+            <div id="no-results" class="hidden text-center py-12">
+                <i class="fas fa-search text-4xl text-gray-300 mb-4"></i>
+                <h3 class="text-xl font-bold mb-2">No products found</h3>
+                <p class="text-medium-gray">Try changing your filter criteria or check back later for new products.</p>
+            </div>
+        </div>
+    </section>
+
+    
+    
+    <!-- Footer -->
+    <footer class="bg-secondary py-10 relative">
+        <div class="container mx-auto max-w-[1280px] px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-10">
+                <!-- Company Info -->
+                <div class="md:col-span-1">
+                    <a href="#home" class="flex items-center">
+                        <img src="/assets/logo-nobg.png" alt="Prodigy Computers & Laptops Logo" class="h-10 w-auto mr-3">
+                        <span class="font-logo font-extrabold text-xl text-white">PRODIGY<span class="text-primary">COMPUTERS</span></span>
+                    </a>
+                    <p class="text-white/60 mt-4 text-sm">We build premium custom PCs for professionals, gamers, and businesses with unmatched performance and reliability.</p>
+                    <div class="flex items-center gap-3 mt-5">
+                        <a href="#" class="w-9 h-9 rounded-full bg-dark-gray text-white flex items-center justify-center hover:bg-primary transition-all duration-300">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="w-9 h-9 rounded-full bg-dark-gray text-white flex items-center justify-center hover:bg-primary transition-all duration-300">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="w-9 h-9 rounded-full bg-dark-gray text-white flex items-center justify-center hover:bg-primary transition-all duration-300">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="w-9 h-9 rounded-full bg-dark-gray text-white flex items-center justify-center hover:bg-primary transition-all duration-300">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="md:col-span-1">
+                    <h3 class="text-white text-xl font-bold mb-5">Quick Links</h3>
+                    <ul class="space-y-3">
+                        <li><a href="index.html#home" class="text-white/60 hover:text-primary transition-colors duration-300">Home</a></li>
+                        <li><a href="all-products.html" class="text-white/60 hover:text-primary transition-colors duration-300">Products</a></li>
+                        <li><a href="index.html#about" class="text-white/60 hover:text-primary transition-colors duration-300">About Us</a></li>
+                        <li><a href="index.html#testimonials" class="text-white/60 hover:text-primary transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="index.html#faq" class="text-white/60 hover:text-primary transition-colors duration-300">FAQ</a></li>
+                        <li><a href="index.html#contact" class="text-white/60 hover:text-primary transition-colors duration-300">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="md:col-span-1">
+                    <h3 class="text-white text-xl font-bold mb-5">Contact Us</h3>
+                    <ul class="space-y-3">
+                        <li class="flex gap-3 text-white/60">
+                            <i class="fas fa-map-marker-alt text-primary mt-1"></i>
+                            <span>MIG 46/A, Pranav Plaza,<br>Dharma Reddy Colony,<br>Behind ICICI Bank, Opp JNTU,<br>KPHB, Hyderabad 500085</span>
+                        </li>
+                        <li class="flex gap-3 text-white/60">
+                            <i class="fas fa-phone-alt text-primary mt-1"></i>
+                            <span>+91 9985346363</span>
+                        </li>
+                        <li class="flex gap-3 text-white/60">
+                            <i class="fas fa-phone-alt text-primary mt-1"></i>
+                            <span>+91 9985356363</span>
+                        </li>
+                        <li class="flex gap-3 text-white/60">
+                            <i class="fas fa-envelope text-primary mt-1"></i>
+                            <span>prodigyhyderabad@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+                    
+                <!-- Newsletter -->
+                <div class="md:col-span-1">
+                    <h3 class="text-white text-xl font-bold mb-5">Newsletter</h3>
+                    <p class="text-white/60 mb-4 text-sm">Subscribe to our newsletter for updates on new products, offers, and tech tips.</p>
+                    <form class="space-y-3">
+                        <div>
+                            <input type="email" placeholder="Your Email Address" class="w-full bg-dark-gray border-0 outline-none rounded-full px-4 py-3 text-white placeholder:text-white/40 focus:ring-2 focus:ring-primary">
+                        </div>
+                        <button type="submit" class="w-full bg-gradient-primary text-white rounded-full px-4 py-3 font-semibold hover:-translate-y-0.5 transition-all duration-300">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+                    
+            <div class="border-t border-dark-gray mt-10 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-white/40 text-sm">© 2025 Prodigy Computers & Laptops. All Rights Reserved.</p>
+                <div class="flex gap-5">
+                    <a href="#" class="text-white/40 hover:text-primary text-sm transition-colors duration-300">Privacy Policy</a>
+                    <a href="#" class="text-white/40 hover:text-primary text-sm transition-colors duration-300">Terms of Service</a>
+                    <a href="#" class="text-white/40 hover:text-primary text-sm transition-colors duration-300">Refund Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Floating Contact Buttons -->
+    <div class="fixed bottom-4 right-4 md:bottom-1/2 md:right-4 md:translate-y-1/2 flex md:flex-col flex-row gap-2 z-[98]">
+        <a href="https://wa.me/919985346363" class="w-[50px] h-[50px] rounded-full flex items-center justify-center text-white text-xl shadow-md-custom transition-all duration-300 hover:-translate-x-1 bg-[#25D366] hover:shadow-[0_10px_20px_rgba(37,211,102,0.3)]" data-tooltip="Chat with us on WhatsApp" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="tel:+919985346363" class="w-[50px] h-[50px] rounded-full flex items-center justify-center text-white text-xl shadow-md-custom transition-all duration-300 hover:-translate-x-1 bg-primary hover:shadow-primary-custom" data-tooltip="Call us now">
+            <i class="fas fa-phone-alt"></i>
+        </a>
+    </div>
+    
+    <!-- Import products.js -->
+    <script src="products.js"></script>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Dropdown functionality from the footer
+            initDropdown();
+            
+            // Initialize products display
+            renderProducts();
+            
+            // Filter functionality
+            initFilters();
+            
+            // Mobile menu functionality
+            initMobileMenu();
+        });
+        
+        // Initialize dropdown in the footer form
+        function initDropdown() {
+            const dropdownToggle = document.querySelector('.dropdown-toggle');
+            const dropdownMenu = document.querySelector('.dropdown-menu');
+            
+            if (dropdownToggle && dropdownMenu) {
+                dropdownToggle.addEventListener('click', function() {
+                    dropdownMenu.classList.toggle('hidden');
+                });
+                
+                // Close the dropdown when clicking outside
+                document.addEventListener('click', function(event) {
+                    if (!dropdownToggle.contains(event.target) && !dropdownMenu.contains(event.target)) {
+                        dropdownMenu.classList.add('hidden');
+                    }
+                });
+                
+                // Option selection
+                const options = dropdownMenu.querySelectorAll('div');
+                options.forEach(option => {
+                    option.addEventListener('click', function() {
+                        dropdownToggle.querySelector('span').textContent = this.textContent;
+                        dropdownMenu.classList.add('hidden');
+                    });
+                });
+            }
+        }
+        
+        // Initialize mobile menu
+        function initMobileMenu() {
+            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+            const navCenter = document.querySelector('.nav-center');
+            const navLinks = document.querySelectorAll('.nav-link');
+            const mobileMenuOverlay = document.getElementById('mobile-menu-overlay');
+            
+            if (mobileMenuBtn && navCenter) {
+                mobileMenuBtn.addEventListener('click', function() {
+                    navCenter.classList.toggle('active');
+                    mobileMenuOverlay.classList.toggle('active');
+                    const isOpen = navCenter.classList.contains('active');
+                    mobileMenuBtn.innerHTML = isOpen ? '<i class="fas fa-times"></i>' : '<i class="fas fa-bars"></i>';
+                    
+                    // Prevent body scrolling when menu is open
+                    document.body.style.overflow = isOpen ? 'hidden' : '';
+                });
+                
+                // Close mobile menu when clicking the overlay
+                if (mobileMenuOverlay) {
+                    mobileMenuOverlay.addEventListener('click', function() {
+                        navCenter.classList.remove('active');
+                        mobileMenuOverlay.classList.remove('active');
+                        mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+                        document.body.style.overflow = '';
+                });
+                }
+                
+                // Close mobile menu when clicking a link
+                navLinks.forEach(link => {
+                    link.addEventListener('click', function() {
+                        navCenter.classList.remove('active');
+                        mobileMenuOverlay.classList.remove('active');
+                        mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+                        document.body.style.overflow = '';
+                    });
+                });
+            }
+        }
+        
+        // Initialize filter buttons
+        function initFilters() {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    filterBtns.forEach(filterBtn => {
+                        filterBtn.classList.remove('bg-gradient-primary');
+                        filterBtn.classList.remove('text-white');
+                        filterBtn.classList.remove('border-primary');
+                        filterBtn.classList.remove('shadow-sm');
+                        
+                        filterBtn.classList.add('bg-white');
+                        filterBtn.classList.add('text-medium-gray');
+                        filterBtn.classList.add('border-light-gray');
+                    });
+                    
+                    // Add active class to clicked button
+                    this.classList.remove('bg-white');
+                    this.classList.remove('text-medium-gray');
+                    this.classList.remove('border-light-gray');
+                    
+                    this.classList.add('bg-gradient-primary');
+                    this.classList.add('text-white');
+                    this.classList.add('border-primary');
+                    this.classList.add('shadow-sm');
+                    
+                    // Filter products
+                    const category = this.getAttribute('data-category');
+                    filterProducts(category);
+                });
+            });
+        }
+        
+        // Filter products by category
+        function filterProducts(category) {
+            const productsGrid = document.getElementById('products-grid');
+            const noResults = document.getElementById('no-results');
+            
+            if (!productsGrid || !noResults) return;
+            
+            productsGrid.innerHTML = '';
+            
+            let filteredProducts = [];
+            
+            if (category === 'all') {
+                filteredProducts = Object.values(products);
+            } else if (category === 'printers') {
+                filteredProducts = Object.values(products).filter(product => {
+                    return product.category.toLowerCase() === 'printers';
+                });
+            } else {
+                filteredProducts = Object.values(products).filter(product => {
+                    return product.brand.toLowerCase() === category.toLowerCase();
+                });
+            }
+            
+            if (filteredProducts.length === 0) {
+                productsGrid.classList.add('hidden');
+                noResults.classList.remove('hidden');
+            } else {
+                productsGrid.classList.remove('hidden');
+                noResults.classList.add('hidden');
+                
+                filteredProducts.forEach(product => {
+                    productsGrid.appendChild(createProductCard(product));
+                });
+            }
+        }
+        
+        // Render all products
+        function renderProducts() {
+            const productsGrid = document.getElementById('products-grid');
+            
+            if (!productsGrid) return;
+            
+            // Clear existing products
+            productsGrid.innerHTML = '';
+            
+            // Get all products
+            const allProducts = Object.values(products);
+            
+            // Render each product
+            allProducts.forEach(product => {
+                productsGrid.appendChild(createProductCard(product));
+            });
+        }
+        
+        // Create a product card element
+        function createProductCard(product) {
+            const card = document.createElement('div');
+            card.className = 'bg-white rounded-lg overflow-hidden shadow-sm-custom transition-all duration-300 hover:-translate-y-2.5 hover:shadow-lg-custom flex flex-col h-full';
+            
+            // Determine price display
+            let priceSection = '';
+            if (product.showPrice && product.price) {
+                priceSection = `
+                    <div class="mt-auto mb-3">
+                        <div class="text-center mb-3">
+                            <span class="font-heading font-bold text-xl text-dark">₹${product.price.toLocaleString()}</span>
+                        </div>
+                    </div>
+                `;
+            } else {
+                priceSection = `
+                    <div class="mt-auto mb-3">
+                        <div class="text-center mb-3">
+                            <span class="font-heading font-bold text-lg text-dark">Contact for Price</span>
+                        </div>
+                    </div>
+                `;
+            }
+            
+            card.innerHTML = `
+                <div class="relative overflow-hidden pt-[60%]">
+                    ${product.discount ? `<span class="absolute top-3 left-3 bg-gradient-primary text-white py-1 px-2 rounded text-xs font-medium z-[2]">-${product.discount}</span>` : ''}
+                    <img src="${product.mainImage}" alt="${product.name}" class="absolute top-0 left-0 w-full h-full object-cover transition-transform duration-300 hover:scale-105">
+                    <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-black/50 to-transparent opacity-0 transition-opacity duration-300 flex items-center justify-center gap-3 hover:opacity-100">
+                        <a href="product-detail.html?id=${product.id}" class="btn bg-gradient-primary text-white rounded-full py-2 px-4 text-sm font-semibold">View Details</a>
+                        <a href="https://wa.me/919985346363?text=I'm%20interested%20in%20${encodeURIComponent(product.name)}" class="btn bg-[#25D366] text-white rounded-full py-2 px-4 text-sm font-semibold flex items-center">
+                            <i class="fab fa-whatsapp mr-1"></i> Enquire
+                        </a>
+                    </div>
+                </div>
+                <div class="p-4 flex flex-col flex-grow">
+                    <span class="text-xs text-primary font-medium uppercase tracking-wider mb-1">${product.category}</span>
+                    <h3 class="text-xl font-bold mb-2 text-secondary">${product.name}</h3>
+                    <div class="flex flex-wrap items-start gap-y-2 mb-3">
+                        ${product.specifications.slice(0, 3).map(spec => `
+                            <span class="flex items-center mr-3 text-medium-gray text-sm">
+                                <i class="fas fa-circle text-[5px] mr-1 text-primary"></i> ${spec.name}: ${spec.value}
+                            </span>
+                        `).join('')}
+                    </div>
+                    <p class="text-medium-gray text-sm mb-3 flex-grow">${product.shortDescription}</p>
+                    ${priceSection}
+                    <div class="flex flex-col gap-2">
+                        <a href="product-detail.html?id=${product.id}" class="inline-flex items-center justify-center px-5 py-3 rounded-full font-heading font-semibold bg-gradient-primary text-white shadow-sm hover:-translate-y-0.5 hover:shadow-md transition-all duration-300">View Details</a>
+                        <a href="https://wa.me/919985346363?text=I'm%20interested%20in%20${encodeURIComponent(product.name)}" class="inline-flex items-center justify-center px-5 py-3 rounded-full font-heading font-semibold bg-[#25D366] text-white shadow-sm hover:bg-[#20bd5a] hover:-translate-y-0.5 hover:shadow-[0_10px_25px_rgba(37,211,102,0.3)] transition-all duration-300">
+                            <i class="fab fa-whatsapp mr-2"></i> Enquire 
+                        </a>
+                    </div>
+                </div>
+            `;
+            
+            return card;
+        }
+    </script>
+</body>
+</html> 

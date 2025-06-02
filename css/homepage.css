@@ -1,0 +1,6 @@
+
+    .ticker-slow {
+    display: inline-block;
+    animation: ticker 35s linear infinite;
+    padding-right: 3rem;
+}
