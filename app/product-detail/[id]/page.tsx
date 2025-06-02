@@ -1,5 +1,4 @@
 import React from 'react';
-import { Metadata } from 'next';
 import { products } from '../../all-products/data/products';
 import ProductDetail from './components/ProductDetail';
 import { Product } from '../../all-products/types';
@@ -18,7 +17,11 @@ export async function generateStaticParams() {
 }
 
 // Generate dynamic metadata
-export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: {
+  params: { id: string };
+}) {
   const typedProducts = products as ProductsType;
   const product = typedProducts[params.id];
   
@@ -35,12 +38,15 @@ export async function generateMetadata({ params }: { params: { id: string } }): 
 }
 
 // Server Component
-export default function ProductDetailPage({ params }: { params: { id: string } }) {
+export default function ProductDetailPage({
+  params,
+}: {
+  params: { id: string };
+}) {
   // Pass the ID to the client component
   return (
      <ScrollSmootherWrapper>
       <ProductDetail productId={params.id} />
     </ScrollSmootherWrapper>
   );
-  
 }
