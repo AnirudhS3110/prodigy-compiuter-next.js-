@@ -1,6 +1,7 @@
 "use client"
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function HeroSection() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -98,11 +99,15 @@ export default function HeroSection() {
           <div className="absolute inset-0 bg-gradient-to-r from-black/40 to-transparent z-10"></div>
             
             {/* Background Image */}
-            <img 
-              src={getImageForSlide(0)} 
-              alt="Flagship Computer"
-              className="w-full h-full object-cover z-0" 
-            />
+            <div className="relative w-full h-full">
+              <Image 
+                src={getImageForSlide(0)} 
+                alt="Flagship Computer"
+                fill
+                className="object-cover z-0"
+                priority
+              />
+            </div>
 
             {/* Main Content Layer */}
             <div className="absolute inset-0 flex items-center justify-start z-20">
@@ -122,11 +127,14 @@ export default function HeroSection() {
                       })} 
                       className="bg-transparent text-[#4a1a18] w-[270px] h-[88px] md:w-[423px] md:h-[130px] rounded-full font-semibold px-6 py-3 hover:scale-105 transition-transform"
                     >
-                      <img 
-                        src="./assets/slide-1/slide-1-btn.png"
-                        alt="Call for Delivery Button"
-                        className="w-full h-full object-cover" 
-                      />
+                      <div className="relative w-full h-full">
+                        <Image 
+                          src="./assets/slide-1/slide-1-btn.png"
+                          alt="Call for Delivery Button"
+                          fill
+                          className="object-cover"
+                        />
+                      </div>
                     </button>
                   </div>
               </div>
@@ -165,11 +173,15 @@ export default function HeroSection() {
           <div className="absolute inset-0 bg-gradient-to-r from-black/40 to-transparent z-10"></div>
             
             {/* Background Image */}
-            <img 
-              src={getImageForSlide(1)}
-              alt="Flagship Computer"
-              className="w-full h-full object-cover z-0" 
-            />
+            <div className="relative w-full h-full">
+              <Image 
+                src={getImageForSlide(1)}
+                alt="Flagship Computer"
+                fill
+                className="object-cover z-0"
+                priority
+              />
+            </div>
 
             {/* Main Content Layer */}
             <div className="absolute inset-0 flex items-center justify-center z-20">
@@ -207,11 +219,14 @@ export default function HeroSection() {
 
               {/* Right Image (Desktop Only) */}
               <div className="min-w-[800px] hidden md:block h-screen pointer-events-none select-none">
-                <img 
-                  src="./assets/slide-2/rigthsidelaps.png"
-                  alt="High-Performance Computer"
-                  className="w-full h-full object-cover" 
-                />
+                <div className="relative w-full h-full">
+                  <Image 
+                    src="./assets/slide-2/rigthsidelaps.png"
+                    alt="High-Performance Computer"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -225,11 +240,15 @@ export default function HeroSection() {
         >
           <div className="relative w-full h-screen overflow-hidden">
             {/* Background Image */}
-            <img 
-              src={getImageForSlide(2)}
-              alt="Professional Workstation" 
-              className="w-full h-full object-cover"
-            />
+            <div className="relative w-full h-full">
+              <Image 
+                src={getImageForSlide(2)}
+                alt="Professional Workstation"
+                fill
+                className="object-cover"
+                priority
+              />
+            </div>
             
             {/* Button from Figma positioned at the bottom */}
             <div className="absolute bottom-[94px] left-[0.8] md:bottom-[-10px] left-[250px] hidden md:block md:tra z-20">
@@ -247,11 +266,15 @@ export default function HeroSection() {
                 })}
                 className="block relative overflow-hidden transition-all duration-300 hover:-translate-y-1 figma-button"
               >
-                <img 
-                  src="/assets/figma/slide3_button.png" 
-                  alt="View Featured Products" 
-                  className="md:w-[350px] w-[100px] relative z-10"
-                />
+                <div className="relative md:w-[350px] w-[100px]">
+                  <Image 
+                    src="/assets/figma/slide3_button.png" 
+                    alt="View Featured Products"
+                    width={350}
+                    height={100}
+                    className="relative z-10"
+                  />
+                </div>
                 <div className="absolute inset-0 bg-white opacity-0 hover:opacity-10 transition-opacity duration-300 z-20"></div>
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 hover:opacity-100 transition-opacity duration-500 z-10 pulse-effect"></div>
                 </Link>

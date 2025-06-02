@@ -80,7 +80,7 @@ const Testimonials = () => {
         <div className="text-center mb-12">
           <div className="text-[#4e88ca] section-tag text-sm mb-3">CUSTOMER FEEDBACK</div>
           <h2 className="text-4xl md:text-5xl font-heading font-black mb-4 text-white tracking-tight">WHAT OUR <span className="text-[#4e88ca]">CUSTOMERS</span> SAY</h2>
-          <p className="text-white/70 max-w-2xl mx-auto">Hear from customers who've experienced the Prodigy difference.</p>
+          <p className="text-white/70 max-w-2xl mx-auto">Hear from customers who&apos;ve experienced the Prodigy difference.</p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState, useCallback, useMemo } from 'react';
 
 const SocialMedia = () => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -10,7 +10,8 @@ const SocialMedia = () => {
     embedContainer: HTMLDivElement;
   }>>([]);
 
-  const instagramPosts = [
+  // Use useMemo to prevent the array from changing on every render
+  const instagramPosts = useMemo(() => [
     "https://www.instagram.com/reel/CxYFp5nyNYr/",
     "https://www.instagram.com/reel/CuBa8lVMM7_/",
     "https://www.instagram.com/reel/Cs78ja2PV3L/",
@@ -22,7 +23,7 @@ const SocialMedia = () => {
     "https://www.instagram.com/reel/CkUqyiBpZtL/",
     "https://www.instagram.com/p/COx4Nr7gdYC/",
     "https://www.instagram.com/p/CPVlbrig9cC/"
-  ];
+  ], []);
 
   // Function to create Instagram post embed element
   const createInstagramEmbed = (url: string, index: number) => {
@@ -58,8 +59,8 @@ const SocialMedia = () => {
     return { postContainer, loadingPlaceholder, embedContainer };
   };
 
-  // Function to initialize the first set of posts
-  const initializeInstagramFeed = () => {
+  // Function to initialize the first set of posts - wrapped in useCallback
+  const initializeInstagramFeed = useCallback(() => {
     if (!containerRef.current) return [];
 
     // Clear container first
@@ -83,10 +84,10 @@ const SocialMedia = () => {
     }
 
     return elements;
-  };
+  }, [instagramPosts]);
 
-  // Function to process embeds with retry capability
-  const processEmbeds = (elements: typeof postElements, attemptCount = 0) => {
+  // Function to process embeds with retry capability - wrapped in useCallback
+  const processEmbeds = useCallback((elements: typeof postElements, attemptCount = 0) => {
     if (window.instgrm?.Embeds?.process) {
       console.log('Processing Instagram embeds');
       window.instgrm.Embeds.process();
@@ -126,7 +127,7 @@ const SocialMedia = () => {
       }
       return false;
     }
-  };
+  }, []);
 
   useEffect(() => {
     // Initialize Instagram script
