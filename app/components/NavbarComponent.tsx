@@ -10,10 +10,7 @@ const NavbarComponent = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
     const pathname = usePathname();
-
-    if(pathname === '/product-detail/[id]'){
-        return null;
-    }
+    const shouldRender = pathname !== '/product-detail/[id]';
 
     // Handle scroll event to change navbar background
     useEffect(() => {
@@ -55,6 +52,10 @@ const NavbarComponent = () => {
         if (href === '/#contact' && pathname.includes('/#contact')) return true;
         return false;
     };
+
+    if (!shouldRender) {
+        return null;
+    }
 
     return (
         <header 

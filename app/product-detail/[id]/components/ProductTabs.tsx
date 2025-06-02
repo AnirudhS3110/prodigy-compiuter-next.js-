@@ -29,7 +29,7 @@ const ProductTabs: React.FC<ProductTabsProps> = ({ product }) => {
           className={`py-3 px-5 font-medium ${activeTab === 'included' ? 'tab-active' : ''}`}
           onClick={() => setActiveTab('included')}
         >
-          What's Included
+          What&apos;s Included
         </button>
       </div>
       

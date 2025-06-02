@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
 
 interface PanelProps {
   title: string;
@@ -11,7 +12,6 @@ interface PanelProps {
   textColor: string;
   isActive: boolean;
   onClick: () => void;
-  index: number;
   isMobile: boolean;
 }
 
@@ -24,7 +24,6 @@ const Panel: React.FC<PanelProps> = ({
   textColor,
   isActive,
   onClick,
-  index,
   isMobile
 }) => {
   return (
@@ -38,7 +37,15 @@ const Panel: React.FC<PanelProps> = ({
     >
       <div className={`absolute inset-0 ${bgColor} z-0`}>
         {/* Background image with overlay */}
-        <img src={imageUrl} alt={title} className="w-full h-full object-cover" />
+        <div className="relative w-full h-full">
+          <Image 
+            src={imageUrl} 
+            alt={title} 
+            fill
+            className="object-cover"
+            sizes="(max-width: 768px) 100vw, 33vw"
+          />
+        </div>
         <div className={`absolute inset-0 ${bgColor} opacity-60`}></div>
       </div>
       <div className="relative z-10 h-full w-full flex flex-col p-6 justify-between">
@@ -130,7 +137,6 @@ const ThreePanelHover = () => {
             {...panel} 
             isActive={activePanel === index}
             onClick={() => handlePanelClick(index)}
-            index={index}
             isMobile={isMobile}
           />
         ))}

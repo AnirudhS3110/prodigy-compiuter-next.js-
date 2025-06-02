@@ -1,6 +1,5 @@
 "use client"
 import React, { useState, useEffect, useCallback, useRef } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 
 export default function HeroSection() {
@@ -78,7 +77,7 @@ export default function HeroSection() {
   };
 
   // Track Google Analytics event
-  const trackEvent = (eventName: string, params: any) => {
+  const trackEvent = (eventName: string, params: Record<string, unknown>) => {
     if (typeof window !== 'undefined' && window.gtag) {
       window.gtag('event', eventName, params);
     }

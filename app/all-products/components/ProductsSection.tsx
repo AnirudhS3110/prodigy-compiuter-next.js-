@@ -12,7 +12,6 @@ import { products } from '../data/products';
 
 const ProductsSection: React.FC = () => {
   const [category, setCategory] = useState<string>('all');
-  const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
   const [groupedProducts, setGroupedProducts] = useState<ProductGroup[]>([]);
   const [showNoResults, setShowNoResults] = useState<boolean>(false);
 
@@ -34,9 +33,6 @@ const ProductsSection: React.FC = () => {
         product.brand.toLowerCase() === filterCategory.toLowerCase()
       );
     }
-
-    // Set filtered products (for backward compatibility)
-    setFilteredProducts(filtered);
     
     // Group filtered products
     const grouped = groupProductsBySpecs(filtered);

@@ -149,6 +149,9 @@ const SocialMedia = () => {
       document.body.appendChild(script);
     };
 
+    // Create a reference to containerRef.current that can be used in cleanup function
+    const containerRefCurrent = containerRef.current;
+
     // Initialize the feed
     const elements = initializeInstagramFeed();
     setPostElements(elements);
@@ -194,11 +197,11 @@ const SocialMedia = () => {
       if (script) {
         script.remove();
       }
-      if (containerRef.current) {
-        containerRef.current.innerHTML = '';
+      if (containerRefCurrent) {
+        containerRefCurrent.innerHTML = '';
       }
     };
-  }, []);
+  }, [initializeInstagramFeed, instagramPosts, processEmbeds]);
 
   return (
     <section className="py-20 bg-[#FFFAEB]">
@@ -283,12 +286,16 @@ const SocialMedia = () => {
   );
 };
 
-export default SocialMedia;
-
-// Add this to make TypeScript happy
+// Type definition for window
 declare global {
   interface Window {
-    instgrm?: any;
+    instgrm?: {
+      Embeds: {
+        process: () => void;
+      };
+    };
     __instagramScriptLoaded?: boolean;
   }
 }
+
+export default SocialMedia;

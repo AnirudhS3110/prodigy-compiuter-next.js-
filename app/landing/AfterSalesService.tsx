@@ -1,6 +1,5 @@
 "use client";
 import React from 'react';
-import Link from 'next/link';
 import Image from 'next/image';
 
 const AfterSalesService = () => {
@@ -108,7 +107,7 @@ const AfterSalesService = () => {
                 </div>
                 
                 <h3 className="text-white text-2xl font-bold mb-3">Fast & Reliable Repairs</h3>
-                <p className="text-blue-200 leading-relaxed">Whether it's your laptop, printer, or accessories, we provide quick and efficient repairs to get you back on track.</p>
+                <p className="text-blue-200 leading-relaxed">Whether it&apos;s your laptop, printer, or accessories, we provide quick and efficient repairs to get you back on track.</p>
                 
                 
               </div>
@@ -124,7 +123,7 @@ const AfterSalesService = () => {
                 </div>
                 
                 <h3 className="text-white text-2xl font-bold mb-3">Free Diagnostics</h3>
-                <p className="text-blue-200 leading-relaxed">Not sure what's wrong with your device? Bring it in for a free diagnostic check, and we'll identify the issue right on the spot.</p>
+                <p className="text-blue-200 leading-relaxed">Not sure what&apos;s wrong with your device? Bring it in for a free diagnostic check, and we&apos;ll identify the issue right on the spot.</p>
                 
                
               </div>
@@ -140,7 +139,7 @@ const AfterSalesService = () => {
                 </div>
                 
                 <h3 className="text-white text-2xl font-bold mb-3">Hardware & Software Support</h3>
-                <p className="text-blue-200 leading-relaxed">From upgrading components like RAM or SSDs to resolving software issues, we're equipped to handle all your tech needs.</p>
+                <p className="text-blue-200 leading-relaxed">From upgrading components like RAM or SSDs to resolving software issues, we&apos;re equipped to handle all your tech needs.</p>
                 
                
               </div>
@@ -196,7 +195,7 @@ const AfterSalesService = () => {
           
           <div className="container mx-auto max-w-5xl px-6 relative z-10 py-16">
             <div className="text-center">
-              <h3 className="text-3xl md:text-4xl font-bold text-white mb-8 leading-tight">We're dedicated to delivering reliable and convenient after-sales service <br className="hidden md:block" /> so you can keep enjoying your tech without any hassles.</h3>
+              <h3 className="text-3xl md:text-4xl font-bold text-white mb-8 leading-tight">We&apos;re dedicated to delivering reliable and convenient after-sales service <br className="hidden md:block" /> so you can keep enjoying your tech without any hassles.</h3>
               
               <div className="flex flex-wrap gap-6 justify-center mt-10">
                 <a 

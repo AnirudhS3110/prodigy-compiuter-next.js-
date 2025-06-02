@@ -1,5 +1,3 @@
-import { Product } from "../types";
-
 export const products  = {
   // New ASUS Vivobook Products
   "asus-vivobook-go-14-ryzen-3": {

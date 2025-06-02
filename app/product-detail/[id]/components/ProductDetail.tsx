@@ -21,14 +21,12 @@ interface ProductDetailProps {
 
 const ProductDetail: React.FC<ProductDetailProps> = ({ productId }) => {
   const [activeImage, setActiveImage] = useState<string>('');
-  const [isImageLoaded, setIsImageLoaded] = useState<boolean>(false);
   const typedProducts = products as ProductsType;
   const product = typedProducts[productId];
   
   useEffect(() => {
     if (product?.mainImage) {
       setActiveImage(product.mainImage);
-      setIsImageLoaded(true);
     }
   }, [product]);
 
@@ -41,7 +39,7 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ productId }) => {
     const allProducts = Object.values(typedProducts) as Product[];
     
     // Filter products with same category or brand, excluding current product
-    let relatedProducts = allProducts.filter(p => {
+    const relatedProducts = allProducts.filter(p => {
       return (p.category === product.category || p.brand === product.brand) && 
              p.id !== product.id;
     });
