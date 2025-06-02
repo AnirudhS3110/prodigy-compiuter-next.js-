@@ -2,7 +2,7 @@
 
 import Script from "next/script";
 import { usePathname, useSearchParams } from "next/navigation";
-import { useEffect } from "react";
+import { useEffect, Suspense } from "react";
 
 // Declare gtag as a global function
 declare global {
@@ -12,7 +12,8 @@ declare global {
   }
 }
 
-export default function GoogleAnalytics() {
+// Split the component that uses useSearchParams
+function GoogleAnalyticsTracker() {
   const pathname = usePathname();
   const searchParams = useSearchParams();
 
@@ -28,6 +29,11 @@ export default function GoogleAnalytics() {
     }
   }, [pathname, searchParams]);
 
+  return null;
+}
+
+// Main component with scripts
+export default function GoogleAnalytics() {
   return (
     <>
       {/* Google Tag Manager */}
@@ -71,6 +77,11 @@ export default function GoogleAnalytics() {
           gtag('config', 'AW-16847051854');
         `}
       </Script>
+
+      {/* Wrap the component that uses useSearchParams in Suspense */}
+      <Suspense fallback={null}>
+        <GoogleAnalyticsTracker />
+      </Suspense>
     </>
   );
 } 
