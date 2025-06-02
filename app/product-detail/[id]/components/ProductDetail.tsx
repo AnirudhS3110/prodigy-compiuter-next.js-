@@ -8,7 +8,7 @@ import './product-detail.css';
 import NotFound from './NotFound';
 import ProductTabs from './ProductTabs';
 import { Product } from '../../../all-products/types';
-import NavBar from './navBar';
+
 
 // Type assertion for products
 type ProductsType = {
