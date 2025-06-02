@@ -53,7 +53,8 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ productId }) => {
   return (
     <>
       {/* Breadcrumb */}
-      <NavBar />
+      <div className='w-screen min-h-[100px] bg-[#162035]'></div>
+     
       <div className="bg-light py-3 border-b  border-gray-200">
         <div className="container mx-auto max-w-[1280px] px-6">
           <div className="flex items-center text-sm">

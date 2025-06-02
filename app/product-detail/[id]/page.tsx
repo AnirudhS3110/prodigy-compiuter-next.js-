@@ -20,10 +20,12 @@ export async function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: { id: string };
+  params: Promise<{ id: string }> | { id: string };
 }) {
+  // Await the params object if it's a promise
+  const resolvedParams = await Promise.resolve(params);
   const typedProducts = products as ProductsType;
-  const product = typedProducts[params.id];
+  const product = typedProducts[resolvedParams.id];
   
   if (!product) {
     return {
@@ -38,15 +40,18 @@ export async function generateMetadata({
 }
 
 // Server Component
-export default function ProductDetailPage({
+export default async function ProductDetailPage({
   params,
 }: {
-  params: { id: string };
+  params: Promise<{ id: string }> | { id: string };
 }) {
+  // Await the params object if it's a promise
+  const resolvedParams = await Promise.resolve(params);
+  
   // Pass the ID to the client component
   return (
      <ScrollSmootherWrapper>
-      <ProductDetail productId={params.id} />
+      <ProductDetail productId={resolvedParams.id} />
     </ScrollSmootherWrapper>
   );
 }

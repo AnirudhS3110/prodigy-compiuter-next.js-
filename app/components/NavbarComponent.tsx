@@ -14,6 +14,9 @@ const NavbarComponent = () => {
 
     // Handle scroll event to change navbar background
     useEffect(() => {
+        // Skip effect if we're not rendering the navbar
+        if (!shouldRender) return;
+        
         const handleScroll = () => {
             if (window.scrollY > 50) {
                 setScrolled(true);
@@ -26,7 +29,12 @@ const NavbarComponent = () => {
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
-    }, []);
+    }, [shouldRender]);
+
+    // Early return after all hooks are called
+    if (!shouldRender) {
+        return null;
+    }
 
     // Toggle mobile menu
     const toggleMobileMenu = () => {
@@ -52,10 +60,6 @@ const NavbarComponent = () => {
         if (href === '/#contact' && pathname.includes('/#contact')) return true;
         return false;
     };
-
-    if (!shouldRender) {
-        return null;
-    }
 
     return (
         <header 
