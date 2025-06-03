@@ -101,12 +101,12 @@ export default function HeroSection() {
             {/* Background Image */}
             <div className="relative w-full h-full">
               <Image 
-                src={getImageForSlide(0)} 
-                alt="Flagship Computer"
+              src={getImageForSlide(0)} 
+              alt="Flagship Computer"
                 fill
                 className="object-cover z-0"
                 priority
-              />
+            />
             </div>
 
             {/* Main Content Layer */}
@@ -129,11 +129,11 @@ export default function HeroSection() {
                     >
                       <div className="relative w-full h-full">
                         <Image 
-                          src="./assets/slide-1/slide-1-btn.png"
-                          alt="Call for Delivery Button"
+                        src="./assets/slide-1/slide-1-btn.png"
+                        alt="Call for Delivery Button"
                           fill
                           className="object-cover"
-                        />
+                      />
                       </div>
                     </button>
                   </div>
@@ -175,12 +175,12 @@ export default function HeroSection() {
             {/* Background Image */}
             <div className="relative w-full h-full">
               <Image 
-                src={getImageForSlide(1)}
-                alt="Flagship Computer"
+              src={getImageForSlide(1)}
+              alt="Flagship Computer"
                 fill
                 className="object-cover z-0"
                 priority
-              />
+            />
             </div>
 
             {/* Main Content Layer */}
@@ -221,11 +221,11 @@ export default function HeroSection() {
               <div className="min-w-[800px] hidden md:block h-screen pointer-events-none select-none">
                 <div className="relative w-full h-full">
                   <Image 
-                    src="./assets/slide-2/rigthsidelaps.png"
-                    alt="High-Performance Computer"
+                  src="./assets/slide-2/rigthsidelaps.png"
+                  alt="High-Performance Computer"
                     fill
                     className="object-cover"
-                  />
+                />
                 </div>
               </div>
             </div>
@@ -242,12 +242,12 @@ export default function HeroSection() {
             {/* Background Image */}
             <div className="relative w-full h-full">
               <Image 
-                src={getImageForSlide(2)}
-                alt="Professional Workstation"
+              src={getImageForSlide(2)}
+              alt="Professional Workstation" 
                 fill
                 className="object-cover"
                 priority
-              />
+            />
             </div>
             
             {/* Button from Figma positioned at the bottom */}
@@ -268,12 +268,12 @@ export default function HeroSection() {
               >
                 <div className="relative md:w-[350px] w-[100px]">
                   <Image 
-                    src="/assets/figma/slide3_button.png" 
-                    alt="View Featured Products"
+                  src="/assets/figma/slide3_button.png" 
+                  alt="View Featured Products" 
                     width={350}
                     height={100}
                     className="relative z-10"
-                  />
+                />
                 </div>
                 <div className="absolute inset-0 bg-white opacity-0 hover:opacity-10 transition-opacity duration-300 z-20"></div>
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-purple-500/20 opacity-0 hover:opacity-100 transition-opacity duration-500 z-10 pulse-effect"></div>

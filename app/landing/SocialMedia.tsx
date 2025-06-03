@@ -154,7 +154,7 @@ const SocialMedia = () => {
 
     // Initialize the feed
     const elements = initializeInstagramFeed();
-    
+
     // Try to process embeds immediately
     const immediateSuccess = processEmbeds(elements);
 

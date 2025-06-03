@@ -33,7 +33,7 @@ const ProductsSection: React.FC = () => {
         product.brand.toLowerCase() === filterCategory.toLowerCase()
       );
     }
-    
+
     // Group filtered products
     const grouped = groupProductsBySpecs(filtered);
     setGroupedProducts(grouped);

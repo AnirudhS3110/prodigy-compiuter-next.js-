@@ -19,7 +19,7 @@ const ProductCard: React.FC<ProductProps> = ({ id, title, imageSrc, specs, descr
   const encodedTitle = encodeURIComponent(title);
   
   // Add UTM parameters to track campaign performance
-  const productDetailUrl = `/product-detail?id=${id}&utm_source=homepage&utm_medium=featured&utm_campaign=product_card`;
+  const productDetailUrl = `/product-detail/${id}?utm_source=homepage&utm_medium=featured&utm_campaign=product_card`;
   const whatsappUrl = `https://wa.me/919985346363?text=I'm%20interested%20in%20${encodedTitle}&utm_source=homepage&utm_medium=whatsapp&utm_campaign=product_enquiry`;
   
   // Function to track Google Analytics events
