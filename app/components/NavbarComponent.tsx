@@ -225,7 +225,7 @@ const NavbarComponent = () => {
                             onClick={toggleMobileMenu}
                             aria-label="Toggle navigation menu"
                         >
-                            <i className={`fas ${mobileMenuOpen ? 'fa-times' : 'fa-bars'}`}></i>
+                            <i className={`fas ${mobileMenuOpen ? null : 'fa-bars'}`}></i>
                         </button>
                     </div>
                 </nav>
