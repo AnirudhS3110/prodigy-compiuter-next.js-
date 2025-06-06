@@ -64,11 +64,12 @@ export const products  = {
     category: "Laptops",
     brand: "Asus",
     shortDescription: "Versatile 14-inch laptop with modern design and reliable performance for everyday computing tasks.",
-    mainImage: "https://in.store.asus.com/media/catalog/product/e/1/e1404fa_cl_slvr_mso_refresh_nmbpd_1a__3.png?width=439&height=439&store=en_IN&image-type=image",
+    mainImage: "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_mxd_blck_non_fngrprnt_2_2.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
     images: [
-      "https://in.store.asus.com/media/catalog/product/e/1/e1404fa_cl_slvr_mso_refresh_nmbpd_1a__3.png?width=439&height=439&store=en_IN&image-type=image",
-      "https://dlcdnwebimgs.asus.com/gain/327956c6-1251-42fe-8673-bf692b896a24/w800",
-      "https://dlcdnwebimgs.asus.com/gain/155855e3-d33f-4dc1-94c8-34d2907c5dea/w800"
+      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_mxd_blck_non_fngrprnt_5_2.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_mxd_blck_non_fngrprnt_3_2.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_mxd_blck_non_fngrprnt_4_2.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_mxd_blck_non_fngrprnt_6_2.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439"
     ],
     highlights: [
       "Intel Core i3/i5 processor options for reliable performance",
@@ -110,12 +111,14 @@ export const products  = {
     category: "Laptops",
     brand: "Asus",
     shortDescription: "15.6-inch budget-friendly laptop with AMD Ryzen 3 processor, ideal for students and basic computing needs.",
-    mainImage: "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_mxd_blck_non_fngrprnt_1.png?width=439&height=439&store=en_IN&image-type=image",
+    mainImage: "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_mxd_blck_non_fngrprnt_2_2.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
     images: [
-      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_mxd_blck_non_fngrprnt_1.png?width=439&height=439&store=en_IN&image-type=image",
-      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_mxd_blck_non_fngrprnt_2_2.png?width=439&height=439&store=en_IN&image-type=image",
-      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_mxd_blck_non_fngrprnt_3_2.png?width=439&height=439&store=en_IN&image-type=image"
+      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_mxd_blck_non_fngrprnt_5_2.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_mxd_blck_non_fngrprnt_3_2.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_mxd_blck_non_fngrprnt_4_2.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_mxd_blck_non_fngrprnt_6_2.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439"
     ],
+    
     highlights: [
       "AMD Ryzen™ 3 processor for everyday computing tasks",
       "15.6-inch FHD display for comfortable viewing",
@@ -153,12 +156,15 @@ export const products  = {
     category: "Laptops",
     brand: "Asus",
     shortDescription: "15.6-inch laptop with AMD Ryzen 3 processor, offering reliable performance for everyday tasks.",
-    mainImage: "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_cl_slvr_nonoled_and_oled_1_.png?width=439&height=439&store=en_IN&image-type=image",
+    mainImage: "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_cl_slvr_nonoled_and_oled_1_.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
     images: [
-      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_cl_slvr_nonoled_and_oled_1_.png?width=439&height=439&store=en_IN&image-type=image",
-      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_cl_slvr_nonoled_and_oled_2_.png?width=439&height=439&store=en_IN&image-type=image",
-      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_cl_slvr_nonoled_and_oled_3_.png?width=439&height=439&store=en_IN&image-type=image"
+      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_cl_slvr_nonoled_and_oled_1_.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_cl_slvr_nonoled_and_oled_2_.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_cl_slvr_nonoled_and_oled_3_.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_cl_slvr_nonoled_and_oled_4_.png?quality=80&bg-color=255,255,255&fit=bounds&height=86&width=86&canvas=86:86",
+      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_cl_slvr_nonoled_and_oled_5_.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439"
     ],
+   
     highlights: [
       "Enhanced configuration for better performance",
       "Large 15.6-inch display",
@@ -197,11 +203,18 @@ export const products  = {
     category: "Laptops",
     brand: "Asus",
     shortDescription: "15.6-inch OLED laptop with stunning display quality and vibrant colors for enhanced visual experience.",
-    mainImage: "https://in.store.asus.com/media/catalog/product/e/1/e1504ga-lk321ws_90nb0zt1-m00990.jpg?width=439&height=439&store=en_IN&image-type=image",
+     mainImage: "https://in.store.asus.com/media/catalog/product/e/1/e1504ga-lk321ws_90nb0zt1-m00990.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
     images: [
-      "https://in.store.asus.com/media/catalog/product/e/1/e1504ga-lk321ws_90nb0zt1-m00990_2_.jpg?width=439&height=439&store=en_IN&image-type=image",
-      "https://in.store.asus.com/media/catalog/product/e/1/e1504ga-lk321ws_90nb0zt1-m00990_5_.jpg?width=439&height=439&store=en_IN&image-type=image"
+      "https://in.store.asus.com/media/catalog/product/e/1/e1504ga-lk321ws_90nb0zt1-m00990.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/e/1/e1504ga-lk321ws_90nb0zt1-m00990_2_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/e/1/e1504ga-lk321ws_90nb0zt1-m00990_5_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/e/1/e1504ga-lk321ws_90nb0zt1-m00990_4_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=86&width=86&canvas=86:86",
+      "https://in.store.asus.com/media/catalog/product/e/1/e1504ga-lk321ws_90nb0zt1-m00990_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/e/1/e1504ga-lk321ws_90nb0zt1-m00990_7_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439"
     ],
+    
+
+    
     highlights: [
       "15.6-inch OLED display with vibrant colors and deep contrast",
       "Ultra-thin bezels for immersive viewing experience",
@@ -238,10 +251,14 @@ export const products  = {
     category: "Laptops",
     brand: "Asus",
     shortDescription: "15.6-inch laptop with Intel processor and 8GB RAM, suitable for everyday computing and productivity tasks.",
-    mainImage: "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_cl_slvr_nonoled_and_oled_2__3.png?width=439&height=439&store=en_IN&image-type=image",
+    mainImage: "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_cl_slvr_nonoled_and_oled_1__3.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
     images: [
-      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_cl_slvr_nonoled_and_oled_5__3.png?width=439&height=439&store=en_IN&image-type=image",
-      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_cl_slvr_nonoled_and_oled_6__3.png?width=439&height=439&store=en_IN&image-type=image"
+        "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_cl_slvr_nonoled_and_oled_2__3.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+        "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_cl_slvr_nonoled_and_oled_3__3.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+        "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_cl_slvr_nonoled_and_oled_4__3.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+        "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_cl_slvr_nonoled_and_oled_6__3.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+        "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_cl_slvr_nonoled_and_oled_5__3.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439"
+        
     ],
     highlights: [
       "Intel processor for reliable performance",
@@ -280,11 +297,16 @@ export const products  = {
     category: "Laptops",
     brand: "Asus",
     shortDescription: "Versatile 15.6-inch laptop with modern features and reliable performance for various computing needs.",
-    mainImage: "https://in.store.asus.com/media/catalog/product/v/i/vivobook_15_x1504z_x1504v_product_photo_1b_quite_blue_05_1.jpg?width=439&height=439&store=en_IN&image-type=image",
+    mainImage: "https://in.store.asus.com/media/catalog/product/v/i/vivobook_15_x1504z_x1504v_product_photo_1b_quite_blue_05_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
     images: [
-      "https://in.store.asus.com/media/catalog/product/2/_/2._display_x1504za_qt_blu_nonfngrprnt_bcklt_kbd_2.jpg?width=439&height=439&store=en_IN&image-type=image",
-      "https://in.store.asus.com/media/catalog/product/6/_/6._battery_x1504za_qt_blu_nonfngrprnt_bcklt_kbd_2.jpg?width=439&height=439&store=en_IN&image-type=image"
+        "https://in.store.asus.com/media/catalog/product/2/_/2._display_x1504za_qt_blu_nonfngrprnt_bcklt_kbd_2.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+        "https://in.store.asus.com/media/catalog/product/3/_/3.1_i3-12_16gb.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+        "https://in.store.asus.com/media/catalog/product/4/_/4._keyboard_x1504za_qt_blu_nonfngrprnt_bcklt_kbd_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+        "https://in.store.asus.com/media/catalog/product/5/_/5._security_x1504za_qt_blu_nonfngrprnt_bcklt_kbd_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+        "https://in.store.asus.com/media/catalog/product/6/_/6._battery_x1504za_qt_blu_nonfngrprnt_bcklt_kbd_2.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439"
+        
     ],
+    
     highlights: [
       "15.6-inch FHD NanoEdge display",
       "Multiple processor options available",
@@ -320,11 +342,16 @@ export const products  = {
     category: "Laptops",
     brand: "Asus",
     shortDescription: "Compact 14-inch laptop with AMD Ryzen 5 processor and 8GB RAM for enhanced performance.",
-    mainImage: "https://in.store.asus.com/media/catalog/product/e/1/e1404fa_cl_slvr_mso_refresh_nmbpd_1a__2.png?width=439&height=439&store=en_IN&image-type=image",
+    mainImage: "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_mxd_blck_non_fngrprnt_1_1.png?width=439&height=439&store=en_IN&image-type=image",
     images: [
-      "https://in.store.asus.com/media/catalog/product/e/1/e1404fa_cl_slvr_mso_refresh_nmbpd_2__2.jpg?width=439&height=439&store=en_IN&image-type=image",
-      "https://in.store.asus.com/media/catalog/product/e/1/e1404fa_cl_slvr_mso_refresh_nmbpd_3__2.jpg?width=439&height=439&store=en_IN&image-type=image"
+      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_mxd_blck_non_fngrprnt_2_1_1.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_mxd_blck_non_fngrprnt_3_1_1.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_mxd_blck_non_fngrprnt_4_1_1.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_mxd_blck_non_fngrprnt_6_1_1.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439"
+
     ],
+    
+    
     highlights: [
       "AMD Ryzen™ 5 processor for superior performance",
       "8GB RAM for efficient multitasking",
@@ -362,10 +389,13 @@ export const products  = {
     category: "Laptops",
     brand: "Asus",
     shortDescription: "High-performance 14-inch laptop with AMD Ryzen 5 processor and 16GB RAM for demanding tasks.",
-    mainImage: "https://in.store.asus.com/media/catalog/product/e/1/e1404fa_cl_slvr_mso_refresh_nmbpd_1a_.png?width=439&height=439&store=en_IN&image-type=image",
+    mainImage: "https://in.store.asus.com/media/catalog/product/e/1/e1404fa_cl_slvr_mso_refresh_nmbpd_1a__2.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
     images: [
-      "https://in.store.asus.com/media/catalog/product/e/1/e1404fa_cl_slvr_mso_refresh_nmbpd_1b_.jpg?width=439&height=439&store=en_IN&image-type=image",
-      "https://in.store.asus.com/media/catalog/product/e/1/e1404fa_cl_slvr_mso_refresh_nmbpd_2__2.jpg?width=439&height=439&store=en_IN&image-type=image"
+      "https://in.store.asus.com/media/catalog/product/e/1/e1404fa_cl_slvr_mso_refresh_nmbpd_1b__2.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/e/1/e1404fa_cl_slvr_mso_refresh_nmbpd_2__2.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/e/1/e1404fa_cl_slvr_mso_refresh_nmbpd_3__2.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/x/1/x1404va_cl_slvr_mso_rfrsh_bcklt_kbd_supp_nbpd_4__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/x/1/x1404va_cl_slvr_mso_rfrsh_bcklt_kbd_supp_nbpd_6__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439"
     ],
     highlights: [
       "AMD Ryzen™ 5 processor for excellent performance",
@@ -397,7 +427,449 @@ export const products  = {
     includedComponents: ["Laptop", "Power Adapter", "User Manual"]
   },
 
+  
+
+
   "asus-tuf-gaming-a15": {
+    id: "asus-tuf-gaming-a15",
+    name: "Asus TUF Gaming A15",
+    showPrice: false,
+    category: "Laptops",
+    brand: "Asus",
+    shortDescription: "Gaming laptop powered by AMD Ryzen 7 processor and NVIDIA RTX 3050 GPU for smooth gaming experience.",
+    mainImage: "https://in.store.asus.com/media/catalog/product/1/_/1._main_f15_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+    images: [
+      "https://in.store.asus.com/media/catalog/product/2/_/2._cpu_1_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/3/_/3._display_1_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/4/_/4._cooling_1_1.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",  
+      "https://in.store.asus.com/media/catalog/product/6/_/6._battery_1_1.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/9/_/9._design_1_1.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439"
+    ],
+    highlights: [
+      "AMD Ryzen 7 7435HS Mobile Processor (3.1GHz, 20MB Cache, up to 4.5GHz, 8 cores, 16 Threads) for demanding tasks.",
+      "16GB DDR5-5600 MHz RAM (expandable to 32GB) and 512GB PCIe 4.0 NVMe M.2 SSD for faster load times.",
+      "NVIDIA GeForce RTX 3050 Laptop GPU with 4GB GDDR6 VRAM for smooth gaming performance.",
+      "15.6-inch FHD (1920 x 1080) 144Hz display with 250 nits brightness and anti-glare coating.",
+      "Fast charging battery that can recharge from 0-50% in just 30 minutes."
+    ],
+    specifications: [
+      { name: "Processor", value: "AMD Ryzen 7 7435HS (3.1GHz, up to 4.5GHz)" },
+      { name: "RAM", value: "16GB DDR5-5600 MHz" },
+      { name: "Storage", value: "512GB PCIe 4.0 NVMe M.2 SSD" },
+      { name: "Graphics", value: "NVIDIA GeForce RTX 3050 (4GB GDDR6)" },
+      { name: "Display", value: "15.6-inch FHD (1920 x 1080) 144Hz" },
+      { name: "Operating System", value: "Windows 11 Home" },
+      { name: "Battery", value: "48WHrs, 3-cell Li-ion" },
+      { name: "Weight", value: "2.3 kg" },
+      { name: "Keyboard", value: "Backlit Chiclet Keyboard 1-Zone RGB" },
+      { name: "Ports", value: "HDMI 2.1 TMDS" }
+    ],
+    detailedSpecs: {
+      "Brand": "ASUS",
+      "Series": "TUF Gaming F15",
+      "Colour": "Black, R7 | RTX 3050",
+      "Form Factor": "Ultra-Portable",
+      "Item Height": "43.2 Centimeters",
+      "Item Width": "31 Centimeters",
+      "Standing screen display size": "15.6 Inches",
+      "Screen Resolution": "1920 x 1080 pixel",
+      "Resolution": "1920 x 1080 Pixels",
+      "Product Dimensions": "10.4 x 31 x 43.2 cm; 2.3 kg",
+      "Batteries": "1 Lithium Ion batteries required. (included)",
+      "Processor Brand": "AMD",
+      "Processor Type": "AMD Ryzen 7",
+      "Processor Speed": "3.1 GHz",
+      "Processor Count": "8",
+      "RAM Size": "16",
+      "Memory Technology": "DDR5",
+      "Computer Memory Type": "DDR5 RAM",
+      "Maximum Memory Supported": "32 GB",
+      "Hard Drive Size": "512 GB",
+      "Hard Disk Description": "SSD",
+      "Audio Details": "Headphones",
+      "Speaker Description": "DTS Software",
+      "Graphics Coprocessor": "NVIDIA GeForce RTX 3050",
+      "Graphics Chipset Brand": "NVIDIA",
+      "Graphics Card Description": "Dedicated",
+      "Graphics RAM Type": "GDDR6",
+      "Graphics Card Ram Size": "4 GB",
+      "Graphics Card Interface": "PCI Express",
+      "Connectivity Type": "Wi-Fi",
+      "Wireless Type": "Bluetooth, 802.11bgn",
+      "Number of HDMI Ports": "1",
+      "Voltage": "240 Volts",
+      "Optical Drive Type": "No Optical Storage",
+      "Operating System": "Windows 11 Home",
+      "Average Battery Life": "3 Hours",
+      "Are Batteries Included": "Yes",
+      "Lithium Battery Energy Content": "48 Watt Hours",
+      "Number of Lithium Ion Cells": "3"
+    },
+    includedComponents: ["Laptop", "Adapter", "User Manuals"]
+  },
+
+  "asus-rog-strix-g16": {
+    id: "asus-rog-strix-g16",
+    name: "ASUS ROG Strix G16",
+    showPrice: false,
+    category: "Laptops",
+    brand: "Asus",
+    shortDescription: "High-end gaming laptop with 13th Gen Intel Core i7 processor and RTX 4050 GPU for competitive gaming.",
+    mainImage: "https://dlcdnwebimgs.asus.com/gain/AB1BCB9B-04C0-4A5C-87F7-36A6B4800E6A/w1000/h732",
+    images: [
+      "https://dlcdnwebimgs.asus.com/gain/80753084-E780-4DEC-BCD7-88F29D881E6B/w1000/h732",
+      "https://dlcdnwebimgs.asus.com/gain/F50BC445-87FA-4C60-BEAD-5C9E546DDC76/w1000/h732",
+      "https://dlcdnwebimgs.asus.com/gain/F50BC445-87FA-4C60-BEAD-5C9E546DDC76/w1000/h732",
+      "https://dlcdnwebimgs.asus.com/gain/F50BC445-87FA-4C60-BEAD-5C9E546DDC76/w1000/h732",
+      "https://dlcdnwebimgs.asus.com/gain/F50BC445-87FA-4C60-BEAD-5C9E546DDC76/w1000/h732"
+    ],
+    highlights: [
+      "13th Gen Intel Core i7-13650HX Processor (2.6 GHz, 24M Cache, up to 4.9 GHz, 14 cores) for high performance multitasking.",
+      "16GB DDR5 4800 MHz RAM (expandable to 32GB) and massive 1TB PCIe 4.0 NVMe M.2 SSD storage.",
+      "NVIDIA GeForce RTX 4050 Laptop GPU with MUX Switch + NVIDIA Advanced Optimus (6GB GDDR6 VRAM).",
+      "16-inch display with 1920 x 1200 resolution for immersive gaming experience.",
+      "Includes access to over 100 high-quality PC games with Game Pass subscription."
+    ],
+    specifications: [
+      { name: "Processor", value: "13th Gen Intel Core i7-13650HX (2.6GHz, up to 4.9GHz)" },
+      { name: "RAM", value: "16GB DDR5 4800 MHz" },
+      { name: "Storage", value: "1TB PCIe 4.0 NVMe M.2 SSD" },
+      { name: "Graphics", value: "NVIDIA GeForce RTX 4050 (6GB GDDR6)" },
+      { name: "Display", value: "16-inch (1920 x 1200)" },
+      { name: "Operating System", value: "Windows 11 Home" },
+      { name: "Battery", value: "90 Watt Hours" },
+      { name: "Weight", value: "2.5 kg" },
+      { name: "Ports", value: "USB 2.0, USB 3.0, HDMI, Ethernet" },
+      { name: "Color", value: "Eclipse Gray" }
+    ],
+    detailedSpecs: {
+      "Brand": "ASUS",
+      "Series": "ROG Strix G16",
+      "Colour": "Eclipse Gray (RTX 4050)",
+      "Form Factor": "Gaming Laptop",
+      "Item Height": "43.5 Centimeters",
+      "Item Width": "33.8 Centimeters",
+      "Standing screen display size": "16 Inches",
+      "Screen Resolution": "1920 x 1200 pixels",
+      "Resolution": "1920 x 1200",
+      "Product Dimensions": "10.4 x 33.8 x 43.5 cm; 2.5 kg",
+      "Batteries": "1 Lithium Ion batteries required. (included)",
+      "Processor Brand": "Intel",
+      "Processor Type": "Core i7",
+      "Processor Speed": "4.9 GHz",
+      "Processor Count": "14",
+      "RAM Size": "16 GB",
+      "Memory Technology": "SODIMM",
+      "Computer Memory Type": "SODIMM",
+      "Maximum Memory Supported": "32 GB",
+      "Memory Clock Speed": "4.9 GHz",
+      "Hard Drive Size": "1 TB",
+      "Hard Disk Description": "SSD",
+      "Hard Drive Interface": "PCIE x 4",
+      "Audio Details": "Headphones, Speakers",
+      "Speaker Description": "Built-in speakers",
+      "Graphics Coprocessor": "NVIDIA GeForce RTX 4050",
+      "Graphics Chipset Brand": "NVIDIA",
+      "Graphics Card Description": "Dedicated",
+      "Graphics RAM Type": "GDDR6",
+      "Graphics Card Ram Size": "6 GB",
+      "Graphics Card Interface": "PCI Express",
+      "Connectivity Type": "Bluetooth, Wi-Fi",
+      "Wireless Type": "Bluetooth, 802.11ax",
+      "Number of USB 2.0 Ports": "1",
+      "Number of USB 3.0 Ports": "3",
+      "Number of HDMI Ports": "1",
+      "Number of Ethernet Ports": "1",
+      "Voltage": "20 Volts",
+      "Wattage": "280 Watts",
+      "Optical Drive Type": "No Optical Storage",
+      "Power Source": "Battery Powered",
+      "Hardware Platform": "PC",
+      "Operating System": "Windows 11 Home",
+      "Average Battery Life": "90 Watt Hours",
+      "Are Batteries Included": "Yes",
+      "Number of Lithium Ion Cells": "4"
+    },
+    includedComponents: ["Laptop", "Adapter", "User Manual"]
+  },
+
+  "asus-vivobook-14-intel-8gb": {
+    id: "asus-vivobook-14-intel-8gb",
+    name: "ASUS Vivobook 14 Intel 8GB",
+    showPrice: false,
+    category: "Laptops",
+    brand: "Asus",
+    shortDescription: "14-inch laptop with Intel processor and 8GB RAM, perfect for productivity and everyday tasks.",
+     mainImage: "https://in.store.asus.com/media/catalog/product/e/1/e1404fa_cl_slvr_mso_refresh_nmbpd_1a__2.png?width=439&height=439&store=en_IN&image-type=image",
+    images: [
+      "https://in.store.asus.com/media/catalog/product/e/1/e1404fa_cl_slvr_mso_refresh_nmbpd_2__2.jpg?width=439&height=439&store=en_IN&image-type=image",
+      "https://in.store.asus.com/media/catalog/product/e/1/e1404fa_cl_slvr_mso_refresh_nmbpd_3__2.jpg?width=439&height=439&store=en_IN&image-type=image",
+      "https://in.store.asus.com/media/catalog/product/e/1/e1404fa_cl_slvr_mso_refresh_nmbpd_4_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=86&width=86&canvas=86:86",
+      "https://in.store.asus.com/media/catalog/product/e/1/e1404fa_cl_slvr_mso_refresh_nmbpd_5_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439"
+    ],
+   
+    highlights: [
+      "Intel Core processor for reliable performance",
+      "8GB RAM for smooth operations",
+      "Compact 14-inch design",
+      "FHD display with vivid colors",
+      "Multiple connectivity options"
+    ],
+    specifications: [
+      { name: "Processor", value: "Intel Core i3/i5" },
+      { name: "RAM", value: "8GB DDR4" },
+      { name: "Storage", value: "256GB SSD" },
+      { name: "Display", value: "14-inch FHD (1920 x 1080)" },
+      { name: "Graphics", value: "Intel Integrated Graphics" },
+      { name: "Operating System", value: "Windows 11 Home" },
+      { name: "Weight", value: "1.4kg" },
+      { name: "Battery", value: "50WHrs" },
+      { name: "Ports", value: "USB 2.0, USB 3.0, USB-C, HDMI" },
+      { name: "Connectivity", value: "Wi-Fi 5, Bluetooth" }
+    ],
+    detailedSpecs: {
+      "Brand": "ASUS",
+      "Series": "Vivobook 14",
+      "Processor": "Intel",
+      "RAM Size": "8 GB",
+      "Display Size": "14 Inches",
+      "Operating System": "Windows 11 Home"
+    },
+    includedComponents: ["Laptop", "Power Adapter", "User Manual"]
+  },
+
+  "asus-vivobook-14-intel-16gb": {
+    id: "asus-vivobook-14-intel-16gb",
+    name: "ASUS Vivobook 14 Intel 16GB",
+    showPrice: false,
+    category: "Laptops",
+    brand: "Asus",
+    shortDescription: "Premium 14-inch laptop with Intel processor and 16GB RAM for enhanced multitasking.",
+     mainImage: "https://in.store.asus.com/media/catalog/product/x/1/x1404va_qt_blu_mso_rfrsh_bcklt_kbd_supp_nbpd_1b__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+    images: [
+      "https://in.store.asus.com/media/catalog/product/x/1/x1404va_qt_blu_mso_rfrsh_bcklt_kbd_supp_nbpd_2__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/x/1/x1404va_qt_blu_mso_rfrsh_bcklt_kbd_supp_nbpd_3__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/x/1/x1404va_qt_blu_mso_rfrsh_bcklt_kbd_supp_nbpd_4__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/x/1/x1404va_qt_blu_mso_rfrsh_bcklt_kbd_supp_nbpd_5__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/x/1/x1404va_qt_blu_mso_rfrsh_bcklt_kbd_supp_nbpd_6__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439"
+    ],
+   
+    
+    highlights: [
+      "Intel Core processor for powerful performance",
+      "16GB RAM for heavy multitasking",
+      "Premium build quality",
+      "Enhanced graphics performance",
+      "Long-lasting battery life"
+    ],
+    specifications: [
+      { name: "Processor", value: "Intel Core i5/i7" },
+      { name: "RAM", value: "16GB DDR4" },
+      { name: "Storage", value: "512GB SSD" },
+      { name: "Display", value: "14-inch FHD (1920 x 1080)" },
+      { name: "Graphics", value: "Intel Integrated Graphics" },
+      { name: "Operating System", value: "Windows 11 Home" },
+      { name: "Weight", value: "1.4kg" },
+      { name: "Battery", value: "50WHrs" },
+      { name: "Ports", value: "USB 2.0, USB 3.0, USB-C, HDMI" },
+      { name: "Connectivity", value: "Wi-Fi 6, Bluetooth" }
+    ],
+    detailedSpecs: {
+      "Brand": "ASUS",
+      "Series": "Vivobook 14",
+      "Processor": "Intel",
+      "RAM Size": "16 GB",
+      "Display Size": "14 Inches",
+      "Operating System": "Windows 11 Home"
+    },
+    includedComponents: ["Laptop", "Power Adapter", "User Manual"]
+  },
+
+  "asus-vivobook-go-15-ryzen-5-16gb": {
+    id: "asus-vivobook-go-15-ryzen-5-16gb",
+    name: "ASUS Vivobook Go 15 Ryzen 5 16GB",
+    showPrice: false,
+    category: "Laptops",
+    brand: "Asus",
+    shortDescription: "15.6-inch laptop with AMD Ryzen 5 processor and 16GB RAM for high-performance computing.",
+    mainImage: "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_mxd_blck_non_fngrprnt.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+    images: [
+      "https://in.store.asus.com/media/catalog/product/v/i/vivobook-go-x1504_black_performance-03_1_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/v/i/vivobook-go-x1504_black_display-non-oled_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/v/i/vivobook-go-x1504_black_software_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/v/i/vivobook-go-x1504_black_thin-_-light_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/v/i/vivobook-go-x1504_black_connectivity__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/v/i/vivobook-go-x1504_black_wide-180_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439"
+    ],
+    
+    
+    highlights: [
+      "AMD Ryzen™ 5 processor for excellent performance",
+      "16GB RAM for seamless multitasking",
+      "15.6-inch FHD display",
+      "Advanced graphics capabilities",
+      "Fast SSD storage"
+    ],
+    specifications: [
+      { name: "Processor", value: "AMD Ryzen™ 5" },
+      { name: "RAM", value: "16GB DDR4" },
+      { name: "Storage", value: "512GB SSD" },
+      { name: "Display", value: "15.6-inch FHD (1920 x 1080)" },
+      { name: "Graphics", value: "AMD Radeon™ Graphics" },
+      { name: "Operating System", value: "Windows 11 Home" },
+      { name: "Weight", value: "1.7kg" },
+      { name: "Battery", value: "50WHrs" },
+      { name: "Ports", value: "USB 2.0, USB 3.0, USB-C, HDMI" },
+      { name: "Connectivity", value: "Wi-Fi 6, Bluetooth" }
+    ],
+    detailedSpecs: {
+      "Brand": "ASUS",
+      "Series": "Vivobook Go 15",
+      "Processor": "AMD Ryzen™ 5",
+      "RAM Size": "16 GB",
+      "Display Size": "15.6 Inches",
+      "Operating System": "Windows 11 Home"
+    },
+    includedComponents: ["Laptop", "Power Adapter", "User Manual"]
+  },
+
+  "asus-vivobook-go-15-ryzen-5-8gb": {
+    id: "asus-vivobook-go-15-ryzen-5-8gb",
+    name: "ASUS Vivobook Go 15 Ryzen 5 8GB",
+    showPrice: false,
+    category: "Laptops",
+    brand: "Asus",
+    shortDescription: "15.6-inch laptop with AMD Ryzen 5 processor and 8GB RAM for balanced performance.",
+    mainImage: "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_mxd_blck_non_fngrprnt_1_1.png?width=439&height=439&store=en_IN&image-type=image",
+    images: [
+      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_mxd_blck_non_fngrprnt_2_1_1.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_mxd_blck_non_fngrprnt_3_1_1.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_mxd_blck_non_fngrprnt_4_1_1.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_mxd_blck_non_fngrprnt_6_1_1.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439"
+
+    ],
+  
+    highlights: [
+      "AMD Ryzen™ 5 processor for solid performance",
+      "8GB RAM for daily computing tasks",
+      "Large 15.6-inch display",
+      "Efficient power management",
+      "Comprehensive port selection"
+    ],
+    specifications: [
+      { name: "Processor", value: "AMD Ryzen™ 5" },
+      { name: "RAM", value: "8GB DDR4" },
+      { name: "Storage", value: "256GB SSD" },
+      { name: "Display", value: "15.6-inch FHD (1920 x 1080)" },
+      { name: "Graphics", value: "AMD Radeon™ Graphics" },
+      { name: "Operating System", value: "Windows 11 Home" },
+      { name: "Weight", value: "1.7kg" },
+      { name: "Battery", value: "42WHrs" },
+      { name: "Ports", value: "USB 2.0, USB 3.0, HDMI" },
+      { name: "Connectivity", value: "Wi-Fi 5, Bluetooth" }
+    ],
+    detailedSpecs: {
+      "Brand": "ASUS",
+      "Series": "Vivobook Go 15",
+      "Processor": "AMD Ryzen™ 5",
+      "RAM Size": "8 GB",
+      "Display Size": "15.6 Inches",
+      "Operating System": "Windows 11 Home"
+    },
+    includedComponents: ["Laptop", "Power Adapter", "User Manual"]
+  },
+
+  "asus-vivobook-go-15-e1504fa-nj521ws": {
+    id: "asus-vivobook-go-15-e1504fa-nj521ws",
+    name: "ASUS Vivobook Go 15 E1504FA-NJ521WS",
+    showPrice: false,
+    category: "Laptops",
+    brand: "Asus",
+    shortDescription: "15.6-inch laptop model E1504FA-NJ521WS with optimized performance for everyday use.",
+    mainImage: "https://in.store.asus.com/media/catalog/product/9/0/90nb0zr1-m00ah0-e1504fa-nj521ws_1_.png?store=en_IN&image-type=image",
+    images: [
+      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_cl_slvr_nonoled_and_oled_2__2.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_cl_slvr_nonoled_and_oled_3__2.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_cl_slvr_nonoled_and_oled_4__2.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_cl_slvr_nonoled_and_oled_5__2.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_cl_slvr_nonoled_and_oled_6__2.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439"
+    ],
+    highlights: [
+      "Optimized configuration for productivity",
+      "15.6-inch FHD display",
+      "Reliable performance for daily tasks",
+      "Energy-efficient design",
+      "Modern connectivity options"
+    ],
+    specifications: [
+      { name: "Processor", value: "AMD Ryzen™ 3/5" },
+      { name: "RAM", value: "8GB DDR4" },
+      { name: "Storage", value: "512GB SSD" },
+      { name: "Display", value: "15.6-inch FHD (1920 x 1080)" },
+      { name: "Graphics", value: "AMD Radeon™ Graphics" },
+      { name: "Operating System", value: "Windows 11 Home" },
+      { name: "Weight", value: "1.7kg" },
+      { name: "Battery", value: "42WHrs" },
+      { name: "Ports", value: "USB 2.0, USB 3.0, HDMI" },
+      { name: "Connectivity", value: "Wi-Fi, Bluetooth" }
+    ],
+    detailedSpecs: {
+      "Brand": "ASUS",
+      "Series": "Vivobook Go 15",
+      "Model": "E1504FA-NJ521WS",
+      "Display Size": "15.6 Inches",
+      "Operating System": "Windows 11 Home"
+    },
+    includedComponents: ["Laptop", "Power Adapter", "User Manual"]
+  },
+
+  "asus-vivobook-go-15-e1504fa-nj5541ws": {
+    id: "asus-vivobook-go-15-e1504fa-nj5541ws",
+    name: "ASUS Vivobook Go 15 E1504FA-NJ5541WS",
+    showPrice: false,
+    category: "Laptops",
+    brand: "Asus",
+    shortDescription: "15.6-inch laptop model E1504FA-NJ5541WS with enhanced features and performance.",
+    mainImage: "https://in.store.asus.com/media/catalog/product/9/0/90nb0zr1-m00ah0-e1504fa-nj521ws_1_.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+    images: [
+      "https://in.store.asus.com/media/catalog/product/9/0/90nb0zr1-m00ah0-e1504fa-nj521ws_9_.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/9/0/90nb0zr1-m00ah0-e1504fa-nj521ws_5_.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/9/0/90nb0zr1-m00ah0-e1504fa-nj521ws_3_.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/9/0/90nb0zr1-m00ah0-e1504fa-nj521ws_6_.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/9/0/90nb0zr1-m00ah0-e1504fa-nj521ws_7_.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+
+    ],
+   
+    highlights: [
+      "Enhanced configuration for better performance",
+      "Large 15.6-inch display",
+      "Improved graphics capabilities",
+      "Fast SSD storage",
+      "Multiple connectivity options"
+    ],
+    specifications: [
+      { name: "Processor", value: "AMD Ryzen™ 5" },
+      { name: "RAM", value: "8GB DDR4" },
+      { name: "Storage", value: "512GB SSD" },
+      { name: "Display", value: "15.6-inch FHD (1920 x 1080)" },
+      { name: "Graphics", value: "AMD Radeon™ Graphics" },
+      { name: "Operating System", value: "Windows 11 Home" },
+      { name: "Weight", value: "1.7kg" },
+      { name: "Battery", value: "50WHrs" },
+      { name: "Ports", value: "USB 2.0, USB 3.0, USB-C, HDMI" },
+      { name: "Connectivity", value: "Wi-Fi 6, Bluetooth" }
+    ],
+    detailedSpecs: {
+      "Brand": "ASUS",
+      "Series": "Vivobook Go 15",
+      "Model": "E1504FA-NJ5541WS",
+      "Display Size": "15.6 Inches",
+      "Operating System": "Windows 11 Home"
+    },
+    includedComponents: ["Laptop", "Power Adapter", "User Manual"]
+  },
+
+  "asus-tuf-gaming-a15/": {
     id: "asus-tuf-gaming-a15",
     name: "Asus TUF Gaming A15",
     showPrice: false,
@@ -475,7 +947,7 @@ export const products  = {
     includedComponents: ["Laptop", "Adapter", "User Manuals"]
   },
 
-  "asus-rog-strix-g16": {
+  "asus-rog-strix-g16/": {
     id: "asus-rog-strix-g16",
     name: "ASUS ROG Strix G16",
     showPrice: false,
@@ -560,417 +1032,104 @@ export const products  = {
     includedComponents: ["Laptop", "Adapter", "User Manual"]
   },
 
-  "asus-vivobook-14-intel-8gb": {
-    id: "asus-vivobook-14-intel-8gb",
-    name: "ASUS Vivobook 14 Intel 8GB",
-    showPrice: false,
-    category: "Laptops",
-    brand: "Asus",
-    shortDescription: "14-inch laptop with Intel processor and 8GB RAM, perfect for productivity and everyday tasks.",
-    mainImage: "https://in.store.asus.com/media/catalog/product/x/1/x1404va_cl_slvr_mso_rfrsh_bcklt_kbd_supp_nbpd_1__1.jpg?width=439&height=439&store=en_IN&image-type=image",
+  "asus-vivobook-14-flip-oled-tp3407sa": {
+    "id": "asus-vivobook-14-flip-oled-tp3407sa",
+    "name": "ASUS Vivobook 14 Flip OLED",
+    "price": 89990,
+    "showPrice": true,
+    "category": "Laptops",
+    "brand": "ASUS",
+    "shortDescription": "14\" 2-in-1 OLED laptop with Intel Core Ultra 5/7 processor, 16GB RAM, and 512GB SSD storage.",
+    "mainImage": "https://in.store.asus.com/media/catalog/product/t/p/tp3407sa-ql025ws_with_stylus.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
     images: [
-      "https://in.store.asus.com/media/catalog/product/x/1/x1404va_cl_slvr_mso_rfrsh_bcklt_kbd_supp_nbpd_2__1.jpg?width=439&height=439&store=en_IN&image-type=image",
-      "https://in.store.asus.com/media/catalog/product/x/1/x1404va_cl_slvr_mso_rfrsh_bcklt_kbd_supp_nbpd_6__1.jpg?width=439&height=439&store=en_IN&image-type=image"
+      "https://in.store.asus.com/media/catalog/product/2/_/2._tp3407sa-ql025ws_adobe.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/3/_/3._tp3407sa-ql025ws_display.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/4/a/4a._tp3407sa-ql025ws_oled_display.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/4/b/4b._tp3407sa-ql025ws_2in1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:",
+      "https://in.store.asus.com/media/catalog/product/6/a/6a._tp3407sa-ql025ws_npu.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:"
     ],
     highlights: [
-      "Intel Core processor for reliable performance",
-      "8GB RAM for smooth operations",
-      "Compact 14-inch design",
-      "FHD display with vivid colors",
-      "Multiple connectivity options"
+      "Intel Core Ultra 5/7 processor with AI capabilities",
+      "14-inch 2.8K (2880 x 1800) OLED display with 90Hz refresh rate",
+      "16GB LPDDR5X RAM",
+      "512GB PCIe 4.0 SSD storage",
+      "360° hinge for versatile usage modes",
+      "Intel Arc Graphics",
+      "Backlit keyboard with NumberPad",
+      "Windows 11 Home"
     ],
     specifications: [
-      { name: "Processor", value: "Intel Core i3/i5" },
-      { name: "RAM", value: "8GB DDR4" },
-      { name: "Storage", value: "256GB SSD" },
-      { name: "Display", value: "14-inch FHD (1920 x 1080)" },
-      { name: "Graphics", value: "Intel Integrated Graphics" },
-      { name: "Operating System", value: "Windows 11 Home" },
-      { name: "Weight", value: "1.4kg" },
-      { name: "Battery", value: "50WHrs" },
-      { name: "Ports", value: "USB 2.0, USB 3.0, USB-C, HDMI" },
-      { name: "Connectivity", value: "Wi-Fi 5, Bluetooth" }
+      {
+        "name": "Processor",
+        "value": "Intel Core Ultra 5/7"
+      },
+      {
+        "name": "Memory",
+        "value": "16GB LPDDR5X RAM"
+      },
+      {
+        "name": "Storage",
+        "value": "512GB PCIe 4.0 SSD"
+      },
+      {
+        "name": "Display",
+        "value": "14-inch 2.8K (2880 x 1800) OLED, 90Hz"
+      },
+      {
+        "name": "Graphics",
+        "value": "Intel Arc Graphics"
+      },
+      {
+        "name": "Operating System",
+        "value": "Windows 11 Home"
+      },
+      {
+        "name": "Keyboard",
+        "value": "Backlit keyboard with NumberPad"
+      },
+      {
+        "name": "Camera",
+        "value": "FHD IR webcam with privacy shutter"
+      },
+      {
+        "name": "Connectivity",
+        "value": "Wi-Fi 6E, Bluetooth 5.3"
+      },
+      {
+        "name": "Ports",
+        "value": "2x USB 4.0 Type-C, 1x USB 3.2 Type-A, 1x HDMI 2.1, 1x 3.5mm audio jack"
+      },
+      {
+        "name": "Battery",
+        "value": "70WHrs, 3-cell Li-ion"
+      },
+      {
+        "name": "Weight",
+        "value": "1.5 kg"
+      }
     ],
     detailedSpecs: {
       "Brand": "ASUS",
-      "Series": "Vivobook 14",
-      "Processor": "Intel",
-      "RAM Size": "8 GB",
-      "Display Size": "14 Inches",
-      "Operating System": "Windows 11 Home"
-    },
-    includedComponents: ["Laptop", "Power Adapter", "User Manual"]
-  },
-
-  "asus-vivobook-14-intel-16gb": {
-    id: "asus-vivobook-14-intel-16gb",
-    name: "ASUS Vivobook 14 Intel 16GB",
-    showPrice: false,
-    category: "Laptops",
-    brand: "Asus",
-    shortDescription: "Premium 14-inch laptop with Intel processor and 16GB RAM for enhanced multitasking.",
-    mainImage: "https://in.store.asus.com/media/catalog/product/x/1/x1404va_qt_blu_mso_rfrsh_bcklt_kbd_supp_nbpd_1b__1.jpg?width=439&height=439&store=en_IN&image-type=image",
-    images: [
-      "https://in.store.asus.com/media/catalog/product/x/1/x1404va_qt_blu_mso_rfrsh_bcklt_kbd_supp_nbpd_5__1.jpg?width=439&height=439&store=en_IN&image-type=image",
-      "https://in.store.asus.com/media/catalog/product/x/1/x1404va_qt_blu_mso_rfrsh_bcklt_kbd_supp_nbpd_4__1.jpg?width=439&height=439&store=en_IN&image-type=image"
-    ],
-    highlights: [
-      "Intel Core processor for powerful performance",
-      "16GB RAM for heavy multitasking",
-      "Premium build quality",
-      "Enhanced graphics performance",
-      "Long-lasting battery life"
-    ],
-    specifications: [
-      { name: "Processor", value: "Intel Core i5/i7" },
-      { name: "RAM", value: "16GB DDR4" },
-      { name: "Storage", value: "512GB SSD" },
-      { name: "Display", value: "14-inch FHD (1920 x 1080)" },
-      { name: "Graphics", value: "Intel Integrated Graphics" },
-      { name: "Operating System", value: "Windows 11 Home" },
-      { name: "Weight", value: "1.4kg" },
-      { name: "Battery", value: "50WHrs" },
-      { name: "Ports", value: "USB 2.0, USB 3.0, USB-C, HDMI" },
-      { name: "Connectivity", value: "Wi-Fi 6, Bluetooth" }
-    ],
-    detailedSpecs: {
-      "Brand": "ASUS",
-      "Series": "Vivobook 14",
-      "Processor": "Intel",
-      "RAM Size": "16 GB",
-      "Display Size": "14 Inches",
-      "Operating System": "Windows 11 Home"
-    },
-    includedComponents: ["Laptop", "Power Adapter", "User Manual"]
-  },
-
-  "asus-vivobook-go-15-ryzen-5-16gb": {
-    id: "asus-vivobook-go-15-ryzen-5-16gb",
-    name: "ASUS Vivobook Go 15 Ryzen 5 16GB",
-    showPrice: false,
-    category: "Laptops",
-    brand: "Asus",
-    shortDescription: "15.6-inch laptop with AMD Ryzen 5 processor and 16GB RAM for high-performance computing.",
-    mainImage: "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_mxd_blck_non_fngrprnt_2_1_1.png?width=439&height=439&store=en_IN&image-type=image",
-    images: [
-      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_mxd_blck_non_fngrprnt_1_1.png?width=439&height=439&store=en_IN&image-type=image",
-      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_mxd_blck_non_fngrprnt_5_1_1.png?width=439&height=439&store=en_IN&image-type=image"
-    ],
-    highlights: [
-      "AMD Ryzen™ 5 processor for excellent performance",
-      "16GB RAM for seamless multitasking",
-      "15.6-inch FHD display",
-      "Advanced graphics capabilities",
-      "Fast SSD storage"
-    ],
-    specifications: [
-      { name: "Processor", value: "AMD Ryzen™ 5" },
-      { name: "RAM", value: "16GB DDR4" },
-      { name: "Storage", value: "512GB SSD" },
-      { name: "Display", value: "15.6-inch FHD (1920 x 1080)" },
-      { name: "Graphics", value: "AMD Radeon™ Graphics" },
-      { name: "Operating System", value: "Windows 11 Home" },
-      { name: "Weight", value: "1.7kg" },
-      { name: "Battery", value: "50WHrs" },
-      { name: "Ports", value: "USB 2.0, USB 3.0, USB-C, HDMI" },
-      { name: "Connectivity", value: "Wi-Fi 6, Bluetooth" }
-    ],
-    detailedSpecs: {
-      "Brand": "ASUS",
-      "Series": "Vivobook Go 15",
-      "Processor": "AMD Ryzen™ 5",
-      "RAM Size": "16 GB",
-      "Display Size": "15.6 Inches",
-      "Operating System": "Windows 11 Home"
-    },
-    includedComponents: ["Laptop", "Power Adapter", "User Manual"]
-  },
-
-  "asus-vivobook-go-15-ryzen-5-8gb": {
-    id: "asus-vivobook-go-15-ryzen-5-8gb",
-    name: "ASUS Vivobook Go 15 Ryzen 5 8GB",
-    showPrice: false,
-    category: "Laptops",
-    brand: "Asus",
-    shortDescription: "15.6-inch laptop with AMD Ryzen 5 processor and 8GB RAM for balanced performance.",
-    mainImage: "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_mxd_blck_non_fngrprnt_1_1.png?width=439&height=439&store=en_IN&image-type=image",
-    images: [
-      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_mxd_blck_non_fngrprnt_3_1_1.png?width=439&height=439&store=en_IN&image-type=image",
-      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_mxd_blck_non_fngrprnt_6_1_1.png?width=439&height=439&store=en_IN&image-type=image"
-    ],
-    highlights: [
-      "AMD Ryzen™ 5 processor for solid performance",
-      "8GB RAM for daily computing tasks",
-      "Large 15.6-inch display",
-      "Efficient power management",
-      "Comprehensive port selection"
-    ],
-    specifications: [
-      { name: "Processor", value: "AMD Ryzen™ 5" },
-      { name: "RAM", value: "8GB DDR4" },
-      { name: "Storage", value: "256GB SSD" },
-      { name: "Display", value: "15.6-inch FHD (1920 x 1080)" },
-      { name: "Graphics", value: "AMD Radeon™ Graphics" },
-      { name: "Operating System", value: "Windows 11 Home" },
-      { name: "Weight", value: "1.7kg" },
-      { name: "Battery", value: "42WHrs" },
-      { name: "Ports", value: "USB 2.0, USB 3.0, HDMI" },
-      { name: "Connectivity", value: "Wi-Fi 5, Bluetooth" }
-    ],
-    detailedSpecs: {
-      "Brand": "ASUS",
-      "Series": "Vivobook Go 15",
-      "Processor": "AMD Ryzen™ 5",
-      "RAM Size": "8 GB",
-      "Display Size": "15.6 Inches",
-      "Operating System": "Windows 11 Home"
-    },
-    includedComponents: ["Laptop", "Power Adapter", "User Manual"]
-  },
-
-  "asus-vivobook-go-15-e1504fa-nj521ws": {
-    id: "asus-vivobook-go-15-e1504fa-nj521ws",
-    name: "ASUS Vivobook Go 15 E1504FA-NJ521WS",
-    showPrice: false,
-    category: "Laptops",
-    brand: "Asus",
-    shortDescription: "15.6-inch laptop model E1504FA-NJ521WS with optimized performance for everyday use.",
-    mainImage: "https://in.store.asus.com/media/catalog/product/9/0/90nb0zr1-m00ah0-e1504fa-nj521ws_1_.png?store=en_IN&image-type=image",
-    images: [
-      "https://in.store.asus.com/media/catalog/product/9/0/90nb0zr1-m00ah0-e1504fa-nj521ws_2_.png?store=en_IN&image-type=image",
-      "https://in.store.asus.com/media/catalog/product/9/0/90nb0zr1-m00ah0-e1504fa-nj521ws_3_.png?store=en_IN&image-type=image"
-    ],
-    highlights: [
-      "Optimized configuration for productivity",
-      "15.6-inch FHD display",
-      "Reliable performance for daily tasks",
-      "Energy-efficient design",
-      "Modern connectivity options"
-    ],
-    specifications: [
-      { name: "Processor", value: "AMD Ryzen™ 3/5" },
-      { name: "RAM", value: "8GB DDR4" },
-      { name: "Storage", value: "512GB SSD" },
-      { name: "Display", value: "15.6-inch FHD (1920 x 1080)" },
-      { name: "Graphics", value: "AMD Radeon™ Graphics" },
-      { name: "Operating System", value: "Windows 11 Home" },
-      { name: "Weight", value: "1.7kg" },
-      { name: "Battery", value: "42WHrs" },
-      { name: "Ports", value: "USB 2.0, USB 3.0, HDMI" },
-      { name: "Connectivity", value: "Wi-Fi, Bluetooth" }
-    ],
-    detailedSpecs: {
-      "Brand": "ASUS",
-      "Series": "Vivobook Go 15",
-      "Model": "E1504FA-NJ521WS",
-      "Display Size": "15.6 Inches",
-      "Operating System": "Windows 11 Home"
-    },
-    includedComponents: ["Laptop", "Power Adapter", "User Manual"]
-  },
-
-  "asus-vivobook-go-15-e1504fa-nj5541ws": {
-    id: "asus-vivobook-go-15-e1504fa-nj5541ws",
-    name: "ASUS Vivobook Go 15 E1504FA-NJ5541WS",
-    showPrice: false,
-    category: "Laptops",
-    brand: "Asus",
-    shortDescription: "15.6-inch laptop model E1504FA-NJ5541WS with enhanced features and performance.",
-    mainImage: "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_cl_slvr_nonoled_and_oled_1__2.png?width=439&height=439&store=en_IN&image-type=image",
-    images: [
-      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_cl_slvr_nonoled_and_oled_2__2.png?width=439&height=439&store=en_IN&image-type=image",
-      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_cl_slvr_nonoled_and_oled_5__2.png?width=439&height=439&store=en_IN&image-type=image"
-    ],
-    highlights: [
-      "Enhanced configuration for better performance",
-      "Large 15.6-inch display",
-      "Improved graphics capabilities",
-      "Fast SSD storage",
-      "Multiple connectivity options"
-    ],
-    specifications: [
-      { name: "Processor", value: "AMD Ryzen™ 5" },
-      { name: "RAM", value: "8GB DDR4" },
-      { name: "Storage", value: "512GB SSD" },
-      { name: "Display", value: "15.6-inch FHD (1920 x 1080)" },
-      { name: "Graphics", value: "AMD Radeon™ Graphics" },
-      { name: "Operating System", value: "Windows 11 Home" },
-      { name: "Weight", value: "1.7kg" },
-      { name: "Battery", value: "50WHrs" },
-      { name: "Ports", value: "USB 2.0, USB 3.0, USB-C, HDMI" },
-      { name: "Connectivity", value: "Wi-Fi 6, Bluetooth" }
-    ],
-    detailedSpecs: {
-      "Brand": "ASUS",
-      "Series": "Vivobook Go 15",
-      "Model": "E1504FA-NJ5541WS",
-      "Display Size": "15.6 Inches",
-      "Operating System": "Windows 11 Home"
-    },
-    includedComponents: ["Laptop", "Power Adapter", "User Manual"]
-  },
-
-  "asus-tuf-gaming-a15-2023": {
-    id: "asus-tuf-gaming-a15-2023",
-    name: "Asus TUF Gaming A15 (2023)",
-    showPrice: false,
-    category: "Laptops",
-    brand: "Asus",
-    shortDescription: "Gaming laptop powered by AMD Ryzen 7 processor and NVIDIA RTX 3050 GPU for smooth gaming experience.",
-    mainImage: "assets/asus_tuf_a15/1.jpeg",
-    images: [
-      "assets/asus_tuf_a15/1.jpeg",
-      "assets/asus_tuf_a15/2.jpeg",
-      "assets/asus_tuf_a15/3.jpeg",
-      "assets/asus_tuf_a15/4.jpeg", 
-      "assets/asus_tuf_a15/5.jpeg"
-    ],
-    highlights: [
-      "AMD Ryzen 7 7435HS Mobile Processor (3.1GHz, 20MB Cache, up to 4.5GHz, 8 cores, 16 Threads) for demanding tasks.",
-      "16GB DDR5-5600 MHz RAM (expandable to 32GB) and 512GB PCIe 4.0 NVMe M.2 SSD for faster load times.",
-      "NVIDIA GeForce RTX 3050 Laptop GPU with 4GB GDDR6 VRAM for smooth gaming performance.",
-      "15.6-inch FHD (1920 x 1080) 144Hz display with 250 nits brightness and anti-glare coating.",
-      "Fast charging battery that can recharge from 0-50% in just 30 minutes."
-    ],
-    specifications: [
-      { name: "Processor", value: "AMD Ryzen 7 7435HS (3.1GHz, up to 4.5GHz)" },
-      { name: "RAM", value: "16GB DDR5-5600 MHz" },
-      { name: "Storage", value: "512GB PCIe 4.0 NVMe M.2 SSD" },
-      { name: "Graphics", value: "NVIDIA GeForce RTX 3050 (4GB GDDR6)" },
-      { name: "Display", value: "15.6-inch FHD (1920 x 1080) 144Hz" },
-      { name: "Operating System", value: "Windows 11 Home" },
-      { name: "Battery", value: "48WHrs, 3-cell Li-ion" },
-      { name: "Weight", value: "2.3 kg" },
-      { name: "Keyboard", value: "Backlit Chiclet Keyboard 1-Zone RGB" },
-      { name: "Ports", value: "HDMI 2.1 TMDS" }
-    ],
-    detailedSpecs: {
-      "Brand": "ASUS",
-      "Series": "TUF Gaming F15",
-      "Colour": "Black, R7 | RTX 3050",
-      "Form Factor": "Ultra-Portable",
-      "Item Height": "43.2 Centimeters",
-      "Item Width": "31 Centimeters",
-      "Standing screen display size": "15.6 Inches",
-      "Screen Resolution": "1920 x 1080 pixel",
-      "Resolution": "1920 x 1080 Pixels",
-      "Product Dimensions": "10.4 x 31 x 43.2 cm; 2.3 kg",
-      "Batteries": "1 Lithium Ion batteries required. (included)",
-      "Processor Brand": "AMD",
-      "Processor Type": "AMD Ryzen 7",
-      "Processor Speed": "3.1 GHz",
-      "Processor Count": "8",
-      "RAM Size": "16",
-      "Memory Technology": "DDR5",
-      "Computer Memory Type": "DDR5 RAM",
-      "Maximum Memory Supported": "32 GB",
-      "Hard Drive Size": "512 GB",
-      "Hard Disk Description": "SSD",
-      "Audio Details": "Headphones",
-      "Speaker Description": "DTS Software",
-      "Graphics Coprocessor": "NVIDIA GeForce RTX 3050",
-      "Graphics Chipset Brand": "NVIDIA",
-      "Graphics Card Description": "Dedicated",
-      "Graphics RAM Type": "GDDR6",
-      "Graphics Card Ram Size": "4 GB",
-      "Graphics Card Interface": "PCI Express",
-      "Connectivity Type": "Wi-Fi",
-      "Wireless Type": "Bluetooth, 802.11bgn",
-      "Number of HDMI Ports": "1",
-      "Voltage": "240 Volts",
-      "Optical Drive Type": "No Optical Storage",
+      "Model": "Vivobook 14 Flip OLED TP3407SA",
+      "Processor": "Intel Core Ultra 5/7",
+      "Memory": "16GB LPDDR5X",
+      "Storage": "512GB PCIe 4.0 SSD",
+      "Display": "14-inch 2.8K (2880 x 1800) OLED, 90Hz",
+      "Graphics": "Intel Arc Graphics",
       "Operating System": "Windows 11 Home",
-      "Average Battery Life": "3 Hours",
-      "Are Batteries Included": "Yes",
-      "Lithium Battery Energy Content": "48 Watt Hours",
-      "Number of Lithium Ion Cells": "3"
+      "Keyboard": "Backlit keyboard with NumberPad",
+      "Camera": "FHD IR webcam with privacy shutter",
+      "Connectivity": "Wi-Fi 6E, Bluetooth 5.3",
+      "Ports": "2x USB 4.0 Type-C, 1x USB 3.2 Type-A, 1x HDMI 2.1, 1x 3.5mm audio jack",
+      "Battery": "70WHrs, 3-cell Li-ion",
+      "Weight": "1.5 kg"
     },
-    includedComponents: ["Laptop", "Adapter", "User Manuals"]
-  },
-
-  "asus-rog-strix-g16-2023": {
-    id: "asus-rog-strix-g16-2023",
-    name: "ASUS ROG Strix G16 (2023)",
-    showPrice: false,
-    category: "Laptops",
-    brand: "Asus",
-    shortDescription: "High-end gaming laptop with 13th Gen Intel Core i7 processor and RTX 4050 GPU for competitive gaming.",
-    mainImage: "assets/asus_rog_strix_g16/1.jpeg?v=1",
-    images: [
-      "assets/asus_rog_strix_g16/1.jpeg?v=1",
-      "assets/asus_rog_strix_g16/2.jpeg?v=1",
-      "assets/asus_rog_strix_g16/3.jpeg?v=1",
-      "assets/asus_rog_strix_g16/4.jpeg?v=1",
-      "assets/asus_rog_strix_g16/5.jpeg?v=1"
-    ],
-    highlights: [
-      "13th Gen Intel Core i7-13650HX Processor (2.6 GHz, 24M Cache, up to 4.9 GHz, 14 cores) for high performance multitasking.",
-      "16GB DDR5 4800 MHz RAM (expandable to 32GB) and massive 1TB PCIe 4.0 NVMe M.2 SSD storage.",
-      "NVIDIA GeForce RTX 4050 Laptop GPU with MUX Switch + NVIDIA Advanced Optimus (6GB GDDR6 VRAM).",
-      "16-inch display with 1920 x 1200 resolution for immersive gaming experience.",
-      "Includes access to over 100 high-quality PC games with Game Pass subscription."
-    ],
-    specifications: [
-      { name: "Processor", value: "13th Gen Intel Core i7-13650HX (2.6GHz, up to 4.9GHz)" },
-      { name: "RAM", value: "16GB DDR5 4800 MHz" },
-      { name: "Storage", value: "1TB PCIe 4.0 NVMe M.2 SSD" },
-      { name: "Graphics", value: "NVIDIA GeForce RTX 4050 (6GB GDDR6)" },
-      { name: "Display", value: "16-inch (1920 x 1200)" },
-      { name: "Operating System", value: "Windows 11 Home" },
-      { name: "Battery", value: "90 Watt Hours" },
-      { name: "Weight", value: "2.5 kg" },
-      { name: "Ports", value: "USB 2.0, USB 3.0, HDMI, Ethernet" },
-      { name: "Color", value: "Eclipse Gray" }
-    ],
-    detailedSpecs: {
-      "Brand": "ASUS",
-      "Series": "ROG Strix G16",
-      "Colour": "Eclipse Gray (RTX 4050)",
-      "Form Factor": "Gaming Laptop",
-      "Item Height": "43.5 Centimeters",
-      "Item Width": "33.8 Centimeters",
-      "Standing screen display size": "16 Inches",
-      "Screen Resolution": "1920 x 1200 pixels",
-      "Resolution": "1920 x 1200",
-      "Product Dimensions": "10.4 x 33.8 x 43.5 cm; 2.5 kg",
-      "Batteries": "1 Lithium Ion batteries required. (included)",
-      "Processor Brand": "Intel",
-      "Processor Type": "Core i7",
-      "Processor Speed": "4.9 GHz",
-      "Processor Count": "14",
-      "RAM Size": "16 GB",
-      "Memory Technology": "SODIMM",
-      "Computer Memory Type": "SODIMM",
-      "Maximum Memory Supported": "32 GB",
-      "Memory Clock Speed": "4.9 GHz",
-      "Hard Drive Size": "1 TB",
-      "Hard Disk Description": "SSD",
-      "Hard Drive Interface": "PCIE x 4",
-      "Audio Details": "Headphones, Speakers",
-      "Speaker Description": "Built-in speakers",
-      "Graphics Coprocessor": "NVIDIA GeForce RTX 4050",
-      "Graphics Chipset Brand": "NVIDIA",
-      "Graphics Card Description": "Dedicated",
-      "Graphics RAM Type": "GDDR6",
-      "Graphics Card Ram Size": "6 GB",
-      "Graphics Card Interface": "PCI Express",
-      "Connectivity Type": "Bluetooth, Wi-Fi",
-      "Wireless Type": "Bluetooth, 802.11ax",
-      "Number of USB 2.0 Ports": "1",
-      "Number of USB 3.0 Ports": "3",
-      "Number of HDMI Ports": "1",
-      "Number of Ethernet Ports": "1",
-      "Voltage": "20 Volts",
-      "Wattage": "280 Watts",
-      "Optical Drive Type": "No Optical Storage",
-      "Power Source": "Battery Powered",
-      "Hardware Platform": "PC",
-      "Operating System": "Windows 11 Home",
-      "Average Battery Life": "90 Watt Hours",
-      "Are Batteries Included": "Yes",
-      "Number of Lithium Ion Cells": "4"
-    },
-    includedComponents: ["Laptop", "Adapter", "User Manual"]
+    includedComponents: [
+      "Laptop",
+      "Power Adapter",
+      "User Manual",
+      "Warranty Card"
+    ]
   },
 
   "asus-vivobook-15-x1504za-nj540ws-intel": {
@@ -980,10 +1139,14 @@ export const products  = {
     category: "Laptops",
     brand: "Asus",
     shortDescription: "15.6-inch laptop with Intel processor and modern features for productivity and entertainment.",
-    mainImage: "https://in.store.asus.com/media/catalog/product/x/1/x1504za_cl_slvr_nonfngrprnt.jpg?width=439&height=439&store=en_IN&image-type=image",
+    mainImage: "https://in.store.asus.com/media/catalog/product/x/1/x1504za_cl_slvr_nonfngrprnt.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
     images: [
-      "https://in.store.asus.com/media/catalog/product/2/_/2._display_x1504za_cl_slvr_nonfngrprnt_bcklt_kbd.jpg?width=439&height=439&store=en_IN&image-type=image",
-      "https://in.store.asus.com/media/catalog/product/5/_/5._design_x1504za_cl_slvr_nonfngrprnt_bcklt_kbd.jpg?width=439&height=439&store=en_IN&image-type=image"
+      "https://in.store.asus.com/media/catalog/product/2/_/2._display_x1504za_qt_blu_nonfngrprnt_bcklt_kbd_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/2/_/2._display_x1504za_cl_slvr_nonfngrprnt_bcklt_kbd.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/4/_/4._anti_bacteria_x1504za_cl_slvr_nonfngrprnt_bcklt_kbd.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/5/_/5._design_x1504za_cl_slvr_nonfngrprnt_bcklt_kbd.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/6/_/6._fast-charging-_x1504za_cl_slvr_nonfngrprnt_bcklt_kbd.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439"
+
     ],
     highlights: [
       "Intel processor for reliable performance",
@@ -1022,11 +1185,16 @@ export const products  = {
     category: "Laptops",
     brand: "Asus",
     shortDescription: "15.6-inch laptop with enhanced 16GB RAM configuration for superior multitasking performance.",
-    mainImage: "https://in.store.asus.com/media/catalog/product/1/_/1._main_x1504za_qt_blu__fngrprnt_bcklt_kbd.jpg?width=439&height=439&store=en_IN&image-type=image",
+    mainImage: "https://in.store.asus.com/media/catalog/product/1/_/1._main_x1504za_qt_blu__fngrprnt_bcklt_kbd.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
     images: [
-      "https://in.store.asus.com/media/catalog/product/2/_/2._display_x1504za_qt_blu_nonfngrprnt_bcklt_kbd_1.jpg?width=439&height=439&store=en_IN&image-type=image",
-      "https://in.store.asus.com/media/catalog/product/x/1/x1504v_ksp_quite-blue_keyboard.jpg?width=439&height=439&store=en_IN&image-type=image"
+      "https://in.store.asus.com/media/catalog/product/2/_/2._display_x1504za_qt_blu_nonfngrprnt_bcklt_kbd_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/5/_/5._design_x1504za_cl_slvr_nonfngrprnt_bcklt_kbd.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/x/1/x1504v_ksp_quite-blue_keyboard.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/5/_/5._security_x1504za_qt_blu_fngrprnt_bcklt_kbd.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/7/_/7._security_x1504za_qt_blu_nonfngrprnt_bcklt_kbd_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439"
+
     ],
+   
     highlights: [
       "16GB RAM for excellent multitasking",
       "Intel processor for solid performance",
@@ -1065,11 +1233,17 @@ export const products  = {
     category: "Laptops",
     brand: "Asus",
     shortDescription: "Premium 15.6-inch OLED laptop with vibrant display and high-performance features.",
-    mainImage: "https://in.store.asus.com/media/catalog/product/s/5/s5504va_cl_slvr_fngrprnt.jpg?store=en_IN&image-type=image",
+
+    mainImage: "https://in.store.asus.com/media/catalog/product/s/5/s5504va_cl_slvr_fngrprnt.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
     images: [
-      "https://in.store.asus.com/media/catalog/product/2/_/2._s5504va_cl_slvr_fngrprnt_-_blue-performance-5.jpg?store=en_IN&image-type=image",
-      "https://in.store.asus.com/media/catalog/product/3/_/3._s5504va_cl_slvr_fngrprnt_-_blue-display-black-2.jpg?store=en_IN&image-type=image"
+        "https://in.store.asus.com/media/catalog/product/2/_/2._s5504va_cl_slvr_fngrprnt_-_blue-performance-5.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+        "https://in.store.asus.com/media/catalog/product/3/_/3._s5504va_cl_slvr_fngrprnt_-_blue-display-black-2.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+        "https://in.store.asus.com/media/catalog/product/5/_/5._s5504va_cl_slvr_fngrprnt_-_blue-design-perfection.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+        "https://in.store.asus.com/media/catalog/product/6/_/6._s5504va_cl_slvr_fngrprnt_-_blue-safe-_-secure.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+        "https://in.store.asus.com/media/catalog/product/7/_/7._s5504va_cl_slvr_fngrprnt_-_battery.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439"
     ],
+    
+    
     highlights: [
       "Stunning 15.6-inch OLED display with vibrant colors",
       "Premium S series design and build quality",
@@ -1106,11 +1280,15 @@ export const products  = {
     category: "Laptops",
     brand: "Asus",
     shortDescription: "Premium OLED laptop model S5507QAD-MA751WS with advanced features and performance.",
-    mainImage: "https://in.store.asus.com/media/catalog/product/c/o/comhfcbzwqsypbh7_1.jpg?width=439&height=439&store=en_IN&image-type=image",
+    mainImage: "https://in.store.asus.com/media/catalog/product/c/o/comhfcbzwqsypbh7_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
     images: [
-      "https://in.store.asus.com/media/catalog/product/c/o/comhfcbzwqsypbh7_2__.jpg?width=439&height=439&store=en_IN&image-type=image",
-      "https://in.store.asus.com/media/catalog/product/7/_/7._asus_vivobook_s_15_s5507_feature_photo_7_display.jpg?width=439&height=439&store=en_IN&image-type=image"
+        "https://in.store.asus.com/media/catalog/product/c/o/comhfcbzwqsypbh7_2__.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+        "https://in.store.asus.com/media/catalog/product/1/_/1._asus_vivobook_s_15_s5507_feature_photo_1_ai_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+        "https://in.store.asus.com/media/catalog/product/7/_/7._asus_vivobook_s_15_s5507_feature_photo_7_display.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+        "https://in.store.asus.com/media/catalog/product/3/_/3._asus_vivobook_s_15_s5507_feature_photo_3_performance_-_copy.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+        "https://in.store.asus.com/media/catalog/product/2/_/2._asus_vivobook_s_15_s5507_feature_photo_2_thin_light.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439"
     ],
+    
     highlights: [
       "Advanced OLED display technology",
       "High-performance AMD Ryzen processor",
@@ -1148,11 +1326,15 @@ export const products  = {
     category: "Laptops",
     brand: "Asus",
     shortDescription: "OLED laptop model S5507QA-MA551WS with balanced performance and premium features.",
-    mainImage: "https://in.store.asus.com/media/catalog/product/s/5/s5507qa.png?width=439&height=439&store=en_IN&image-type=image",
+    mainImage: "https://in.store.asus.com/media/catalog/product/s/5/s5507qa.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
     images: [
-      "https://in.store.asus.com/media/catalog/product/b/0/b08h262hzy.pt01.jpg?width=439&height=439&store=en_IN&image-type=image",
-      "https://in.store.asus.com/media/catalog/product/b/0/b08h262hzy.pt04.jpg?width=439&height=439&store=en_IN&image-type=image"
+      "https://in.store.asus.com/media/catalog/product/b/0/b08h262hzy.pt01.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/b/0/b08h262hzy.pt02.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/b/0/b08h262hzy.pt03.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/b/0/b08h262hzy.pt04.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/b/0/b08h262hzy.pt05.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439"
     ],
+   
     highlights: [
       "OLED display with exceptional color accuracy",
       "Balanced performance configuration",
@@ -1190,11 +1372,15 @@ export const products  = {
     category: "Laptops",
     brand: "Asus",
     shortDescription: "Compact 14-inch OLED laptop with premium features and portability.",
-    mainImage: "https://in.store.asus.com/media/catalog/product/m/5/m5406wa-pp962ws_1.jpg?width=439&height=439&store=en_IN&image-type=image",
+     mainImage: "https://in.store.asus.com/media/catalog/product/m/5/m5406wa-pp962ws_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
     images: [
-      "https://in.store.asus.com/media/catalog/product/m/5/m5406wa-pp962ws_2.jpg?width=439&height=439&store=en_IN&image-type=image",
-      "https://in.store.asus.com/media/catalog/product/m/5/m5406wa-pp962ws_4.jpg?width=439&height=439&store=en_IN&image-type=image"
+      "https://in.store.asus.com/media/catalog/product/m/5/m5406wa-pp962ws_2.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/m/5/m5406wa-pp962ws_3.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/m/5/m5406wa-pp962ws_4.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/m/5/m5406wa-pp962ws_5.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/m/5/m5406wa-pp962ws_6.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439"
     ],
+    
     highlights: [
       "Compact 14-inch OLED display",
       "Ultra-portable design",
@@ -1232,11 +1418,15 @@ export const products  = {
     category: "Laptops",
     brand: "Asus",
     shortDescription: "15.6-inch laptop model X1504VA-NJ540WS with reliable performance and modern features.",
-    mainImage: "https://in.store.asus.com/media/catalog/product/x/1/x1504va_cool_silver_nonfngrprnt_bcklt_kbd_1__1.jpg?width=439&height=439&store=en_IN&image-type=image",
+    mainImage: "https://in.store.asus.com/media/catalog/product/x/1/x1504va_cool_silver_nonfngrprnt_bcklt_kbd_1__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
     images: [
-      "https://in.store.asus.com/media/catalog/product/x/1/x1504va_cool_silver_nonfngrprnt_bcklt_kbd_10__1.jpg?width=439&height=439&store=en_IN&image-type=image",
-      "https://in.store.asus.com/media/catalog/product/x/1/x1504va_cool_silver_nonfngrprnt_bcklt_kbd_11__1.jpg?width=439&height=439&store=en_IN&image-type=image"
+      "https://in.store.asus.com/media/catalog/product/x/1/x1504va_cool_silver_nonfngrprnt_bcklt_kbd_4_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/x/1/x1504va_cool_silver_nonfngrprnt_bcklt_kbd_6__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/x/1/x1504va_cool_silver_nonfngrprnt_bcklt_kbd_7__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/x/1/x1504va_cool_silver_nonfngrprnt_bcklt_kbd_8__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/x/1/x1504va_cool_silver_nonfngrprnt_bcklt_kbd_9__1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439"
     ],
+    
     highlights: [
       "Reliable 15.6-inch configuration",
       "Optimized for productivity",
@@ -1275,8 +1465,11 @@ export const products  = {
     shortDescription: "Large 16-inch laptop with spacious display and enhanced productivity features.",
     mainImage: "https://in.store.asus.com/media/catalog/product/x/1/x1605va_clr_slvr_bcklt_kbd_mso_rfrsh_nonfngrprnt_1__1.png?width=439&height=439&store=en_IN&image-type=image",
     images: [
-      "https://in.store.asus.com/media/catalog/product/x/1/x1605va_clr_slvr_bcklt_kbd_mso_rfrsh_nonfngrprnt_2__1.png?width=439&height=439&store=en_IN&image-type=image",
-      "https://in.store.asus.com/media/catalog/product/x/1/x1605va_clr_slvr_bcklt_kbd_mso_rfrsh_nonfngrprnt_5__1.png?width=439&height=439&store=en_IN&image-type=image"
+      "https://in.store.asus.com/media/catalog/product/x/1/x1605va_clr_slvr_bcklt_kbd_mso_rfrsh_nonfngrprnt_1__2.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/x/1/x1605va_clr_slvr_bcklt_kbd_mso_rfrsh_nonfngrprnt_2__2.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/x/1/x1605va_clr_slvr_bcklt_kbd_mso_rfrsh_nonfngrprnt_8__3.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/x/1/x1605va_clr_slvr_bcklt_kbd_mso_rfrsh_nonfngrprnt_5__3.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/x/1/x1605va_clr_slvr_bcklt_kbd_mso_rfrsh_nonfngrprnt_6__3.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439"
     ],
     highlights: [
       "Large 16-inch display for enhanced productivity",
@@ -1316,8 +1509,11 @@ export const products  = {
     shortDescription: "16-inch laptop model X1605VA-MB1628WS with enhanced specifications and features.",
     mainImage: "https://in.store.asus.com/media/catalog/product/x/1/x1605va_clr_slvr_bcklt_kbd_mso_rfrsh_nonfngrprnt_1__2.png?width=439&height=439&store=en_IN&image-type=image",
     images: [
-      "https://in.store.asus.com/media/catalog/product/x/1/x1605va_clr_slvr_bcklt_kbd_mso_rfrsh_nonfngrprnt_2__3.png?width=439&height=439&store=en_IN&image-type=image",
-      "https://in.store.asus.com/media/catalog/product/x/1/x1605va_clr_slvr_bcklt_kbd_mso_rfrsh_nonfngrprnt_5__2.png?width=439&height=439&store=en_IN&image-type=image"
+      "https://in.store.asus.com/media/catalog/product/x/1/x1605va_clr_slvr_bcklt_kbd_mso_rfrsh_nonfngrprnt_2__3.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/x/1/x1605va_clr_slvr_bcklt_kbd_mso_rfrsh_nonfngrprnt_3__2.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439", 
+      "https://in.store.asus.com/media/catalog/product/x/1/x1605va_clr_slvr_bcklt_kbd_mso_rfrsh_nonfngrprnt_5__2.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/x/1/x1605va_clr_slvr_bcklt_kbd_mso_rfrsh_nonfngrprnt_6__2.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/x/1/x1605va_clr_slvr_bcklt_kbd_mso_rfrsh_nonfngrprnt_7__2.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439"
     ],
     highlights: [
       "Enhanced 16-inch configuration",
@@ -1357,8 +1553,11 @@ export const products  = {
     shortDescription: "16-inch laptop model X1605VA-MB9946WS with premium specifications and advanced features.",
     mainImage: "https://in.store.asus.com/media/catalog/product/x/1/x1605va_clr_slvr_bcklt_kbd_mso_rfrsh_nonfngrprnt_1__2.png?width=439&height=439&store=en_IN&image-type=image",
     images: [
-      "https://in.store.asus.com/media/catalog/product/x/1/x1605va_clr_slvr_bcklt_kbd_mso_rfrsh_nonfngrprnt_2__3.png?width=439&height=439&store=en_IN&image-type=image",
-      "https://in.store.asus.com/media/catalog/product/x/1/x1605va_clr_slvr_bcklt_kbd_mso_rfrsh_nonfngrprnt_5__2.png?width=439&height=439&store=en_IN&image-type=image"
+      "https://in.store.asus.com/media/catalog/product/x/1/x1605va_clr_slvr_bcklt_kbd_mso_rfrsh_nonfngrprnt_2__3.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/x/1/x1605va_clr_slvr_bcklt_kbd_mso_rfrsh_nonfngrprnt_3__2.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439", 
+      "https://in.store.asus.com/media/catalog/product/x/1/x1605va_clr_slvr_bcklt_kbd_mso_rfrsh_nonfngrprnt_5__2.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/x/1/x1605va_clr_slvr_bcklt_kbd_mso_rfrsh_nonfngrprnt_6__2.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/x/1/x1605va_clr_slvr_bcklt_kbd_mso_rfrsh_nonfngrprnt_7__2.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439"
     ],
     highlights: [
       "Premium 16-inch configuration",
@@ -1398,10 +1597,11 @@ export const products  = {
     category: "Printers",
     brand: "Canon",
     shortDescription: "All-in-one wireless inkjet printer with refillable ink tanks for high-volume printing at low cost.",
-    mainImage: "https://in.canon/media/image/2024/08/21/b560d60fc66e44398a82adcc93861501_GX4000_AS_FR_op_en.jpg",
+    mainImage: "https://in.canon/media/image/2024/09/11/6fc240b0b3f843a29dd59e62f1784440_cbbc0fbe265a458a9b892d56ec7f4ba2_G3X10_AS_FR_op_en_MegaTankLogo_362.png",
     images: [
-      "https://in.canon/media/image/2024/08/21/b560d60fc66e44398a82adcc93861501_GX4000_AS_FR_op_en.jpg",
-      "https://in.canon/media/image/2024/08/21/c25102c95b5c48e98fcde2539146a63a_GX4000_AS_FR_cl_en.jpg"
+      "https://in.canon/media/image/2024/09/11/b039a91f193c40178b58c54add0c7306_e853aa30b3984d17b9d764ba8c917c4a_G3X10_AS_FR_cl_en_MegaTankLogo_362x320.png",
+      "https://in.canon/media/image/2024/09/11/6fc240b0b3f843a29dd59e62f1784440_cbbc0fbe265a458a9b892d56ec7f4ba2_G3X10_AS_FR_op_en_MegaTankLogo_362.png",
+      "https://in.canon/media/image/2024/09/11/8139787c60d7476ca510b4ffebc146e0_2c234c6691074ef188cda3225099dfad_G3X10_AS_FR_cl_en_MegaTankLogo_362.png"
     ],
     highlights: [
       "Integrated ink tank system for ultra-high page yields and low running cost",
@@ -1556,7 +1756,9 @@ export const products  = {
     mainImage: "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/l/e/lebi_wl_darksurfblue_packaging_front.png",
     images: [
       "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/l/e/lebi_wl_darksurfblue_packaging_front.png",
-      "https://d22k5h68hofcrd.cloudfront.net/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/l/e/lebi_wl_585_darksurfblue_catalog_whitebg_frontbottles.png"
+      "https://in-media.apjonlinecdn.com/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/1/F/1F3Y4A-3_T1680351657.png",
+      "https://in-media.apjonlinecdn.com/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/1/F/1F3Y4A-2_T1680351656.png",
+      "https://in-media.apjonlinecdn.com/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/1/F/1F3Y4A-4_T1680351659.png"
     ],
     highlights: [
       "Smart Tank technology with easy-to-fill, mess-free ink tanks",
@@ -1607,8 +1809,11 @@ export const products  = {
     shortDescription: "Ultra-low-cost printing with integrated ink tank system and wireless connectivity.",
     mainImage: "https://th.bing.com/th/id/OIP.dlRvptKDII67dLW29HRzjgHaEN?rs=1&pid=ImgDetMain",
     images: [
+      "https://mediaserver.goepson.com/ImConvServlet/imconv/2fe9f92a34571ed73bc4811842210586c8b320eb/1200Wx1200H?use=banner&hybrisId=B2C&assetDescr=L3250-%285%29",
       "https://th.bing.com/th/id/OIP.dlRvptKDII67dLW29HRzjgHaEN?rs=1&pid=ImgDetMain",
-      "https://mediaserver.goepson.com/ImConvServlet/imconv/0ab4a45a4726ab93c047fe56d099575e4802dd3f/1200Wx1200H?use=banner&hybrisId=B2C&assetDescr=L3250-%282%29"
+      "https://mediaserver.goepson.com/ImConvServlet/imconv/0ab4a45a4726ab93c047fe56d099575e4802dd3f/1200Wx1200H?use=banner&hybrisId=B2C&assetDescr=L3250-%282%29",
+      "https://mediaserver.goepson.com/ImConvServlet/imconv/0b7368a4ecf889eaadfb694349be35eb27072980/1200Wx1200H?use=banner&hybrisId=B2C&assetDescr=EcoTank-L3250-690x460-5"
+      
     ],
     highlights: [
       "EcoTank technology with ultra-high page yields",
@@ -2076,12 +2281,15 @@ export const products  = {
       "category": "Laptops",
       "brand": "ASUS",
       "shortDescription": "14\" OLED 2-in-1 laptop with Intel Core Ultra 7, 16GB RAM, 512GB SSD, and Intel Arc graphics.",
-      "mainImage": "https://in.store.asus.com/media/catalog/product/t/p/tp3407sa-ql025ws_with_stylus.jpg?width=439&height=439&store=en_IN&image-type=image",
-      "images": [
-        "https://in.store.asus.com/media/catalog/product/t/p/tp3407sa-ql025ws_with_stylus.jpg?width=439&height=439&store=en_IN&image-type=image",
-        "https://in.store.asus.com/media/catalog/product/4/b/4b._tp3407sa-ql025ws_2in1.jpg?width=439&height=439&store=en_IN&image-type=image",
-        
-      ],
+      "mainImage": "https://in.store.asus.com/media/catalog/product/t/p/tp3407sa-ql024ws_with_stylus.jpg?width=439&height=439&store=en_IN&image-type=image",
+    "images": [
+      "https://in.store.asus.com/media/catalog/product/2/_/2._tp3407sa-ql025ws_adobe.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/3/_/3._tp3407sa-ql025ws_display.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/4/b/4b._tp3407sa-ql025ws_2in1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/6/a/6a._tp3407sa-ql025ws_npu.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/8/_/8._tp3407sa-ql025wscreativity.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:"
+     
+    ],
       "highlights": [
         "Intel Core Ultra 7 256V processor (8 cores, 16 threads, up to 4.8 GHz)",
         "16GB LPDDR5X RAM",
@@ -2182,8 +2390,11 @@ export const products  = {
     "shortDescription": "14\" OLED touchscreen 2-in-1 laptop with Intel Core Ultra 5, 16GB RAM, 512GB SSD, and Intel Arc graphics.",
     "mainImage": "https://in.store.asus.com/media/catalog/product/t/p/tp3407sa-ql024ws_with_stylus.jpg?width=439&height=439&store=en_IN&image-type=image",
     "images": [
-      "https://in.store.asus.com/media/catalog/product/t/p/tp3407sa-ql024ws_with_stylus.jpg?width=439&height=439&store=en_IN&image-type=image",
-      "https://in.store.asus.com/media/catalog/product/4/b/4b._tp3407sa-ql024ws_2in1.jpg?width=439&height=439&store=en_IN&image-type=image",
+      "https://in.store.asus.com/media/catalog/product/2/_/2._tp3407sa-ql025ws_adobe.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/3/_/3._tp3407sa-ql025ws_display.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/4/b/4b._tp3407sa-ql025ws_2in1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/5/_/5._tp3407sa-ql025ws_connectivity.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/6/_/6._tp3407sa-ql025ws_camera.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439"
      
     ],
     "highlights": [
@@ -2278,61 +2489,100 @@ export const products  = {
   },
   "asus-vivobook-16-x1607qa-mb050ws": {
     "id": "asus-vivobook-16-x1607qa-mb050ws",
-    "name": "ASUS Vivobook 16 X1607QA-MB050WS",
-    "price": 65990,
+    "name": "ASUS Vivobook 16 (Cool Silver)",
+    "price": 49990,
     "showPrice": true,
     "category": "Laptops",
     "brand": "ASUS",
-    "shortDescription": "AI-powered laptop with Snapdragon X processor, 16GB RAM, 512GB SSD, and 16\" WUXGA display.",
-    "mainImage": "https://in.store.asus.com/media/catalog/product/x/1/x1607qa-mb050ws_20_.jpg?width=439&height=439&store=en_IN&image-type=image",
+    "shortDescription": "16\" lightweight laptop with AMD Ryzen 5 processor, 16GB RAM, and 512GB SSD storage.",
+    "mainImage": "https://in.store.asus.com/media/catalog/product/x/1/x1607qa-mb050ws_20_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
     "images": [
-      "https://in.store.asus.com/media/catalog/product/x/1/x1607qa-mb050ws_20_.jpg?width=439&height=439&store=en_IN&image-type=imageBacklit.png",
-      "https://in.store.asus.com/media/catalog/product/x/1/x1607qa-mb050ws_3_.jpg?width=439&height=439&store=en_IN&image-type=image"
+      "https://in.store.asus.com/media/catalog/product/x/1/x1607qa-mb050ws_2_.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/x/1/x1607qa-mb050ws_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/x/1/x1607qa-mb050ws_4_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/x/1/x1607qa-mb050ws_6_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/x/1/x1607qa-mb050ws_8_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439"
+      
     ],
     "highlights": [
-      "Snapdragon X X1 26 100 processor (8 cores, up to 2.97GHz)",
-      "16GB LPDDR5X RAM",
-      "512GB M.2 NVMe PCIe 4.0 SSD",
-      "16-inch WUXGA (1920 x 1200) 16:10 aspect ratio display",
-      "Qualcomm Adreno GPU",
+      "AMD Ryzen 5 7530U processor",
+      "16-inch FHD (1920 x 1200) display",
+      "16GB DDR4 RAM",
+      "512GB PCIe 3.0 SSD storage",
+      "AMD Radeon Graphics",
+      "Backlit keyboard with NumberPad",
       "Windows 11 Home",
-      "Microsoft 365 Basic (1 Year) + Office Home 2024 (Lifetime)",
-      "AI-powered features with Copilot key",
-      "Backlit Chiclet Keyboard with Num-key",
-      "Privacy shutter IR webcam with Windows Hello support",
-      "USB-C fast charging, Wi-Fi 6E, Bluetooth 5.3",
-      "1.88 kg weight"
+      "Lightweight design at 1.6 kg"
     ],
     "specifications": [
-      { "name": "Processor", "value": "Snapdragon X X1 26 100 (8 cores, up to 2.97GHz)" },
-      { "name": "Graphics", "value": "Qualcomm Adreno GPU" },
-      { "name": "Memory", "value": "16GB LPDDR5X" },
-      { "name": "Storage", "value": "512GB M.2 NVMe PCIe 4.0 SSD" },
-      { "name": "Display", "value": "16-inch WUXGA (1920 x 1200), 16:10 aspect ratio, 300 nits brightness" },
-      { "name": "Operating System", "value": "Windows 11 Home" },
-      { "name": "Keyboard", "value": "Backlit Chiclet Keyboard with Num-key" },
-      { "name": "Camera", "value": "FHD IR webcam with privacy shutter" },
-      { "name": "Connectivity", "value": "Wi-Fi 6E, Bluetooth 5.3" },
-      { "name": "Ports", "value": "2x USB 4.0 Gen 3 Type-C, 2x USB 3.2 Gen 1 Type-A, HDMI 2.1, 3.5mm audio jack" },
-      { "name": "Battery", "value": "50WHrs, 3-cell Li-ion" },
-      { "name": "Weight", "value": "1.88 kg" },
-      { "name": "Color", "value": "Cool Silver" }
+      {
+        "name": "Processor",
+        "value": "AMD Ryzen 5 7530U"
+      },
+      {
+        "name": "Memory",
+        "value": "16GB DDR4 RAM"
+      },
+      {
+        "name": "Storage",
+        "value": "512GB PCIe 3.0 SSD"
+      },
+      {
+        "name": "Display",
+        "value": "16-inch FHD (1920 x 1200)"
+      },
+      {
+        "name": "Graphics",
+        "value": "AMD Radeon Graphics"
+      },
+      {
+        "name": "Operating System",
+        "value": "Windows 11 Home"
+      },
+      {
+        "name": "Keyboard",
+        "value": "Backlit keyboard with NumberPad"
+      },
+      {
+        "name": "Camera",
+        "value": "720p HD camera"
+      },
+      {
+        "name": "Connectivity",
+        "value": "Wi-Fi 6, Bluetooth 5.2"
+      },
+      {
+        "name": "Ports",
+        "value": "1x USB 3.2 Type-C, 2x USB 3.2 Type-A, 1x HDMI 1.4, 1x 3.5mm audio jack"
+      },
+      {
+        "name": "Battery",
+        "value": "50WHrs, 3-cell Li-ion"
+      },
+      {
+        "name": "Weight",
+        "value": "1.6 kg"
+      },
+      {
+        "name": "Color",
+        "value": "Cool Silver"
+      }
     ],
     "detailedSpecs": {
       "Brand": "ASUS",
       "Model": "Vivobook 16 X1607QA-MB050WS",
-      "Processor": "Snapdragon X X1 26 100",
-      "Memory": "16GB LPDDR5X",
-      "Storage": "512GB M.2 NVMe PCIe 4.0 SSD",
-      "Display": "16-inch WUXGA (1920 x 1200), 16:10 aspect ratio, 300 nits brightness",
-      "Graphics": "Qualcomm Adreno GPU",
+      "Processor": "AMD Ryzen 5 7530U",
+      "Memory": "16GB DDR4",
+      "Storage": "512GB PCIe 3.0 SSD",
+      "Display": "16-inch FHD (1920 x 1200)",
+      "Graphics": "AMD Radeon Graphics",
       "Operating System": "Windows 11 Home",
-      "Keyboard": "Backlit Chiclet Keyboard with Num-key",
-      "Camera": "FHD IR webcam with privacy shutter",
-      "Connectivity": "Wi-Fi 6E, Bluetooth 5.3",
-      "Ports": "2x USB 4.0 Gen 3 Type-C, 2x USB 3.2 Gen 1 Type-A, HDMI 2.1, 3.5mm audio jack",
+      "Keyboard": "Backlit keyboard with NumberPad",
+      "Camera": "720p HD camera",
+      "Connectivity": "Wi-Fi 6, Bluetooth 5.2",
+      "Ports": "1x USB 3.2 Type-C, 2x USB 3.2 Type-A, 1x HDMI 1.4, 1x 3.5mm audio jack",
       "Battery": "50WHrs, 3-cell Li-ion",
-      "Weight": "1.88 kg",
+      "Weight": "1.6 kg",
       "Color": "Cool Silver"
     },
     "includedComponents": [
@@ -2417,10 +2667,13 @@ export const products  = {
       "category": "Laptops",
       "brand": "ASUS",
       "shortDescription": "14\" 2-in-1 laptop with Intel Core i5-13420H, 16GB RAM, 512GB SSD, and WUXGA touchscreen.",
-      "mainImage": "https://dlcdnwebimgs.asus.com/gain/e82f9e69-2733-4f25-9509-14d9fb53eadf/w800",
+      "mainImage": "https://in.store.asus.com/media/catalog/product/1/_/1._tp3402vao-lz619ws_main_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
       "images": [
-        "https://dlcdnwebimgs.asus.com/gain/e82f9e69-2733-4f25-9509-14d9fb53eadf/w800",
-        "https://www.signaturespacess.com/storage/app/public/product/2025-05-25-6833023f4822f.webp"
+        "https://in.store.asus.com/media/catalog/product/3/_/3._tp3402vao-lz619ws_display_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+        "https://in.store.asus.com/media/catalog/product/4/_/4._tp3402vao-lz619ws_360-degree-hinge_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+        "https://in.store.asus.com/media/catalog/product/6/_/6._tp3402vao-lz619ws_battery_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:",
+        "https://in.store.asus.com/media/catalog/product/5/_/5._tp3402vao-lz619ws_performance_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+        "https://in.store.asus.com/media/catalog/product/8/_/8._tp3402vao-lz619ws_stylus_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439"
       ],
       "highlights": [
         "Intel Core i5-13420H processor with 8 cores and 12 threads",
@@ -2510,138 +2763,143 @@ export const products  = {
         "Warranty Card"
       ]
     },
+
+    "asus-vivobook-16x-k3605vc-rp413ws": {
+            "id": "asus-vivobook-16x-k3605vc-rp413ws",
+            "name": "ASUS Vivobook 16X (RTX 3050)",
+            "price": 84990,
+            "showPrice": true,
+            "category": "Laptops",
+            "brand": "ASUS",
+            "shortDescription": "16\" creator laptop with Intel Core i5, 16GB RAM, 512GB SSD, and NVIDIA RTX 3050 graphics in Cool Silver.",
+            "mainImage": "https://in.store.asus.com/media/catalog/product/1/_/1._k3605z_cl_slr_nonfngrprnt_bcklt_kbd.png?width=439&height=439&store=en_IN&image-type=image",
+            "images": [
+              "https://in.store.asus.com/media/catalog/product/2/_/2._k3605z_cl_slr_nonfngrprnt_bcklt_kbd_1_1.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+              "https://in.store.asus.com/media/catalog/product/3/_/3._k3605z_cl_slr_nonfngrprnt_bcklt_kbd_1_1.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+              "https://in.store.asus.com/media/catalog/product/5/_/5._k3605z_cl_slr_nonfngrprnt_bcklt_kbd_1_1.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+              "https://in.store.asus.com/media/catalog/product/6/_/6._k3605z_cl_slr_nonfngrprnt_bcklt_kbd_1_1.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+              "https://in.store.asus.com/media/catalog/product/7/_/7._k3605z_cl_slr_nonfngrprnt_bcklt_kbd_1_1.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439"
+            ],
+
+            "highlights": [
+              "Intel Core i5 processor",
+              "16GB DDR4 RAM",
+              "512GB PCIe 4.0 SSD storage",
+              "16-inch WUXGA (1920 x 1200) display with 144Hz refresh rate",
+              "NVIDIA GeForce RTX 3050, 4GB GDDR6",
+              "Backlit Chiclet Keyboard with Num-key",
+              "Wi-Fi 6E and Bluetooth 5.3 connectivity",
+              "720p HD camera with privacy shutter",
+              "Windows 11 Home"
+            ],
+            "specifications": [
+              {
+                "name": "Processor",
+                "value": "Intel Core i5"
+              },
+              {
+                "name": "Memory",
+                "value": "16GB DDR4 RAM"
+              },
+              {
+                "name": "Storage",
+                "value": "512GB PCIe 4.0 SSD"
+              },
+              {
+                "name": "Display",
+                "value": "16-inch WUXGA (1920 x 1200), 144Hz, Anti-glare"
+              },
+              {
+                "name": "Graphics",
+                "value": "NVIDIA GeForce RTX 3050, 4GB GDDR6"
+              },
+              {
+                "name": "Operating System",
+                "value": "Windows 11 Home"
+              },
+              {
+                "name": "Keyboard",
+                "value": "Backlit Chiclet Keyboard with Num-key"
+              },
+              {
+                "name": "Camera",
+                "value": "720p HD with privacy shutter"
+              },
+              {
+                "name": "Connectivity",
+                "value": "Wi-Fi 6E (802.11ax), Bluetooth 5.3"
+              },
+              {
+                "name": "Ports",
+                "value": "1x USB 3.2 Gen 1 Type-C, 2x USB 3.2 Gen 1 Type-A, 1x HDMI 2.1, 1x 3.5mm Combo Audio Jack, SD 4.0 card reader"
+              },
+              {
+                "name": "Battery",
+                "value": "3-cell Li-ion 50Whrs"
+              },
+              {
+                "name": "Weight",
+                "value": "1.80 kg"
+              },
+              {
+                "name": "Color",
+                "value": "Cool Silver"
+              }
+            ],
+            "detailedSpecs": {
+              "Brand": "ASUS",
+              "Model": "Vivobook 16X K3605VC-RP413WS",
+              "Processor": "Intel Core i5",
+              "Memory": "16GB DDR4",
+              "Storage": "512GB PCIe 4.0 SSD",
+              "Display": "16-inch WUXGA (1920 x 1200), 144Hz, Anti-glare",
+              "Graphics": "NVIDIA GeForce RTX 3050, 4GB GDDR6",
+              "Operating System": "Windows 11 Home",
+              "Keyboard": "Backlit Chiclet Keyboard with Num-key",
+              "Camera": "720p HD with privacy shutter",
+              "Connectivity": "Wi-Fi 6E (802.11ax), Bluetooth 5.3",
+              "Ports": "1x USB 3.2 Gen 1 Type-C, 2x USB 3.2 Gen 1 Type-A, 1x HDMI 2.1, 1x 3.5mm Combo Audio Jack, SD 4.0 card reader",
+              "Battery": "3-cell Li-ion 50Whrs",
+              "Weight": "1.80 kg",
+              "Color": "Cool Silver"
+            },
+            "includedComponents": [
+              "Laptop",
+              "Power Adapter",
+              "User Manual",
+              "Warranty Card"
+            ]
+          },
     
-      "asus-vivobook-16x-k3605zf-rp458ws-2022": {
-        "id": "asus-vivobook-16x-k3605zf-rp458ws-2022",
-        "name": "ASUS Vivobook 16X K3605ZF-RP458WS (2022)",
-        "price": 72990,
+      "asus-vivobook-16x-(RTX 2050)": {
+        "id": "asus-vivobook-16x-k3605zf-rp458ws",
+        "name": "ASUS Vivobook 16X (RTX 2050)",
+        "price": 79990,
         "showPrice": true,
         "category": "Laptops",
         "brand": "ASUS",
-        "shortDescription": "12th Gen Intel Core i5 laptop with 16GB RAM, 512GB SSD, RTX 2050 GPU, and a 16\" FHD+ 144Hz display.",
-        "mainImage": "https://in.store.asus.com/media/catalog/product/2/_/2._k3605z_cl_slr_nonfngrprnt_bcklt_kbd_3.png?width=439&height=439&store=en_IN&image-type=image",
+        "shortDescription": "16\" creator laptop with Intel Core i5/i7, 16GB RAM, 512GB SSD, and NVIDIA RTX 2050 graphics.",
+        "mainImage": "https://in.store.asus.com/media/catalog/product/1/_/1._k3605z_cl_slr_nonfngrprnt_bcklt_kbd_1.png?width=439&height=439&store=en_IN&image-type=image",
         "images": [
-          "https://in.store.asus.com/media/catalog/product/2/_/2._k3605z_cl_slr_nonfngrprnt_bcklt_kbd_3.png?width=439&height=439&store=en_IN&image-type=image",
-          "https://in.store.asus.com/media/catalog/product/3/_/3._k3605z_cl_slr_nonfngrprnt_bcklt_kbd_3.png?width=439&height=439&store=en_IN&image-type=image",
-          "https://in.store.asus.com/media/catalog/product/6/_/6._k3605z_cl_slr_nonfngrprnt_bcklt_kbd_3.png?width=439&height=439&store=en_IN&image-type=image"
+          "https://in.store.asus.com/media/catalog/product/3/_/3._k3605z_cl_slr_nonfngrprnt_bcklt_kbd_1_1.png?width=439&height=439&store=en_IN&image-type=image",
+          "https://in.store.asus.com/media/catalog/product/3/_/3._k3605z_cl_slr_nonfngrprnt_bcklt_kbd_1_1.png?width=439&height=439&store=en_IN&image-type=image",
+          "https://in.store.asus.com/media/catalog/product/6/_/6._k3605z_cl_slr_nonfngrprnt_bcklt_kbd_1_1.png?width=439&height=439&store=en_IN&image-type=image"
         ],
         "highlights": [
-          "12th Gen Intel Core i5-12500H processor (12 cores, up to 4.5 GHz)",
-          "16GB DDR4 RAM (8GB onboard + 8GB SO-DIMM)",
-          "512GB PCIe 4.0 SSD storage",
-          "16-inch FHD+ (1920 x 1200) anti-glare display with 144Hz refresh rate",
-          "NVIDIA GeForce RTX 2050, 4GB GDDR6",
-          "Backlit Chiclet Keyboard",
-          "Wi-Fi 6E and Bluetooth 5.3 connectivity",
-          "720p HD camera with privacy shutter",
-          "Pre-installed Windows 11 Home and MS Office Home & Student 2024"
-        ],
-        "specifications": [
-          {
-            "name": "Processor",
-            "value": "Intel Core i5-12500H (12 cores, up to 4.5 GHz)"
-          },
-          {
-            "name": "Memory",
-            "value": "16GB DDR4 RAM (8GB onboard + 8GB SO-DIMM)"
-          },
-          {
-            "name": "Storage",
-            "value": "512GB PCIe 4.0 SSD"
-          },
-          {
-            "name": "Display",
-            "value": "16-inch FHD+ (1920 x 1200), 144Hz, Anti-glare"
-          },
-          {
-            "name": "Graphics",
-            "value": "NVIDIA GeForce RTX 2050, 4GB GDDR6"
-          },
-          {
-            "name": "Operating System",
-            "value": "Windows 11 Home"
-          },
-          {
-            "name": "Keyboard",
-            "value": "Backlit Chiclet Keyboard"
-          },
-          {
-            "name": "Camera",
-            "value": "720p HD with privacy shutter"
-          },
-          {
-            "name": "Connectivity",
-            "value": "Wi-Fi 6E (802.11ax), Bluetooth 5.3"
-          },
-          {
-            "name": "Ports",
-            "value": "1x USB 3.2 Gen 1 Type-C, 2x USB 3.2 Gen 1 Type-A, 1x USB 2.0, 1x HDMI 2.1, 1x 3.5mm Combo Audio Jack"
-          },
-          {
-            "name": "Battery",
-            "value": "3-cell Li-ion 50Whrs"
-          },
-          {
-            "name": "Weight",
-            "value": "1.80 kg"
-          },
-          {
-            "name": "Color",
-            "value": "Cool Silver"
-          }
-        ],
-        "detailedSpecs": {
-          "Brand": "ASUS",
-          "Model": "Vivobook 16X K3605ZF-RP458WS",
-          "Processor": "Intel Core i5-12500H",
-          "Memory": "16GB DDR4 (8GB onboard + 8GB SO-DIMM)",
-          "Storage": "512GB PCIe 4.0 SSD",
-          "Display": "16-inch FHD+ (1920 x 1200), 144Hz, Anti-glare",
-          "Graphics": "NVIDIA GeForce RTX 2050, 4GB GDDR6",
-          "Operating System": "Windows 11 Home",
-          "Keyboard": "Backlit Chiclet Keyboard",
-          "Camera": "720p HD with privacy shutter",
-          "Connectivity": "Wi-Fi 6E (802.11ax), Bluetooth 5.3",
-          "Ports": "1x USB 3.2 Gen 1 Type-C, 2x USB 3.2 Gen 1 Type-A, 1x USB 2.0, 1x HDMI 2.1, 1x 3.5mm Combo Audio Jack",
-          "Battery": "3-cell Li-ion 50Whrs",
-          "Weight": "1.80 kg",
-          "Color": "Cool Silver"
-        },
-        "includedComponents": [
-          "Laptop",
-          "Power Adapter",
-          "User Manual",
-          "Warranty Card"
-        ]
-      },
-      "asus-vivobook-16x-k3605zc-rp628ws": {
-        "id": "asus-vivobook-16x-k3605zc-rp628ws",
-        "name": "ASUS Vivobook 16X K3605ZC-RP628WS",
-        "price": 69990,
-        "showPrice": true,
-        "category": "Laptops",
-        "brand": "ASUS",
-        "shortDescription": "12th Gen Intel Core i7 laptop with 16GB RAM, 512GB SSD, RTX 3050 GPU, and a 16\" WUXGA 144Hz display.",
-        "mainImage": "https://in.store.asus.com/media/catalog/product/2/_/2._k3605z_cl_slr_nonfngrprnt_bcklt_kbd_3.png?width=439&height=439&store=en_IN&image-type=image",
-        "images": [
-          "https://in.store.asus.com/media/catalog/product/2/_/2._k3605z_cl_slr_nonfngrprnt_bcklt_kbd_3.png?width=439&height=439&store=en_IN&image-type=image",
-          "https://assets.mspimages.in/c/tr:w-375,h-300,c-at_max/1001045-64-3.jpg"
-        ],
-        "highlights": [
-          "12th Gen Intel Core i7-12700H processor (14 cores, up to 4.7 GHz)",
+          "Intel Core i5/i7 processor",
           "16GB DDR4 RAM",
           "512GB PCIe 4.0 SSD storage",
-          "16-inch WUXGA (1920 x 1200) anti-glare display with 144Hz refresh rate",
-          "NVIDIA GeForce RTX 3050, 4GB GDDR6",
-          "Backlit Chiclet Keyboard",
+          "16-inch WUXGA (1920 x 1200) display with 144Hz refresh rate",
+          "NVIDIA GeForce RTX 2050, 4GB GDDR6",
+          "Backlit Chiclet Keyboard with Num-key",
           "Wi-Fi 6E and Bluetooth 5.3 connectivity",
           "720p HD camera with privacy shutter",
-          "Pre-installed Windows 11 Home and MS Office Home & Student 2024"
+          "Windows 11 Home"
         ],
         "specifications": [
           {
             "name": "Processor",
-            "value": "Intel Core i7-12700H (14 cores, up to 4.7 GHz)"
+            "value": "Intel Core i5/i7 (varies by model)"
           },
           {
             "name": "Memory",
@@ -2657,7 +2915,7 @@ export const products  = {
           },
           {
             "name": "Graphics",
-            "value": "NVIDIA GeForce RTX 3050, 4GB GDDR6"
+            "value": "NVIDIA GeForce RTX 2050, 4GB GDDR6"
           },
           {
             "name": "Operating System",
@@ -2665,7 +2923,7 @@ export const products  = {
           },
           {
             "name": "Keyboard",
-            "value": "Backlit Chiclet Keyboard"
+            "value": "Backlit Chiclet Keyboard with Num-key"
           },
           {
             "name": "Camera",
@@ -2677,7 +2935,7 @@ export const products  = {
           },
           {
             "name": "Ports",
-            "value": "1x USB 3.2 Gen 1 Type-C, 2x USB 3.2 Gen 1 Type-A, 1x USB 2.0, 1x HDMI 2.1, 1x 3.5mm Combo Audio Jack"
+            "value": "1x USB 3.2 Gen 1 Type-C, 2x USB 3.2 Gen 1 Type-A, 1x HDMI 2.1, 1x 3.5mm Combo Audio Jack, SD 4.0 card reader"
           },
           {
             "name": "Battery",
@@ -2686,28 +2944,23 @@ export const products  = {
           {
             "name": "Weight",
             "value": "1.80 kg"
-          },
-          {
-            "name": "Color",
-            "value": "Cool Silver"
           }
         ],
         "detailedSpecs": {
           "Brand": "ASUS",
-          "Model": "Vivobook 16X K3605ZC-RP628WS",
-          "Processor": "Intel Core i7-12700H",
+          "Model": "Vivobook 16X K3605ZF-RP458WS",
+          "Processor": "Intel Core i5/i7",
           "Memory": "16GB DDR4",
           "Storage": "512GB PCIe 4.0 SSD",
           "Display": "16-inch WUXGA (1920 x 1200), 144Hz, Anti-glare",
-          "Graphics": "NVIDIA GeForce RTX 3050, 4GB GDDR6",
+          "Graphics": "NVIDIA GeForce RTX 2050, 4GB GDDR6",
           "Operating System": "Windows 11 Home",
-          "Keyboard": "Backlit Chiclet Keyboard",
+          "Keyboard": "Backlit Chiclet Keyboard with Num-key",
           "Camera": "720p HD with privacy shutter",
           "Connectivity": "Wi-Fi 6E (802.11ax), Bluetooth 5.3",
-          "Ports": "1x USB 3.2 Gen 1 Type-C, 2x USB 3.2 Gen 1 Type-A, 1x USB 2.0, 1x HDMI 2.1, 1x 3.5mm Combo Audio Jack",
+          "Ports": "1x USB 3.2 Gen 1 Type-C, 2x USB 3.2 Gen 1 Type-A, 1x HDMI 2.1, 1x 3.5mm Combo Audio Jack, SD 4.0 card reader",
           "Battery": "3-cell Li-ion 50Whrs",
-          "Weight": "1.80 kg",
-          "Color": "Cool Silver"
+          "Weight": "1.80 kg"
         },
         "includedComponents": [
           "Laptop",
@@ -2716,19 +2969,23 @@ export const products  = {
           "Warranty Card"
         ]
       },
-        "asus-vivobook-16x-k3605zf-rp458ws-2024": {
-          "id": "asus-vivobook-16x-k3605zf-rp458ws-2024",
-          "name": "ASUS Vivobook 16X K3605ZF-RP458WS (2024)",
+      
+        "asus-vivobook-16x-k3605zf-rp458ws": {
+          "id": "asus-vivobook-16x-k3605zf-rp458ws",
+          "name": "ASUS Vivobook 16X K3605ZF-RP458WS",
           "price": 72990,
           "showPrice": true,
           "category": "Laptops",
           "brand": "ASUS",
           "shortDescription": "12th Gen Intel Core i5 laptop with 16GB RAM, 512GB SSD, RTX 2050 GPU, and a 16\" FHD+ 144Hz display.",
-          "mainImage": "https://in.store.asus.com/media/catalog/product/1/_/1._k3605z_cl_slr_nonfngrprnt_bcklt_kbd.png?width=439&height=439&store=en_IN&image-type=image",
+          "mainImage": "https://in.store.asus.com/media/catalog/product/1/_/1._k3605z_cl_slr_nonfngrprnt_bcklt_kbd.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
           "images": [
-            "https://in.store.asus.com/media/catalog/product/1/_/1._k3605z_cl_slr_nonfngrprnt_bcklt_kbd.png?width=439&height=439&store=en_IN&image-type=image",
-            "https://in.store.asus.com/media/catalog/product/6/_/6._k3605z_cl_slr_nonfngrprnt_bcklt_kbd_3.png?width=439&height=439&store=en_IN&image-type=image",
-            "https://in.store.asus.com/media/catalog/product/2/_/2._k3605z_cl_slr_nonfngrprnt_bcklt_kbd_3.png?width=439&height=439&store=en_IN&image-type=image"
+            "https://in.store.asus.com/media/catalog/product/2/_/2._k3605z_cl_slr_nonfngrprnt_bcklt_kbd_1.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+            "https://in.store.asus.com/media/catalog/product/3/_/3._k3605z_cl_slr_nonfngrprnt_bcklt_kbd_1.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+            "https://in.store.asus.com/media/catalog/product/4/_/4._k3605z_cl_slr_nonfngrprnt_bcklt_kbd_1.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+            "https://in.store.asus.com/media/catalog/product/5/_/5._k3605z_cl_slr_nonfngrprnt_bcklt_kbd_1.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+            "https://in.store.asus.com/media/catalog/product/6/_/6._k3605z_cl_slr_nonfngrprnt_bcklt_kbd_1.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+            
           ],
           "highlights": [
             "12th Gen Intel Core i5-12500H processor (12 cores, up to 4.5 GHz)",
@@ -2819,9 +3076,9 @@ export const products  = {
             "Warranty Card"
           ]
         },
-        "asus-vivobook-16x-k3605zc-rp628ws-2023": {
-          "id": "asus-vivobook-16x-k3605zc-rp628ws-2023",
-          "name": "ASUS Vivobook 16X K3605ZC-RP628WS (2023)",
+        "asus-vivobook-16x-k3605zc-rp628ws": {
+          "id": "asus-vivobook-16x-k3605zc-rp628ws",
+          "name": "ASUS Vivobook 16X K3605ZC-RP628WS",
           "price": 69990,
           "showPrice": true,
           "category": "Laptops",
@@ -2923,109 +3180,7 @@ export const products  = {
           ]
         },
         
-          "asus-vivobook-16x-k3605vc-rp413ws": {
-            "id": "asus-vivobook-16x-k3605vc-rp413ws",
-            "name": "ASUS Vivobook 16X K3605VC-RP413WS",
-            "price": 72490,
-            "showPrice": true,
-            "category": "Laptops",
-            "brand": "ASUS",
-            "shortDescription": "13th Gen Intel Core i5 laptop with 16GB RAM, 512GB SSD, RTX 3050 GPU, and a 16\" WUXGA 144Hz display.",
-            "mainImage": "https://in.store.asus.com/media/catalog/product/1/_/1._k3605z_cl_slr_nonfngrprnt_bcklt_kbd_1.png?width=439&height=439&store=en_IN&image-type=image",
-            "images": [
-              "https://in.store.asus.com/media/catalog/product/1/_/1._k3605z_cl_slr_nonfngrprnt_bcklt_kbd_1.png?width=439&height=439&store=en_IN&image-type=image",
-              "https://cdn1.smartprix.com/rx-iiksac7xJ-w420-h420/asus-vivobook-16x-k3.webp",
-              "https://in.store.asus.com/media/catalog/product/2/_/2._k3605z_cl_slr_nonfngrprnt_bcklt_kbd_3.png?width=439&height=439&store=en_IN&image-type=image"
-            ],
-            "highlights": [
-              "13th Gen Intel Core i5-13420H processor (8 cores, up to 4.6 GHz)",
-              "16GB DDR4 RAM",
-              "512GB PCIe 4.0 SSD storage",
-              "16-inch WUXGA (1920 x 1200) anti-glare display with 144Hz refresh rate",
-              "NVIDIA GeForce RTX 3050, 4GB GDDR6",
-              "Backlit Chiclet Keyboard with Num-key",
-              "Wi-Fi 6E and Bluetooth 5.3 connectivity",
-              "720p HD camera with privacy shutter",
-              "Pre-installed Windows 11 Home and MS Office Home & Student 2024"
-            ],
-            "specifications": [
-              {
-                "name": "Processor",
-                "value": "Intel Core i5-13420H (8 cores, up to 4.6 GHz)"
-              },
-              {
-                "name": "Memory",
-                "value": "16GB DDR4 RAM"
-              },
-              {
-                "name": "Storage",
-                "value": "512GB PCIe 4.0 SSD"
-              },
-              {
-                "name": "Display",
-                "value": "16-inch WUXGA (1920 x 1200), 144Hz, Anti-glare"
-              },
-              {
-                "name": "Graphics",
-                "value": "NVIDIA GeForce RTX 3050, 4GB GDDR6"
-              },
-              {
-                "name": "Operating System",
-                "value": "Windows 11 Home"
-              },
-              {
-                "name": "Keyboard",
-                "value": "Backlit Chiclet Keyboard with Num-key"
-              },
-              {
-                "name": "Camera",
-                "value": "720p HD with privacy shutter"
-              },
-              {
-                "name": "Connectivity",
-                "value": "Wi-Fi 6E (802.11ax), Bluetooth 5.3"
-              },
-              {
-                "name": "Ports",
-                "value": "1x USB 3.2 Gen 1 Type-C, 2x USB 3.2 Gen 1 Type-A, 1x HDMI 2.1, 1x 3.5mm Combo Audio Jack, SD 4.0 card reader"
-              },
-              {
-                "name": "Battery",
-                "value": "3-cell Li-ion 50Whrs"
-              },
-              {
-                "name": "Weight",
-                "value": "1.80 kg"
-              },
-              {
-                "name": "Color",
-                "value": "Cool Silver"
-              }
-            ],
-            "detailedSpecs": {
-              "Brand": "ASUS",
-              "Model": "Vivobook 16X K3605VC-RP413WS",
-              "Processor": "Intel Core i5-13420H",
-              "Memory": "16GB DDR4",
-              "Storage": "512GB PCIe 4.0 SSD",
-              "Display": "16-inch WUXGA (1920 x 1200), 144Hz, Anti-glare",
-              "Graphics": "NVIDIA GeForce RTX 3050, 4GB GDDR6",
-              "Operating System": "Windows 11 Home",
-              "Keyboard": "Backlit Chiclet Keyboard with Num-key",
-              "Camera": "720p HD with privacy shutter",
-              "Connectivity": "Wi-Fi 6E (802.11ax), Bluetooth 5.3",
-              "Ports": "1x USB 3.2 Gen 1 Type-C, 2x USB 3.2 Gen 1 Type-A, 1x HDMI 2.1, 1x 3.5mm Combo Audio Jack, SD 4.0 card reader",
-              "Battery": "3-cell Li-ion 50Whrs",
-              "Weight": "1.80 kg",
-              "Color": "Cool Silver"
-            },
-            "includedComponents": [
-              "Laptop",
-              "Power Adapter",
-              "User Manual",
-              "Warranty Card"
-            ]
-          },
+          
           "asus-vivobook-16x-k3605vc-rp412ws": {
             "id": "asus-vivobook-16x-k3605vc-rp412ws",
             "name": "ASUS Vivobook 16X K3605VC-RP412WS",
@@ -3034,11 +3189,13 @@ export const products  = {
             "category": "Laptops",
             "brand": "ASUS",
             "shortDescription": "13th Gen Intel Core i5 laptop with 16GB RAM, 512GB SSD, RTX 3050 GPU, and a 16\" WUXGA 144Hz display.",
-            "mainImage": "https://in.store.asus.com/media/catalog/product/1/_/1._k3605z_cl_slr_nonfngrprnt_bcklt_kbd_1.png?width=439&height=439&store=en_IN&image-type=image",
+            "mainImage": "https://in.store.asus.com/media/catalog/product/k/3/k3605v_ind_blck_nonfngrprnt_bcklt_kbd_1a_.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
             "images": [
-              "https://in.store.asus.com/media/catalog/product/1/_/1._k3605z_cl_slr_nonfngrprnt_bcklt_kbd_1.png?width=439&height=439&store=en_IN&image-type=image",
-              "https://dlcdnwebimgs.asus.com/gain/dab6a634-ed28-4d3d-843b-568ca1d09ba6/w800",
-              "https://dlcdnwebimgs.asus.com/gain/a623d545-ed44-4165-86f0-18b7effa1b64/w800"
+              "https://in.store.asus.com/media/catalog/product/k/3/k3605v_ind_blck_nonfngrprnt_bcklt_kbd_1b_.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+              "https://in.store.asus.com/media/catalog/product/k/3/k3605v_ind_blck_nonfngrprnt_bcklt_kbd_2_.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+              "https://in.store.asus.com/media/catalog/product/k/3/k3605v_ind_blck_nonfngrprnt_bcklt_kbd_3_.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+              "https://in.store.asus.com/media/catalog/product/k/3/k3605v_ind_blck_nonfngrprnt_bcklt_kbd_4_.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+              "https://in.store.asus.com/media/catalog/product/k/3/k3605v_ind_blck_nonfngrprnt_bcklt_kbd_5_.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439"
             ],
             "highlights": [
               "13th Gen Intel Core i5-13420H processor (8 cores, up to 4.6 GHz)",
@@ -3129,11 +3286,258 @@ export const products  = {
               "Warranty Card"
             ]
           },
-          
         
         
             
     
     
 
+  "asus-vivobook-16-x1607qa-mb049ws/": {
+    "id": "asus-vivobook-16-x1607qa-mb049ws",
+    "name": "ASUS Vivobook 16 (Quiet Blue)",
+    "price": 49990,
+    "showPrice": true,
+    "category": "Laptops",
+    "brand": "ASUS",
+    "shortDescription": "16\" lightweight laptop with AMD Ryzen 5 processor, 16GB RAM, and 512GB SSD storage in Quiet Blue color.",
+    "mainImage": "https://in.store.asus.com/media/catalog/product/x/1/x1607qa-mb049ws_21_.jpg?width=439&height=439&store=en_IN&image-type=image",
+    "images": [
+      "https://in.store.asus.com/media/catalog/product/x/1/x1607qa-mb049ws_4_.jpg?width=439&height=439&store=en_IN&image-type=image",
+      "https://in.store.asus.com/media/catalog/product/x/1/x1607qa-mb049ws_6_.jpg?width=439&height=439&store=en_IN&image-type=image",
+      "https://in.store.asus.com/media/catalog/product/x/1/x1607qa-mb049ws_5_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/x/1/x1607qa-mb049ws_7_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/x/1/x1607qa-mb049ws_11_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/x/1/x1607qa-mb049ws_12_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/x/1/x1607qa-mb049ws_16_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439"
+    ],
+    "highlights": [
+      "AMD Ryzen 5 7530U processor",
+      "16-inch FHD (1920 x 1200) display",
+      "16GB DDR4 RAM",
+      "512GB PCIe 3.0 SSD storage",
+      "AMD Radeon Graphics",
+      "Backlit keyboard with NumberPad",
+      "Windows 11 Home",
+      "Lightweight design at 1.6 kg"
+    ],
+    "specifications": [
+      {
+        "name": "Processor",
+        "value": "AMD Ryzen 5 7530U"
+      },
+      {
+        "name": "Memory",
+        "value": "16GB DDR4 RAM"
+      },
+      {
+        "name": "Storage",
+        "value": "512GB PCIe 3.0 SSD"
+      },
+      {
+        "name": "Display",
+        "value": "16-inch FHD (1920 x 1200)"
+      },
+      {
+        "name": "Graphics",
+        "value": "AMD Radeon Graphics"
+      },
+      {
+        "name": "Operating System",
+        "value": "Windows 11 Home"
+      },
+      {
+        "name": "Keyboard",
+        "value": "Backlit keyboard with NumberPad"
+      },
+      {
+        "name": "Camera",
+        "value": "720p HD camera"
+      },
+      {
+        "name": "Connectivity",
+        "value": "Wi-Fi 6, Bluetooth 5.2"
+      },
+      {
+        "name": "Ports",
+        "value": "1x USB 3.2 Type-C, 2x USB 3.2 Type-A, 1x HDMI 1.4, 1x 3.5mm audio jack"
+      },
+      {
+        "name": "Battery",
+        "value": "50WHrs, 3-cell Li-ion"
+      },
+      {
+        "name": "Weight",
+        "value": "1.6 kg"
+      },
+      {
+        "name": "Color",
+        "value": "Quiet Blue"
+      }
+    ],
+    "detailedSpecs": {
+      "Brand": "ASUS",
+      "Model": "Vivobook 16 X1607QA-MB049WS",
+      "Processor": "AMD Ryzen 5 7530U",
+      "Memory": "16GB DDR4",
+      "Storage": "512GB PCIe 3.0 SSD",
+      "Display": "16-inch FHD (1920 x 1200)",
+      "Graphics": "AMD Radeon Graphics",
+      "Operating System": "Windows 11 Home",
+      "Keyboard": "Backlit keyboard with NumberPad",
+      "Camera": "720p HD camera",
+      "Connectivity": "Wi-Fi 6, Bluetooth 5.2",
+      "Ports": "1x USB 3.2 Type-C, 2x USB 3.2 Type-A, 1x HDMI 1.4, 1x 3.5mm audio jack",
+      "Battery": "50WHrs, 3-cell Li-ion",
+      "Weight": "1.6 kg",
+      "Color": "Quiet Blue"
+    },
+    "includedComponents": [
+      "Laptop",
+      "Power Adapter",
+      "User Manual",
+      "Warranty Card"
+    ]
+  },
+
+  "asus-gaming-v16-v3607vu": {
+    "id": "asus-gaming-v16-v3607vu",
+    "name": "ASUS Gaming V16",
+    "price": 89990,
+    "showPrice": true,
+    "category": "Laptops",
+    "brand": "ASUS",
+    "shortDescription": "16\" gaming laptop with Intel Core i5/i7, 16GB RAM, 512GB SSD, and NVIDIA RTX 3050 graphics.",
+    "mainImage": "https://in.store.asus.com/media/catalog/product/v/3/v3607vu-rp550ws.jpg?width=439&height=439&store=en_IN&image-type=image",
+    "images": [
+      "https://in.store.asus.com/media/catalog/product/4/_/4.1_performance_2_-_v3607vu-rp550ws_core_5_-.jpg?width=439&height=439&store=en_IN&image-type=image",
+      "https://in.store.asus.com/media/catalog/product/7/_/7._cooling_-_v3607vu-rp550ws.jpg?width=439&height=439&store=en_IN&image-type=image",
+      "https://in.store.asus.com/media/catalog/product/5/_/5._gpu_-_v3607vu-rp550ws.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/5/_/5._gpu_-_v3607vu-rp550ws.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439",
+      "https://in.store.asus.com/media/catalog/product/1/1/11.1_design_-_v3607vu-rp550ws.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439"
+      
+    ],
+    "highlights": [
+      "Intel Core i5/i7 processor",
+      "16GB DDR4 RAM",
+      "512GB PCIe 4.0 SSD storage",
+      "16-inch WUXGA (1920 x 1200) display with 144Hz refresh rate",
+      "NVIDIA GeForce RTX 3050, 4GB GDDR6",
+      "Backlit Chiclet Keyboard with Num-key",
+      "Wi-Fi 6E and Bluetooth 5.3 connectivity",
+      "720p HD camera with privacy shutter",
+      "Windows 11 Home"
+    ],
+    "specifications": [
+      {
+        "name": "Processor",
+        "value": "Intel Core i5/i7 (varies by model)"
+      },
+      {
+        "name": "Memory",
+        "value": "16GB DDR4 RAM"
+      },
+      {
+        "name": "Storage",
+        "value": "512GB PCIe 4.0 SSD"
+      },
+      {
+        "name": "Display",
+        "value": "16-inch WUXGA (1920 x 1200), 144Hz, Anti-glare"
+      },
+      {
+        "name": "Graphics",
+        "value": "NVIDIA GeForce RTX 3050, 4GB GDDR6"
+      },
+      {
+        "name": "Operating System",
+        "value": "Windows 11 Home"
+      },
+      {
+        "name": "Keyboard",
+        "value": "Backlit Chiclet Keyboard with Num-key"
+      },
+      {
+        "name": "Camera",
+        "value": "720p HD with privacy shutter"
+      },
+      {
+        "name": "Connectivity",
+        "value": "Wi-Fi 6E (802.11ax), Bluetooth 5.3"
+      },
+      {
+        "name": "Ports",
+        "value": "1x USB 3.2 Gen 1 Type-C, 2x USB 3.2 Gen 1 Type-A, 1x HDMI 2.1, 1x 3.5mm Combo Audio Jack, SD 4.0 card reader"
+      },
+      {
+        "name": "Battery",
+        "value": "3-cell Li-ion 50Whrs"
+      },
+      {
+        "name": "Weight",
+        "value": "1.80 kg"
+      }
+    ],
+    "detailedSpecs": {
+      "Brand": "ASUS",
+      "Model": "Gaming V16 V3607VU",
+      "Processor": "Intel Core i5/i7",
+      "Memory": "16GB DDR4",
+      "Storage": "512GB PCIe 4.0 SSD",
+      "Display": "16-inch WUXGA (1920 x 1200), 144Hz, Anti-glare",
+      "Graphics": "NVIDIA GeForce RTX 3050, 4GB GDDR6",
+      "Operating System": "Windows 11 Home",
+      "Keyboard": "Backlit Chiclet Keyboard with Num-key",
+      "Camera": "720p HD with privacy shutter",
+      "Connectivity": "Wi-Fi 6E (802.11ax), Bluetooth 5.3",
+      "Ports": "1x USB 3.2 Gen 1 Type-C, 2x USB 3.2 Gen 1 Type-A, 1x HDMI 2.1, 1x 3.5mm Combo Audio Jack, SD 4.0 card reader",
+      "Battery": "3-cell Li-ion 50Whrs",
+      "Weight": "1.80 kg"
+    },
+    "includedComponents": [
+      "Laptop",
+      "Power Adapter",
+      "User Manual",
+      "Warranty Card"
+    ]
+  },
+  "asus-gaming-v16-v3607vu-rp550ws": {
+    id: "asus-gaming-v16-v3607vu-rp550ws",
+    name: "ASUS Gaming V16",
+    showPrice: true,
+    category: "Laptops",
+    brand: "Asus",
+    shortDescription: "16-inch gaming laptop powered by Intel Core 5 210H processor and NVIDIA GeForce RTX 4050 GPU, featuring a 144Hz display for immersive gaming.",
+    mainImage: "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_cl_slvr_nonoled_and_oled_1__2.png",
+    images: [
+      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_cl_slvr_nonoled_and_oled_1__2.png",
+      "https://in.store.asus.com/media/catalog/product/e/1/e1504fa_cl_slvr_nonoled_and_oled_2__2.png", 
+       "https://in.store.asus.com/media/catalog/product/5/_/5._k3605z_cl_slr_nonfngrprnt_bcklt_kbd_1_1.png?quality=80&bg-color=255,255,255&fit=bounds&height=439&width=439&canvas=439:439"    ],
+    highlights: [
+      "Intel® Core™ 5 210H Processor (8 cores, up to 4.8 GHz)",
+      "NVIDIA® GeForce RTX™ 4050 Laptop GPU with 6GB GDDR6 VRAM",
+      "16-inch WUXGA (1920 x 1200) 16:10 display with 144Hz refresh rate",
+      "16GB DDR5 RAM and 512GB PCIe 4.0 SSD",
+      "Advanced cooling with ASUS IceCool technology"
+    ],
+    specifications: [
+      { name: "Processor", value: "Intel Core 5 210H (2.2 GHz, up to 4.8 GHz, 8 cores, 12 threads)" },
+      { name: "RAM", value: "16GB DDR5 5600MHz" },
+      { name: "Storage", value: "512GB PCIe 4.0 NVMe SSD" },
+      { name: "Display", value: "16-inch WUXGA (1920 x 1200), 16:10 aspect ratio, 144Hz refresh rate, 300nits brightness" },
+      { name: "Graphics", value: "NVIDIA GeForce RTX 4050 Laptop GPU, 6GB GDDR6" },
+      { name: "Operating System", value: "Windows 11 Home" },
+      { name: "Weight", value: "1.95 kg" },
+      { name: "Battery", value: "Up to 50WHrs" },
+      { name: "Ports", value: "USB 2.0, USB 3.2 Gen 1, HDMI, 3.5mm combo audio jack" },
+      { name: "Connectivity", value: "Wi-Fi 6, Bluetooth 5.3" }
+    ],
+    detailedSpecs: {
+      Brand: "ASUS",
+      Series: "Gaming V16 V3607VU",
+      DisplayTechnology: "IPS",
+      DisplaySize: "16 Inches",
+      OperatingSystem: "Windows 11 Home"
+    },
+    includedComponents: ["Laptop", "Power Adapter", "User Manual"]
+  }
 }; 

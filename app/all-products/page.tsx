@@ -3,7 +3,6 @@
 import React from 'react';
 import dynamic from 'next/dynamic';
 import PageBanner from './components/PageBanner';
-import FloatingContactButtons from '../components/FloatingContactButtons';
 import Footer from '../landing/Footer';
 import ScrollSmootherWrapper from '../components/scrollSmoothWrapper';
 
@@ -16,7 +15,7 @@ export default function AllProductsPage() {
     <main className="overflow-x-hidden">
       <PageBanner />
       <ProductsSection />
-      <FloatingContactButtons />
+      
       <Footer/>
     </main>
     </ScrollSmootherWrapper>

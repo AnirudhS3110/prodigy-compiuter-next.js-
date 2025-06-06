@@ -311,7 +311,7 @@ const NavbarComponent = () => {
                                 animate={{ opacity: 1 }}
                                 exit={{ opacity: 0 }}
                                 transition={{ duration: 0.2 }}
-                                className={`fixed top-0 right-0 w-[80%] max-w-[300px] h-screen bg-[#152a43] shadow-[-5px_0_15px_rgba(0,0,0,0.1)] p-[80px_20px_20px] z-[999] overflow-y-auto transform transition-transform duration-300 ease-in-out ${
+                                className={`fixed top-10 md:top-0 right-0 w-[80%] max-w-[300px] h-screen bg-[#152a43] shadow-[-5px_0_15px_rgba(0,0,0,0.1)] p-[80px_20px_20px] z-[999] overflow-y-auto transform transition-transform duration-300 ease-in-out ${
                                     mobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
                                 } md:relative md:transform-none md:translate-x-0 md:flex md:items-center md:justify-center md:flex-1 md:h-auto md:bg-transparent md:shadow-none md:p-0 md:z-auto md:overflow-visible md:max-w-none md:w-auto md:mx-auto`}
                             >
