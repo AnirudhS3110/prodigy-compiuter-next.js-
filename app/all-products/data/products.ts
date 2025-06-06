@@ -3128,7 +3128,8 @@ export const products  = {
               "User Manual",
               "Warranty Card"
             ]
-          }
+          },
+          
         
         
             

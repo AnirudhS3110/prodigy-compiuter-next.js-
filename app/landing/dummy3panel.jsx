@@ -4,6 +4,9 @@ import React from 'react'
 
 export default function Dummy3panel() {
     return(
+        <>
+        {/* <header><script src="https://cdn.tailwindcss.com"></script></header> */}
+       
         <section className="w-full">
         <div className="flex flex-col md:flex-row h-[550px] overflow-hidden">
             
@@ -48,7 +51,7 @@ export default function Dummy3panel() {
             <div className="relative flex-1 group transition-all duration-500 ease-in-out hover:flex-[3] overflow-hidden cursor-pointer min-w-[25%]">
                 <div className="absolute inset-0 bg-[#1d2843] z-0">
                    
-                    <img src="https://media.istockphoto.com/id/1412765628/vector/abstract-speed-business-start-up-launching-product-with-electric-car-and-city-concept-hitech.jpg?s=612x612&w=0&k=20&c=ZcK2rLxON2s1q-dFKnxlUq2mwhF9hG1LLGw7pVrIbeE=" alt="All-in-One Printers" class="w-full h-full object-cover"/>
+                    <img src="https://media.istockphoto.com/id/1412765628/vector/abstract-speed-business-start-up-launching-product-with-electric-car-and-city-concept-hitech.jpg?s=612x612&w=0&k=20&c=ZcK2rLxON2s1q-dFKnxlUq2mwhF9hG1LLGw7pVrIbeE=" alt="All-in-One Printers" className="w-full h-full object-cover"/>
                     <div className="absolute inset-0 bg-[#1d2843] opacity-60"></div>
                 </div>
                 <div className="relative z-10 h-full w-full flex flex-col p-6">
@@ -56,7 +59,7 @@ export default function Dummy3panel() {
                         <h2 className="text-[#4e88ca] text-3xl font-black uppercase tracking-tight mb-4">ALL-IN-ONE PRINTERS<br/>FOR STUDENTS & WFH</h2>
                         
                         
-                        <div clasNameclassName="text-white opacity-0 transform translate-y-8 transition-all duration-500 ease-in-out group-hover:opacity-100 group-hover:translate-y-0 max-w-md">
+                        <div className="text-white opacity-0 transform translate-y-8 transition-all duration-500 ease-in-out group-hover:opacity-100 group-hover:translate-y-0 max-w-md">
                             <p>Looking for a printer that does it all? Our all-in-one printers are ideal for students and work-from-home workers. Print, scan, copy, and even fax with a single machine! Designed for convenience and efficiency, these printers are compact yet powerful—perfect for small spaces. Visit us near KPHB, Hyderabad, and find the best printer to suit your needs.</p>
                         </div>
                     </div>
@@ -64,5 +67,7 @@ export default function Dummy3panel() {
             </div>
         </div>
     </section>
+    
+    </>
     )
 }
