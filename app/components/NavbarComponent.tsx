@@ -1,12 +1,36 @@
 "use client";
 
-import React, { useState, useEffect, useCallback, useMemo } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
 import './navbar.css';
 import { motion, AnimatePresence } from 'framer-motion';
 import { products } from '../all-products/data/products';
+
+// Define interfaces for better type safety
+interface ProductInfo {
+    id: string;
+    name: string;
+    brand: string;
+    category: string;
+    graphics?: string;
+    ram?: string;
+}
+
+interface ProductSpecification {
+    name: string;
+    value: string;
+}
+
+interface ProductRecord {
+    id: string;
+    name: string;
+    brand: string;
+    category: string;
+    specifications?: ProductSpecification[];
+    [key: string]: unknown; // Change from any to unknown for better type safety
+}
 
 const NavbarComponent = () => {
     const router = useRouter();
@@ -20,34 +44,33 @@ const NavbarComponent = () => {
     const [ram, setRam] = useState('All');
     const [graphicsCard, setGraphicsCard] = useState('All');
     const [showSuggestions, setShowSuggestions] = useState(false);
-    const [suggestions, setSuggestions] = useState<any[]>([]);
+    const [suggestions, setSuggestions] = useState<ProductInfo[]>([]);
 
     // Process products data
     const { laptopNames, printerNames, graphicsCards, ramOptions } = useMemo(() => {
-        const laptops: any[] = [];
-        const printers: any[] = [];
+        const laptops: ProductInfo[] = [];
+        const printers: ProductInfo[] = [];
         const graphicsSet = new Set<string>();
         const ramSet = new Set<string>();
-        const allProducts: any[] = [];
         
         // Extract product data
-        Object.values(products).forEach((product: any) => {
+        Object.values(products).forEach((product: ProductRecord) => {
             if (product.category === "Laptops") {
                 laptops.push({
                     id: product.id,
                     name: product.name,
                     brand: product.brand,
                     category: "Laptops",
-                    graphics: product.specifications?.find((spec: any) => spec.name === "Graphics")?.value || "Not specified",
-                    ram: product.specifications?.find((spec: any) => spec.name === "RAM" || spec.name === "Memory")?.value || "Not specified"
+                    graphics: product.specifications?.find((spec: ProductSpecification) => spec.name === "Graphics")?.value || "Not specified",
+                    ram: product.specifications?.find((spec: ProductSpecification) => spec.name === "RAM" || spec.name === "Memory")?.value || "Not specified"
                 });
                 
                 // Extract graphics cards
-                const graphicsSpec = product.specifications?.find((spec: any) => spec.name === "Graphics")?.value;
+                const graphicsSpec = product.specifications?.find((spec: ProductSpecification) => spec.name === "Graphics")?.value;
                 if (graphicsSpec) graphicsSet.add(graphicsSpec);
                 
                 // Extract RAM options
-                const ramSpec = product.specifications?.find((spec: any) => spec.name === "RAM" || spec.name === "Memory")?.value;
+                const ramSpec = product.specifications?.find((spec: ProductSpecification) => spec.name === "RAM" || spec.name === "Memory")?.value;
                 if (ramSpec) ramSet.add(ramSpec);
             } else if (product.category === "Printers") {
                 printers.push({
@@ -186,13 +209,13 @@ const NavbarComponent = () => {
                 // For laptops, check additional filters if they are applied
                 if (product.category === "Laptops") {
                     // Only apply RAM filter if a specific RAM option is selected
-                    const passesRamFilter = ram === 'All' || product.ram.includes(ram);
+                    const passesRamFilter = ram === 'All' || (product.ram && product.ram.includes(ram));
                     
                     // Only apply graphics filter if a specific graphics card option is selected
                     const passesGraphicsFilter = graphicsCard === 'All' || 
-                        (graphicsCard === 'Integrated' 
-                            ? product.graphics.toLowerCase().includes('integrated')
-                            : product.graphics.toLowerCase().includes(graphicsCard.toLowerCase()));
+                        (graphicsCard === 'Integrated' && product.graphics && 
+                            product.graphics.toLowerCase().includes('integrated')) || 
+                        (product.graphics && product.graphics.toLowerCase().includes(graphicsCard.toLowerCase()));
                     
                     return (matchesName || matchesBrand) && passesRamFilter && passesGraphicsFilter;
                 }
@@ -233,7 +256,6 @@ const NavbarComponent = () => {
         return false;
     };
 
-    const isPrinterSelected = category === 'Printer';
     const isAnyLaptopOption = category === 'All' || category === 'Laptop';
 
     return (
